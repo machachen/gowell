@@ -1,0 +1,28 @@
+{
+  "priorityMatrix": {
+    "items": [
+      { "title": "Confirm 2026 RERA service charge amount from Select Group", "quadrant": "Do First", "owner": "Asset Manager", "deadline": "2026-07-31", "status": "Open" },
+      { "title": "Tenant renewal advisory — brief agent for Jan 2027", "quadrant": "Schedule", "owner": "Asset Manager", "deadline": "2027-01-15", "status": "Open" },
+      { "title": "BVI company annual compliance filing", "quadrant": "Delegate", "owner": "BVI Registered Agent", "deadline": "2026-09-30", "status": "Open" },
+      { "title": "Minor apartment refresh for re-let (2027)", "quadrant": "Eliminate", "owner": "Property Agent", "deadline": "2027-05-01", "status": "Proposed" }
+    ]
+  },
+  "capexProjects": [
+    { "project": "Furniture & White Goods Package (acquisition)", "budgeted": 12800, "spent": 12800, "pctComplete": 100, "contractor": "Dubai Marina furniture supplier", "estCompletion": "2022-10-15", "status": "Complete", "expectedROI": "Enabled immediate tenant occupancy" },
+    { "project": "Minor Refresh for Re-let", "budgeted": 8000, "spent": 0, "pctComplete": 0, "contractor": "TBD", "estCompletion": "2027-05-01", "status": "Proposed", "expectedROI": "Maintain rental rate at AED 143K–148K level" }
+  ],
+  "opexRecurring": [
+    { "category": "Service Charges", "vendor": "Select Group (Marina Gate I)", "annualCost": 5611, "frequency": "Quarterly (RERA)", "contractExpiry": "Ongoing", "status": "Active", "notes": "RERA-regulated; approx. AED 20,600/yr ($5,611); covers building maintenance, amenities" },
+    { "category": "Property Management", "vendor": "Better Homes Dubai", "annualCost": 2255, "frequency": "Annual (6% of rent)", "contractExpiry": "2027-04-30", "status": "Active", "notes": "Tenant management, maintenance, DEWA account, rent collection" },
+    { "category": "Insurance", "vendor": "Aman Insurance UAE", "annualCost": 612, "frequency": "Annual", "contractExpiry": "2027-09-15", "status": "Active", "notes": "Contents and liability; AED 2,250 annual premium" },
+    { "category": "BVI / Trust Fees", "vendor": "Maples Trust (BVI)", "annualCost": 2800, "frequency": "Annual", "contractExpiry": "Ongoing", "status": "Active", "notes": "BVI company secretarial, compliance, registered agent" }
+  ],
+  "suppliers": [
+    { "name": "Better Homes Dubai", "category": "Property Management", "contact": "Dubai Marina branch; agent Sanjay Kumar", "contractPeriod": "2025-04-01 to 2027-04-30", "warrantyOrSLA": "24hr maintenance response; monthly income report", "status": "Active", "notes": "Leading Dubai property management agency; strong Marina Gate I track record" }
+  ],
+  "serviceHistory": [
+    { "date": "2026-04-15", "vendor": "Better Homes Dubai", "description": "Q1 2026 rental report — rent collection on schedule", "category": "Operations", "cost": 0, "status": "Complete" },
+    { "date": "2025-10-01", "vendor": "Select Group Maintenance", "description": "Annual building inspection and AC service", "category": "Maintenance", "cost": 1200, "status": "Complete" },
+    { "date": "2025-04-01", "vendor": "Better Homes Dubai", "description": "Tenancy renewal execution — AED 138,000 for Year 2", "category": "Operations", "cost": 0, "status": "Complete" }
+  ]
+}

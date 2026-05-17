@@ -1,0 +1,32 @@
+{
+  "priorityMatrix": {
+    "items": [
+      { "title": "Obtain Nakheel 5-yr maintenance schedule and budget for major works", "quadrant": "Do First", "owner": "Asset Manager", "deadline": "2026-09-30", "status": "Open" },
+      { "title": "Confirm 2026 service charges from Nakheel Communities", "quadrant": "Do First", "owner": "Asset Manager", "deadline": "2026-07-31", "status": "Open" },
+      { "title": "Evaluate rental activation — family usage preference decision", "quadrant": "Schedule", "owner": "Zhang Family", "deadline": "2026-12-31", "status": "Open" },
+      { "title": "BVI company annual compliance filing", "quadrant": "Delegate", "owner": "BVI Registered Agent", "deadline": "2026-09-30", "status": "Open" },
+      { "title": "Annual preventive maintenance — building systems", "quadrant": "Delegate", "owner": "Property Manager / Nakheel", "deadline": "2026-12-31", "status": "In Progress" }
+    ]
+  },
+  "capexProjects": [
+    { "project": "Full Luxury Interior Fit-out (post-acquisition)", "budgeted": 85000, "spent": 85000, "pctComplete": 100, "contractor": "Luxury Living Interiors Dubai", "estCompletion": "2023-01-15", "status": "Complete", "expectedROI": "Maintained Palm Jumeirah ultra-luxury standard" },
+    { "project": "Annual Preventive Maintenance 2026", "budgeted": 12000, "spent": 4200, "pctComplete": 35, "contractor": "Nakheel Maintenance / specialist", "estCompletion": "2026-12-31", "status": "In Progress", "expectedROI": "Building systems longevity — roof, AC, plumbing" }
+  ],
+  "opexRecurring": [
+    { "category": "Service Charges", "vendor": "Nakheel Communities (Palm Jumeirah)", "annualCost": 14159, "frequency": "Quarterly (RERA)", "contractExpiry": "Ongoing", "status": "Active", "notes": "AED 52,000/yr; covers Oceana Residences shared maintenance, pool, gym, beach" },
+    { "category": "Insurance", "vendor": "AXA UAE", "annualCost": 980, "frequency": "Annual", "contractExpiry": "2027-10-22", "status": "Active", "notes": "Contents AED 500K + liability; luxury asset policy" },
+    { "category": "Utilities", "vendor": "DEWA", "annualCost": 3600, "frequency": "Monthly", "contractExpiry": "Ongoing", "status": "Active", "notes": "Electricity and water during family stays (45 nights/yr); minimal usage" },
+    { "category": "Housekeeping / Maintenance", "vendor": "Prestige Cleaning & Property Services", "annualCost": 4200, "frequency": "Monthly check + pre/post stay", "contractExpiry": "2027-01-31", "status": "Active", "notes": "Regular property inspection; deep clean before family arrivals" },
+    { "category": "BVI / Trust Fees", "vendor": "Maples Trust (BVI)", "annualCost": 2800, "frequency": "Annual", "contractExpiry": "Ongoing", "status": "Active", "notes": "BVI company secretarial and annual compliance" }
+  ],
+  "suppliers": [
+    { "name": "Nakheel Communities", "category": "Estate / Facility Management", "contact": "Palm Jumeirah Service Centre", "contractPeriod": "Ongoing (development FM)", "warrantyOrSLA": "Emergency maintenance 4hr response; standard 24hr", "status": "Active", "notes": "Mandatory Nakheel FM for Oceana Residences; no alternative permitted" },
+    { "name": "Prestige Cleaning Dubai", "category": "Housekeeping", "contact": "Dubai Marina office", "contractPeriod": "2026-01-31 to 2027-01-31", "warrantyOrSLA": "Cleaning and inspection per agreed schedule", "status": "Active", "notes": "Monthly property check + pre-arrival deep clean for family visits" }
+  ],
+  "serviceHistory": [
+    { "date": "2026-04-20", "vendor": "Nakheel Maintenance", "description": "Spring maintenance inspection — pool, AC, appliances", "category": "Maintenance", "cost": 4200, "status": "Complete" },
+    { "date": "2026-03-01", "vendor": "Zhang Family (personal)", "description": "Family stay — approximately 10 nights (Chinese New Year holiday)", "category": "Operations", "cost": 0, "status": "Complete" },
+    { "date": "2025-12-20", "vendor": "Zhang Family (personal)", "description": "Family stay — approximately 15 nights (year-end holiday)", "category": "Operations", "cost": 0, "status": "Complete" },
+    { "date": "2025-10-15", "vendor": "Luxury Living Interiors Dubai", "description": "1-year post-fit-out inspection and minor touch-ups", "category": "Maintenance", "cost": 2800, "status": "Complete" }
+  ]
+}

@@ -1,0 +1,35 @@
+{
+  "entity": {
+    "name": "ABD Downtown Holdings Ltd.",
+    "type": "BVI Business Company",
+    "registered": "British Virgin Islands",
+    "taxElection": "BVI — no corporate tax; UAE Freehold ownership via nominee / BVI structure",
+    "formed": "2021-04-05"
+  },
+  "owners": [
+    {
+      "name": "Zhang Xi (Personal / Trust Nominee)",
+      "type": "Individual / Trust Nominee",
+      "role": "Registered Owner — Trust Beneficial",
+      "ownershipPct": 100.0,
+      "equityContributed": 803000,
+      "currentEquityValue": 974834,
+      "since": "2021"
+    }
+  ],
+  "capitalContributions": [
+    { "date": "2021-06-10", "contributor": "Zhang Xi", "type": "Acquisition",       "amount": 803000,  "note": "Purchase price AED 2.95M; USD 803,000 at acquisition; paid cash via trust structure" },
+    { "date": "2021-07-01", "contributor": "Zhang Xi", "type": "Capital Expenditure","amount": 18500,   "note": "Premium furniture package; Address Boulevard hotel-spec standards" }
+  ],
+  "capitalStack": {
+    "assetValue": 974834,
+    "seniorDebt": 0,
+    "seniorDebtPct": 0.0,
+    "netEquity": 974834,
+    "equityPct": 100.0,
+    "equityContributed": 821500,
+    "accumulatedRetainedEarnings": 153334
+  },
+  "debtSummary": [],
+  "guaranteesObligations": []
+}

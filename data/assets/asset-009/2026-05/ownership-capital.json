@@ -1,0 +1,48 @@
+{
+  "entity": {
+    "name": "Zhang Xi & Spouse (Personal Joint Ownership)",
+    "type": "Individual Joint Ownership",
+    "registered": "Singapore (SLA — Land Registry)",
+    "taxElection": "Singapore — owner-occupied landed property; owner-occupier property tax rate applies",
+    "formed": "2020-08-15"
+  },
+  "owners": [
+    {
+      "name": "Zhang Xi & Spouse (Joint)",
+      "type": "Individuals",
+      "role": "Registered Owners / Zhang Family Trust Beneficiaries",
+      "ownershipPct": 100.0,
+      "equityContributed": 3150000,
+      "currentEquityValue": 3940550,
+      "since": "2020"
+    }
+  ],
+  "capitalContributions": [
+    { "date": "2020-08-15", "contributor": "Zhang Xi & Spouse", "type": "Acquisition",       "amount": 3150000, "note": "Purchase price SGD 4.24M; USD 3.15M at acquisition rate; down payment SGD 1.0M + UOB mortgage SGD 3.24M (since partially repaid)" },
+    { "date": "2020-10-01", "contributor": "Zhang Xi & Spouse", "type": "Capital Expenditure","amount": 280000,  "note": "Comprehensive renovation — kitchen, bathrooms, landscaping, security system" },
+    { "date": "2023-05-15", "contributor": "Zhang Xi & Spouse", "type": "Capital Expenditure","amount": 45000,   "note": "Solar panel installation (3.5kW system) + air-conditioning replacement" }
+  ],
+  "capitalStack": {
+    "assetValue": 5353200,
+    "seniorDebt": 1412650,
+    "seniorDebtPct": 26.4,
+    "netEquity": 3940550,
+    "equityPct": 73.6,
+    "equityContributed": 3475000,
+    "accumulatedRetainedEarnings": 465550
+  },
+  "debtSummary": [
+    {
+      "lender": "UOB (United Overseas Bank)",
+      "type": "Residential Mortgage",
+      "currentBalance": 1412650,
+      "interestRate": "3.78%",
+      "rateType": "Variable (SORA + 0.98%)",
+      "maturityDate": "2028-03-15",
+      "dscr": "N/A",
+      "ltv": "26.4%",
+      "status": "Current"
+    }
+  ],
+  "guaranteesObligations": []
+}

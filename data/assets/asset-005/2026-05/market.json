@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "title": "Pok Fu Lam / Bel-Air Luxury Residential Market — Q2 2026",
+    "narrative": "The Pok Fu Lam and Bel-Air submarket on Hong Kong Island's southern flank has experienced significant price softness since its 2021 peak, with Residence Bel-Air units declining approximately 18% over this period. The seafront development maintains strong brand recognition and attracts expat tenants working in Cyberport and the Kennedy Town financial and tech cluster. Rental values have been more stable than capital values, averaging HKD 195–235/sqm/month for 2BR units in the complex.",
+    "keyThemes": [
+      "Residence Bel-Air remains HK's premier seafront residential address on HK Island",
+      "Pok Fu Lam values down ~18% from 2021 peak — below broader market decline rate",
+      "Cyberport tech cluster expansion driving younger expat professional demand",
+      "Partial-let strategy yields 0.74% cap rate — well below full-let potential of ~1.4%",
+      "Formal valuation urgently needed — Oct 2023 appraisal likely overstates current value"
+    ]
+  },
+  "assetCompetitiveness": {
+    "strengths": [
+      "Residence Bel-Air is one of HK Island's most prestigious residential addresses",
+      "Seafront views — Victoria Harbour panorama from upper floors commands premium",
+      "Full hotel-style amenities: pools, tennis, private club, concierge",
+      "Proximity to Cyberport and HKUST Jockey Club Innovation Wing — emerging tech talent"
+    ],
+    "weaknesses": [
+      "Pok Fu Lam submarket has underperformed TST and Peak in the decline — deeper value erosion",
+      "50-year lease (expires 2048) versus freehold — reduces long-term financing flexibility",
+      "Partial-let strategy creates operational complexity and reduces income optimization",
+      "Unit specification dated (2006 build) vs. newer Bel-Air inventory"
+    ],
+    "opportunities": [
+      "Full-let conversion: HKD 22,000/mo × 12 = HKD 264,000/yr vs. current HKD 132,000 — income doubles",
+      "Cyberport tenant demand growing: tech, fintech, biotech companies hiring expats at higher salaries"
+    ],
+    "threats": [
+      "Further HK residential market deterioration driven by macro headwinds",
+      "2048 lease expiry increasingly visible on radar for institutional investors — reducing buyer pool"
+    ]
+  },
+  "comparables": [
+    { "address": "Residence Bel-Air Tower 8 Unit 15C (2BR+Study)", "type": "Luxury Residential", "units": null, "yearBuilt": 2006, "soldDate": "2025-09-10", "salePrice": 2100000, "pricePerUnit": null, "pricePM2": 19811, "capRate": "1.4%", "occupancy": "Leased", "notes": "Same development; 106 sqm; slightly below subject — leased at HKD 22,000/mo" },
+    { "address": "Bel-Air on the Peak Tower 1, 51 Bel-Air Ave (2BR)", "type": "Luxury Residential", "units": null, "yearBuilt": 2007, "soldDate": "2025-06-20", "salePrice": 2350000, "pricePerUnit": null, "pricePM2": 22143, "capRate": "1.5%", "occupancy": "Owner-occ", "notes": "Adjacent building; slightly newer; slightly larger 106.1sqm" },
+    { "address": "Park Island 3BR, Ma Wan (different submarket)", "type": "Mid-range Residential", "units": null, "yearBuilt": 2008, "soldDate": "2025-04-15", "salePrice": 1200000, "pricePerUnit": null, "pricePM2": 11321, "capRate": "2.8%", "occupancy": "Leased", "notes": "Included for reference — lower submarket tier; significant discount" }
+  ],
+  "rentComparables": [
+    { "address": "Unit 11C Tower 7 Residence Bel-Air (Subject)", "unitType": "2BR+Study Luxury", "areaM2": 106.2, "askingRent": "HKD 22,000", "rentPM2": "HKD 207/sqm", "occupancy": "~50%", "amenities": "Pool, tennis, concierge, seafront", "isSubject": true },
+    { "address": "Residence Bel-Air Tower 6, 2BR+Study", "unitType": "2BR+Study", "areaM2": 103.0, "askingRent": "HKD 23,000", "rentPM2": "HKD 223/sqm", "occupancy": "Leased", "amenities": "Same development facilities", "isSubject": false },
+    { "address": "Cyberport 1 Residential, 2BR", "unitType": "2BR Modern", "areaM2": 90.0, "askingRent": "HKD 20,000", "rentPM2": "HKD 222/sqm", "occupancy": "Leased", "amenities": "Cyberport facilities access, newer build", "isSubject": false }
+  ],
+  "capRateTrend": {
+    "labels": ["Q1'22","Q3'22","Q1'23","Q3'23","Q1'24","Q3'24","Q1'25","Q3'25","Q1'26"],
+    "values": [1.2, 1.3, 1.4, 1.45, 1.5, 1.5, 1.48, 1.45, 1.43]
+  },
+  "vacancyTrend": {
+    "labels": ["Q1'24","Q2'24","Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26"],
+    "submarket": [7.8, 7.5, 7.2, 7.4, 7.3, 7.2, 7.1, 7.0, 7.4],
+    "asset": [50, 50, 0, 50, 50, 50, 0, 50, 50]
+  },
+  "marketRisks": [
+    { "level": "Medium", "title": "Continued HK Residential Decline", "description": "Pok Fu Lam luxury market could decline a further 8–12% over 2026–2027 — current valuation may already be below Oct 2023 appraisal." },
+    { "level": "Low", "title": "Leasehold Residual (2048) Discount", "description": "22-year lease residual will begin to impact investor appetite from ~2035 onward; long-term hold strategy requires reassessment." }
+  ],
+  "marketOpportunities": [
+    { "title": "Cyberport Tenant Premium", "description": "Cyberport expansion (Phase 5 committed) is creating demand from higher-income tech/fintech expats who value Pok Fu Lam/Bel-Air proximity." }
+  ],
+  "marketImplication": {
+    "title": "Obtain Valuation Urgently — Strategy Decision Requires Accurate Current Value",
+    "body": "The October 2023 valuation at HKD 18.2M is likely stale; market evidence suggests current value is HKD 17.5–18.0M. The family's decision on whether to continue partial-let, convert to full-let, or explore disposal should be based on a current appraisal. Commissioning a Colliers/Savills desktop valuation (HKD 12,000 cost) should be the immediate priority. If the full-let option is adopted, the income improvement (HKD 132K → HKD 264K annually) would be meaningful on a $2.3M asset."
+  }
+}

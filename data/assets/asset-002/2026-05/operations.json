@@ -1,0 +1,36 @@
+{
+  "priorityMatrix": {
+    "items": [
+      { "title": "Regions Bank refinancing — lender engagement by June 15", "quadrant": "Do First", "owner": "CFO", "deadline": "2026-06-15", "status": "Open" },
+      { "title": "HVAC Phase 2 replacement quotes — Building A west wing", "quadrant": "Do First", "owner": "Property Manager", "deadline": "2026-06-30", "status": "Open" },
+      { "title": "CBRE appraisal update for refinancing package", "quadrant": "Do First", "owner": "Asset Manager", "deadline": "2026-06-30", "status": "Open" },
+      { "title": "Office lease renewal advisory — 5050 Westway Park", "quadrant": "Schedule", "owner": "Head of Americas", "deadline": "2026-10-31", "status": "Open" },
+      { "title": "Community room / fitness centre upgrade planning", "quadrant": "Schedule", "owner": "Property Manager", "deadline": "2027-03-31", "status": "Proposed" },
+      { "title": "HVAC Phase 2 installation", "quadrant": "Delegate", "owner": "Property Manager / Contractor", "deadline": "2026-08-31", "status": "Not Started" }
+    ]
+  },
+  "capexProjects": [
+    { "project": "HVAC Replacement Phase 2 — Building A West Wing (24 units)", "budgeted": 185000, "spent": 0, "pctComplete": 0, "contractor": "TBD — 3 quotes pending", "estCompletion": "2026-08-31", "status": "Not Started", "expectedROI": "Tenant habitability + safety compliance" },
+    { "project": "Community Room & Fitness Centre Upgrade", "budgeted": 95000, "spent": 0, "pctComplete": 0, "contractor": "TBD", "estCompletion": "2027-06-30", "status": "Proposed", "expectedROI": "Occupancy rate improvement to 87%+" }
+  ],
+  "opexRecurring": [
+    { "category": "Property Management", "vendor": "Greystar Real Estate Partners", "annualCost": 17970, "frequency": "Monthly (5% of gross rent)", "contractExpiry": "2027-06-30", "status": "Active", "notes": "Full-service property management for dormitory complex" },
+    { "category": "Utilities", "vendor": "CenterPoint Energy", "annualCost": 62000, "frequency": "Monthly", "contractExpiry": "Ongoing", "status": "Active", "notes": "Electricity and gas — common areas and laundry; tenants pay own unit utilities" },
+    { "category": "Insurance", "vendor": "Travelers Insurance", "annualCost": 28500, "frequency": "Annual", "contractExpiry": "2027-08-01", "status": "Active", "notes": "Commercial property insurance incl. liability; valued at $10.2M replacement" },
+    { "category": "Landscaping", "vendor": "BrightView Houston", "annualCost": 8400, "frequency": "Bi-weekly", "contractExpiry": "2027-01-31", "status": "Active", "notes": "Grounds maintenance, irrigation, seasonal planting" },
+    { "category": "Security", "vendor": "Allied Universal Security", "annualCost": 7800, "frequency": "Monthly", "contractExpiry": "2027-04-30", "status": "Active", "notes": "24hr CCTV monitoring + gated access control system" },
+    { "category": "Property Tax", "vendor": "Harris County Tax Office", "annualCost": 42000, "frequency": "Annual", "contractExpiry": "Ongoing", "status": "Active", "notes": "2025 assessment at $10.0M; tax rate 0.42% (commercial exemption claimed)" }
+  ],
+  "suppliers": [
+    { "name": "Greystar Real Estate Partners", "category": "Property Management", "contact": "Houston office: (713) 555-0182", "contractPeriod": "2025-07-01 to 2027-06-30", "warrantyOrSLA": "24hr emergency response; monthly reporting", "status": "Active", "notes": "Largest US multi-family property manager; strong Houston presence" },
+    { "name": "Carrier Corporation (HVAC)", "category": "HVAC", "contact": "Southwest Region Service", "contractPeriod": "Annual maintenance contract", "warrantyOrSLA": "Annual service + emergency callout 4hr", "status": "Active", "notes": "Phase 1 replacement done with Carrier 5-ton units; warranty until 2029" },
+    { "name": "Travelers Insurance", "category": "Insurance", "contact": "Commercial Lines, Houston branch", "contractPeriod": "2026-08-01 to 2027-08-01", "warrantyOrSLA": "Policy confirmed; $2M liability coverage", "status": "Active", "notes": "Renewed Aug 2026; competitive rate obtained from 3 quotes" }
+  ],
+  "serviceHistory": [
+    { "date": "2026-04-15", "vendor": "Greystar", "description": "Q1 2026 property management report — occupancy audit", "category": "Operations", "cost": 0, "status": "Complete" },
+    { "date": "2026-02-10", "vendor": "Carrier Corporation", "description": "Annual HVAC maintenance — Building A east + Building B all units", "category": "Maintenance", "cost": 18500, "status": "Complete" },
+    { "date": "2025-11-15", "vendor": "BrightView", "description": "Seasonal landscaping — winter preparation, irrigation winterization", "category": "Maintenance", "cost": 3200, "status": "Complete" },
+    { "date": "2025-09-20", "vendor": "Plumbright Houston", "description": "Water heater replacement — Building B (3 units)", "category": "Maintenance", "cost": 5400, "status": "Complete" },
+    { "date": "2024-10-30", "vendor": "Carrier Corporation", "description": "HVAC Phase 1 replacement — Building A east wing (24 units)", "category": "Capital Works", "cost": 185000, "status": "Complete" }
+  ]
+}

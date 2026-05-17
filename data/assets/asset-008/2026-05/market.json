@@ -1,0 +1,66 @@
+{
+  "summary": {
+    "title": "Palm Jumeirah Ultra-Luxury Residential Market — Q2 2026",
+    "narrative": "The Palm Jumeirah crescent and trunk have seen extraordinary price appreciation over 2020–2025, driven by global HNWI demand, Dubai's Safe Haven narrative during the Russia-Ukraine crisis, and post-COVID lifestyle migration from Europe and Russia. The Oceana Residences at the crescent's western tip represent the original Palm Jumeirah branded product and continue to attract international buyer interest. Rental demand is strong from senior executives and ultra-HNW families using Palm as a holiday base.",
+    "keyThemes": [
+      "Palm Jumeirah has appreciated ~60–70% since 2020 across all product types",
+      "Ultra-low vacancy of 2.9% — Palm 3BR crescent supply is severely constrained",
+      "Global HNWI buyer demand remains structural; Russian, European, and Asian buyer pools active",
+      "Rental potential AED 200K–250K if activated — subject's optionality is significant",
+      "Building age (2008) increasingly visible — refurbishment cycle approaching for Oceana"
+    ]
+  },
+  "assetCompetitiveness": {
+    "strengths": [
+      "Palm Jumeirah Crescent is the most prestigious address in Dubai — global recognition",
+      "Oceana Residences — beachfront, private beach access, Aquaventure proximity",
+      "197.3 sqm 3BR — large format highly sought by HNWI families",
+      "+50.3% unrealised gain since Oct 2022 acquisition — exceptional entry timing"
+    ],
+    "weaknesses": [
+      "2008-built — building age increasing; major building-wide works possible within 5–10 years",
+      "Self-use only (~45 nights) — negative carry of $14,200/yr with no income offset",
+      "AED 52,000/yr service charge at high end for building age"
+    ],
+    "opportunities": [
+      "Rental activation: AED 200K–250K/yr — converting negative carry to 2.6–3.2% cap rate",
+      "Capital disposal: comparable units trading AED 8.0–9.5M — potential $550K–$1.3M realised gain",
+      "Holiday home management: platforms like Maison by Emaar or Luxury Escapes enabling premium short-let"
+    ],
+    "threats": [
+      "Palm Jumeirah price correction risk — after 50%+ appreciation, a 20–25% correction is historically plausible in downturns",
+      "Nakheel major building maintenance levy (special assessment) possible for 2008-built buildings"
+    ]
+  },
+  "comparables": [
+    { "address": "Oceana Atlantic Unit 12C (3BR, 196 sqm)", "type": "Ultra-Luxury Residential", "units": null, "yearBuilt": 2008, "soldDate": "2026-01-25", "salePrice": 2180000, "pricePerUnit": null, "pricePM2": 11122, "capRate": "N/A", "occupancy": "Self-use", "notes": "Same building; slightly lower floor; sold to European family; AED 8.0M" },
+    { "address": "Oceana Pacific Unit 8A (3BR, 200 sqm)", "type": "Ultra-Luxury Residential", "units": null, "yearBuilt": 2008, "soldDate": "2025-11-10", "salePrice": 2450000, "pricePerUnit": null, "pricePM2": 12250, "capRate": "3.8%", "occupancy": "Leased", "notes": "Same complex; leased; higher floor; AED 9.0M; good comp for let scenario" },
+    { "address": "Atlantis The Royal Residences (3BR, 250 sqm)", "type": "Ultra-Luxury Branded Residence", "units": null, "yearBuilt": 2023, "soldDate": "2025-09-15", "salePrice": 5450000, "pricePerUnit": null, "pricePM2": 21800, "capRate": "3.1%", "occupancy": "Mixed", "notes": "New luxury product — significantly premium; different tier from Oceana" }
+  ],
+  "rentComparables": [
+    { "address": "Unit 15B Oceana Atlantic (Subject — if let)", "unitType": "3BR Crescent Beachfront", "areaM2": 197.3, "askingRent": "AED 18,333 est.", "rentPM2": "AED 93/sqm", "occupancy": "Self-use", "amenities": "Private beach, Aquaventure, full Palm facilities", "isSubject": true },
+    { "address": "Oceana Pacific 3BR Unit (let)", "unitType": "3BR Crescent Beachfront", "areaM2": 200.0, "askingRent": "AED 20,000", "rentPM2": "AED 100/sqm", "occupancy": "Leased (annually)", "amenities": "Same building facilities", "isSubject": false },
+    { "address": "Palm Jumeirah Frond Villa 5BR (comparable luxury)", "unitType": "5BR Frond Villa", "areaM2": 450.0, "askingRent": "AED 45,000", "rentPM2": "AED 100/sqm", "occupancy": "Leased", "amenities": "Private pool, garden, beach", "isSubject": false }
+  ],
+  "capRateTrend": {
+    "labels": ["Q1'22","Q3'22","Q1'23","Q3'23","Q1'24","Q3'24","Q1'25","Q3'25","Q1'26"],
+    "values": [4.5, 4.2, 4.0, 3.8, 3.7, 3.6, 3.6, 3.55, 3.5]
+  },
+  "vacancyTrend": {
+    "labels": ["Q1'24","Q2'24","Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26"],
+    "submarket": [3.2, 3.1, 3.0, 2.9, 2.9, 2.9, 2.8, 2.9, 2.9],
+    "asset": [100, 100, 100, 100, 100, 100, 100, 100, 100]
+  },
+  "marketRisks": [
+    { "level": "Medium", "title": "Palm Jumeirah Cyclical Price Risk", "description": "After 50%+ appreciation, a global HNWI demand shock or UAE macro correction could cause 15–25% price decline; Oceana is a liquid asset but not immune." },
+    { "level": "Low", "title": "Building Age Major Works", "description": "2008-built; Nakheel may levy a special building assessment for major works in coming years — unknown quantum but potentially $50K–$150K per owner." }
+  ],
+  "marketOpportunities": [
+    { "title": "Rental Activation Opportunity", "description": "Converting to annual or holiday let at AED 200K–250K/yr would generate USD 54,500–68,100, transforming the asset from negative carry to 2.6–3.2% positive yield." },
+    { "title": "Peak Capital Exit Window", "description": "Current Palm Jumeirah market is at or near a cyclical peak; disposal at AED 8.0M+ would crystallise USD 2.18M vs. AED 5.19M cost — a 50%+ realised gain." }
+  ],
+  "marketImplication": {
+    "title": "Exceptional Wealth Creation Asset — Evaluate Rental or Strategic Disposal",
+    "body": "The Oceana Palm Jumeirah unit has created extraordinary wealth: +50.3% appreciation in under 4 years on an AED 5.19M investment. The family's decision now is whether to (A) maintain as a lifestyle/self-use asset (accept -$14,200/yr carry), (B) activate rental income (convert to +$43,800–$54,000/yr positive carry), or (C) consider disposal while the Palm Jumeirah market is at or near its peak. Given the building age and potential future maintenance levies, the disposal option deserves serious consideration if the family's Dubai usage needs can be met by the Address Boulevard asset (asset-007) or serviced apartments. A Luxhabitat or Driven Properties advisory would be recommended."
+  }
+}

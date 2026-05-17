@@ -1,0 +1,25 @@
+{
+  "summary": { "overallRiskLevel": "Medium", "lastReviewed": "2026-05-12", "highRisks": 0, "mediumRisks": 3, "lowRisks": 2 },
+  "register": [
+    { "id": "R01", "category": "Market", "title": "HK Residential Market Decline", "description": "Pok Fu Lam luxury sector has declined 9–14% from 2021 peak; further softness could push value below acquisition price.", "probability": 3, "impact": 3, "riskScore": 9, "level": "Medium", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R02", "category": "Valuation", "title": "Stale Valuation — Overstatement Risk", "description": "Last formal valuation October 2023; estimated 2–5% market decline since then may mean portfolio value is overstated.", "probability": 3, "impact": 3, "riskScore": 9, "level": "Medium", "owner": "Asset Manager", "status": "Open" },
+    { "id": "R03", "category": "Leasehold", "title": "Lease Expiry (2048) — Long-term Risk", "description": "22-year residual lease adequate for medium-term; approaching 2040s, financing and exit options will reduce meaningfully.", "probability": 2, "impact": 2, "riskScore": 4, "level": "Medium", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R04", "category": "Operations", "title": "Partial-let Management Complexity", "description": "Managing short-term lettings through CBRE agent introduces coordination complexity and higher letting fee exposure vs. long-term tenancy.", "probability": 2, "impact": 1, "riskScore": 2, "level": "Low", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R05", "category": "Macro", "title": "HKD Peg — Minimal FX Risk", "description": "HKD pegged to USD at 7.78; no material FX risk for USD-reporting trust.", "probability": 1, "impact": 1, "riskScore": 1, "level": "Low", "owner": "Treasury", "status": "Monitoring" }
+  ],
+  "scenarios": [
+    { "name": "Commission Full-Valuation — Value Lower than Portfolio", "baseValue": 2287300, "scenarioValue": 2160000, "scenarioLTV": 0.0, "verdict": "Unencumbered — no covenant impact. Unrealised capital loss of $127K. Recommend commissioning valuation to confirm." },
+    { "name": "Fully Let at Market — Improved NOI", "baseCashFlow": 17000, "scenarioCashFlow": 34000, "cashFlowDelta": 17000, "verdict": "Switching to full-year tenancy at HKD 22,000/mo would roughly double NOI to ~$34K/yr; requires family to use other residences." }
+  ],
+  "scenarioChart": {
+    "labels": ["2026","2027","2028","2029","2030"],
+    "cashFlow": {
+      "Downside": [10000, 9000, 8000, 8500, 9000],
+      "Base":     [17000, 17500, 18000, 18500, 19000],
+      "Upside":   [34000, 35000, 36000, 37000, 38000]
+    }
+  },
+  "mitigationPlan": [
+    { "riskId": "R02", "action": "Commission Colliers / Savills desktop valuation — budget HKD 12,000–15,000; required for IPO disclosure package", "owner": "Asset Manager", "deadline": "2026-09-30", "status": "Open" }
+  ]
+}

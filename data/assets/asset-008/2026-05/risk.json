@@ -1,0 +1,26 @@
+{
+  "summary": { "overallRiskLevel": "Medium", "lastReviewed": "2026-05-12", "highRisks": 0, "mediumRisks": 2, "lowRisks": 3 },
+  "register": [
+    { "id": "R01", "category": "Market", "title": "Palm Jumeirah Price Correction", "description": "After 50%+ appreciation since 2020, a UAE property market correction could disproportionately affect ultra-luxury Palm Jumeirah assets — typically -15% to -25% in downturns.", "probability": 2, "impact": 4, "riskScore": 8, "level": "Medium", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R02", "category": "Operations", "title": "Building Age & Major Maintenance", "description": "Oceana Residences is 17 years old; roof, waterproofing, and lift systems approaching end of life; major building-wide refurbishment within 5–8 years.", "probability": 2, "impact": 3, "riskScore": 6, "level": "Medium", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R03", "category": "Finance", "title": "Negative Carry — Ongoing Cash Cost", "description": "AED 52K/yr ($14.2K) service charge creates permanent negative carry with no income offset; cost escalates with inflation.", "probability": 3, "impact": 1, "riskScore": 3, "level": "Low", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R04", "category": "Legal", "title": "Nakheel Estate Management Disputes", "description": "Nakheel Communities enforces strict estate management rules; non-compliance could result in fines or restrictions on use.", "probability": 1, "impact": 1, "riskScore": 1, "level": "Low", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R05", "category": "Macro", "title": "UAE Property Tax Introduction", "description": "UAE has no property tax currently; any future introduction would impact running costs, though AED peg provides FX stability.", "probability": 1, "impact": 2, "riskScore": 2, "level": "Low", "owner": "Legal / Tax", "status": "Monitoring" }
+  ],
+  "scenarios": [
+    { "name": "Palm Market Correction –20% (Cyclical Downturn)", "baseValue": 2123940, "scenarioValue": 1699000, "scenarioLTV": 0.0, "verdict": "Unencumbered — no LTV covenant risk. Paper loss of $425K USD. Palm Jumeirah has recovered from prior corrections; long-term hold appropriate." },
+    { "name": "Rental Activation — AED 220K Annual Let", "baseCashFlow": -14200, "scenarioCashFlow": 43800, "cashFlowDelta": 58000, "verdict": "Switching to income-producing mode converts -$14.2K/yr to +$43.8K/yr. Significant optionality value — management decision pending family usage preference." }
+  ],
+  "scenarioChart": {
+    "labels": ["2026","2027","2028","2029","2030"],
+    "cashFlow": {
+      "Downside": [-25000, -26000, 15000, 20000, 25000],
+      "Base":     [-14200, -14500, -14800, 30000, 38000],
+      "Upside":   [-14200, 43800,  48000,  52000,  56000]
+    }
+  },
+  "mitigationPlan": [
+    { "riskId": "R01", "action": "Monitor Palm Jumeirah price indices quarterly; set review trigger at >15% decline from current AED 7.80M", "owner": "Asset Manager", "deadline": "2026-12-31", "status": "Monitoring" },
+    { "riskId": "R02", "action": "Obtain Nakheel 5-year building maintenance schedule; budget for proportionate share of major works", "owner": "Asset Manager", "deadline": "2026-09-30", "status": "Open" }
+  ]
+}

@@ -1,0 +1,49 @@
+{
+  "incomeStatement": {
+    "rows": [
+      { "label": "REVENUE",                           "indent": 0, "type": "subtotal", "actual": 0,      "budget": 0,      "priorYear": 0 },
+      { "label": "Annual Rent (AED 172K = $46.8K)",  "indent": 1, "type": "income",   "actual": 46823,  "budget": 43579,  "priorYear": 43579 },
+      { "label": "TOTAL REVENUE",                     "indent": 0, "type": "subtotal", "actual": 46823,  "budget": 43579,  "priorYear": 43579 },
+      { "label": "OPERATING EXPENSES",                "indent": 0, "type": "subtotal", "actual": 0,      "budget": 0,      "priorYear": 0 },
+      { "label": "Hotel Service Charges (Address)",  "indent": 1, "type": "expense",  "actual": -6793,  "budget": -6793,  "priorYear": -6385 },
+      { "label": "Property Management Fee (5%)",     "indent": 1, "type": "expense",  "actual": -2341,  "budget": -2179,  "priorYear": -2179 },
+      { "label": "Insurance",                        "indent": 1, "type": "expense",  "actual": -544,   "budget": -530,   "priorYear": -510 },
+      { "label": "BVI / Trust Maintenance Fees",     "indent": 1, "type": "expense",  "actual": -2800,  "budget": -2800,  "priorYear": -2800 },
+      { "label": "TOTAL OPERATING EXPENSES",         "indent": 0, "type": "subtotal", "actual": -12478, "budget": -12302, "priorYear": -11874 },
+      { "label": "NET OPERATING INCOME (NOI)",       "indent": 0, "type": "noi",      "actual": 34345,  "budget": 31277,  "priorYear": 31705 },
+      { "label": "PRE-TAX NET CASH FLOW",            "indent": 0, "type": "total",    "actual": 34345,  "budget": 31277,  "priorYear": 31705 }
+    ]
+  },
+  "valuation": {
+    "purchasePrice": 803000,
+    "purchaseDate": "2021-06-10",
+    "lastAppraisalValue": 921000,
+    "lastAppraisalDate": "2025-11-30",
+    "currentEstimatedValue": 974834,
+    "impliedCapRate": "4.80%",
+    "valueChange": 171834,
+    "valueChangePct": 21.4,
+    "valuePM2": 12578,
+    "netEquity": 974834,
+    "history": [
+      { "date": "2021-06-30", "value": 803000 },
+      { "date": "2022-06-30", "value": 845000 },
+      { "date": "2023-06-30", "value": 871000 },
+      { "date": "2024-06-30", "value": 900000 },
+      { "date": "2025-06-30", "value": 921000 },
+      { "date": "2026-05-31", "value": 974834 }
+    ]
+  },
+  "projections": {
+    "years": ["2026","2027","2028","2029","2030"],
+    "value": {
+      "Downside": [900000, 870000, 840000, 850000, 880000],
+      "Base":     [974834, 1020000, 1068000, 1115000, 1163000],
+      "Upside":   [974834, 1080000, 1190000, 1300000, 1410000]
+    }
+  },
+  "capex": [
+    { "project": "Premium Furniture & FF&E Package",  "year": 2021, "budgeted": 18500, "actual": 18500, "status": "Complete", "notes": "Hotel-spec furnishing at acquisition; 5-star standard maintained" },
+    { "project": "Minor Refresh for Re-let",          "year": 2027, "budgeted": 10000, "actual": 0,     "status": "Proposed", "notes": "Planned refresh on tenant turnover" }
+  ]
+}

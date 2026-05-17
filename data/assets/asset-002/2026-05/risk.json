@@ -1,0 +1,50 @@
+{
+  "summary": {
+    "overallRiskLevel": "High",
+    "lastReviewed": "2026-05-12",
+    "highRisks": 3,
+    "mediumRisks": 3,
+    "lowRisks": 2
+  },
+  "register": [
+    { "id": "R01", "category": "Finance", "title": "Regions Bank Loan Default — Aug 2026 Maturity", "description": "USD 4.1M term loan matures 15 Aug 2026. Failure to refinance triggers default, personal guarantee call, potential cross-default on GoWell corporate facilities.", "probability": 4, "impact": 5, "riskScore": 20, "level": "High", "owner": "CFO / GoWell US Inc.", "status": "Open" },
+    { "id": "R02", "category": "Finance", "title": "Refinancing Terms Deterioration", "description": "US commercial lending market tightened; subsidised dormitory use may require lender to apply lower LTV, forcing equity injection of $500K–$1M.", "probability": 4, "impact": 4, "riskScore": 16, "level": "High", "owner": "CFO", "status": "Open" },
+    { "id": "R03", "category": "IPO / Regulatory", "title": "Cross-Default on GoWell Corporate Facilities", "description": "If Houston facility defaults, cross-default clauses in GoWell Energy Solutions' Singapore banking facilities could be triggered, undermining IPO readiness.", "probability": 3, "impact": 5, "riskScore": 15, "level": "High", "owner": "Group CFO", "status": "Open" },
+    { "id": "R04", "category": "Operations", "title": "HVAC System Failure — Summer 2026", "description": "Phase 2 HVAC units in Building A west wing are end-of-life; failure during Houston summer (June–August) causes tenant non-habitability and potential OSHA complaints.", "probability": 3, "impact": 4, "riskScore": 12, "level": "Medium", "owner": "Property Manager", "status": "Open" },
+    { "id": "R05", "category": "Market", "title": "Houston Energy Corridor Market Softness", "description": "Persistent office vacancy ~18% in Energy Corridor reduces asset value and limits refinancing options — lenders apply more conservative LTV cap.", "probability": 3, "impact": 3, "riskScore": 9, "level": "Medium", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R06", "category": "Operations", "title": "Dormitory Occupancy Decline", "description": "Headcount reduction at GoWell US or employee preference to rent market-rate apartments could reduce occupancy below 75%, eliminating NOI buffer.", "probability": 2, "impact": 3, "riskScore": 6, "level": "Medium", "owner": "HR / Property Manager", "status": "Monitoring" },
+    { "id": "R07", "category": "Legal", "title": "Texas Property Tax Reassessment", "description": "Harris County appraisal district could reassess dormitory complex value upward on next triennial review, increasing property tax by $8,000–$15,000/yr.", "probability": 2, "impact": 2, "riskScore": 4, "level": "Low", "owner": "Finance", "status": "Monitoring" },
+    { "id": "R08", "category": "Macro", "title": "US Interest Rate Environment", "description": "If Fed holds rates elevated into 2027, refinancing cost could increase from 5.15% to 6.0–6.5%, adding $35K–$55K/yr to debt service.", "probability": 3, "impact": 2, "riskScore": 6, "level": "Low", "owner": "CFO", "status": "Monitoring" }
+  ],
+  "scenarios": [
+    {
+      "name": "Successful Refinancing at 5.5% (Base Case)",
+      "baseCashFlow": -209000,
+      "scenarioCashFlow": -235000,
+      "cashFlowDelta": -26000,
+      "newDSCR": "0.56x",
+      "verdict": "Manageable — higher rate adds $26K/yr in debt service but avoids default. Recommend 5-year term with I/O period option."
+    },
+    {
+      "name": "Refinancing Fails — Bridge Loan Required (6-month bridge at 8.5%)",
+      "baseCashFlow": -209000,
+      "scenarioCashFlow": -295000,
+      "cashFlowDelta": -86000,
+      "newDSCR": "0.44x",
+      "verdict": "High stress — bridge financing at 8.5% is USD $87K more expensive than current. Avoid by initiating refinancing before July 2026."
+    }
+  ],
+  "scenarioChart": {
+    "labels": ["Q3'26","Q4'26","Q1'27","Q2'27","Q3'27"],
+    "cashFlow": {
+      "Downside": [-295000, -285000, -265000, -260000, -255000],
+      "Base":     [-235000, -230000, -225000, -220000, -218000],
+      "Upside":   [-200000, -195000, -188000, -182000, -178000]
+    }
+  },
+  "mitigationPlan": [
+    { "riskId": "R01", "action": "Contact Regions Bank for extension/rollover terms before June 15; simultaneously brief 3 alternative lenders (Wells Fargo RE, Berkadia, CBRE Capital)", "owner": "CFO", "deadline": "2026-06-15", "status": "Open" },
+    { "riskId": "R02", "action": "Commission CBRE appraisal update explicitly including market-rate income approach to support maximum LTV", "owner": "Asset Manager", "deadline": "2026-06-30", "status": "Open" },
+    { "riskId": "R04", "action": "Obtain contractor quotes for Phase 2 HVAC immediately; schedule installation before summer peak season", "owner": "Property Manager", "deadline": "2026-06-30", "status": "Open" }
+  ]
+}

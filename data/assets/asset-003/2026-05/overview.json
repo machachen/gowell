@@ -1,0 +1,118 @@
+{
+  "summary": {
+    "narrative": "The Pengerang Industrial Land (Lot PTD 24681, Mukim Pengerang, Kota Tinggi, Johor) is a 15.3-hectare freehold industrial site held by GoWell Industrial Sdn. Bhd. (70% Zhang Family Trust, 30% PIPC Petroleum Infrastructure Partners Consortium). The land was acquired in stages through 2022–2023 as a long-horizon site for GoWell's planned OCTG (Oil Country Tubular Goods) logistics and pipe-coating hub, positioned to serve Malaysia's upstream O&G supply chain in the Pengerang Integrated Complex (PIC) zone. The Environmental Impact Assessment has been approved. The detailed development plan and planning permission application was submitted to Majlis Perbandaran Kota Tinggi in April 2026 with a decision expected Q3 2026. An EPC contractor pre-tender process is planned for Q1 2027 with target groundbreak Q4 2026.",
+    "keyMessage": "EIA approved · Planning approval decision expected Q3 2026 · Target groundbreak Q4 2026 · Maybank development facility MYR 6.63M ($1.5M USD) drawn · 70/30 JV with PIPC"
+  },
+  "basicInfo": {
+    "assetName": "Pengerang Industrial Land — GoWell OCTG Logistics Hub",
+    "assetType": "Freehold Industrial Land — Pre-Development",
+    "location": "Lot PTD 24681, Mukim Pengerang, Kota Tinggi, Johor, Malaysia",
+    "submarket": "Pengerang Integrated Complex (PIC) Zone, South Johor",
+    "yearBuilt": null,
+    "yearAcquired": 2023,
+    "totalSQM": 153000,
+    "currentStatus": "Pre-Development — EIA Approved, Planning Approval Pending",
+    "reportingPeriod": "Q2 2026 (May 2026)",
+    "ownershipSummary": "GoWell Industrial Sdn. Bhd.: Zhang Family Trust 70% / PIPC Petroleum Infrastructure Partners Consortium 30%",
+    "tenure": "Freehold (Hakmilik Tanah Kekal)",
+    "landArea": "15.3 hectares (153,000 sqm)"
+  },
+  "keyFigures": [
+    { "label": "Land Value (USD)",    "value": "$3,415,620",  "subLabel": "MYR 15.1M · Q2 2026",          "trend": "up",   "trendValue": "+1.9% YoY" },
+    { "label": "Dev. Facility Drawn", "value": "$1,500,000",  "subLabel": "Maybank — MYR 6.63M",           "trend": "flat", "trendValue": "Fully drawn" },
+    { "label": "LTV",                 "value": "43.9%",       "subLabel": "On current land value",         "trend": "flat", "trendValue": "Pre-dev norm" },
+    { "label": "Land Area",           "value": "15.3 ha",     "subLabel": "Freehold industrial zoned",     "trend": "flat", "trendValue": "Confirmed" },
+    { "label": "Dev. Approval",       "value": "Q3 2026",     "subLabel": "MPKT decision expected",        "trend": "flat", "trendValue": "On track" },
+    { "label": "Target Groundbreak",  "value": "Q4 2026",     "subLabel": "Subject to approval",           "trend": "flat", "trendValue": "Conditional" }
+  ],
+  "kpiCards": [
+    {
+      "id": "value",
+      "title": "Land Value (USD)",
+      "value": "$3.42M",
+      "period": "Q2 2026",
+      "trend": "+$65K YoY",
+      "trendDir": "pos",
+      "chartType": "line",
+      "chartData": {
+        "labels": ["2023","2024","2025","2026"],
+        "values": [3200000, 3350000, 3415620, 3415620]
+      }
+    },
+    {
+      "id": "holdingcost",
+      "title": "Annual Holding Cost",
+      "value": "$22,500",
+      "period": "TTM May 2026",
+      "trend": "Land tax + security",
+      "trendDir": "flat",
+      "chartType": "bar",
+      "chartData": {
+        "labels": ["2023","2024","2025","2026e"],
+        "values": [18000, 20500, 21800, 22500]
+      }
+    },
+    {
+      "id": "devprogress",
+      "title": "Development Milestones",
+      "value": "3 / 6",
+      "period": "May 2026",
+      "trend": "On track",
+      "trendDir": "pos",
+      "chartType": "bar",
+      "chartData": {
+        "labels": ["Land Acq.", "EIA", "Dev Plan", "Planning", "EPC", "Groundbreak"],
+        "values": [100, 100, 100, 70, 0, 0]
+      }
+    }
+  ],
+  "actions": [
+    {
+      "title": "Planning Approval Submission — Await MPKT Decision",
+      "priority": "High",
+      "status": "In Progress",
+      "recommendation": "Detailed development plan submitted to Majlis Perbandaran Kota Tinggi (MPKT) on 8 April 2026. Engage MPKT liaison officer monthly to monitor status. If decision delayed beyond Q3 2026, escalate through Johor state investment unit (InvestJohor) — GoWell's status as an O&G sector investor gives privileged access.",
+      "decisionNeeded": "Await decision — no action required until response received",
+      "owner": "GoWell Industrial Sdn. Bhd. / Project Director",
+      "deadline": "2026-07-31"
+    },
+    {
+      "title": "EPC Contractor Pre-Qualification — Begin Pre-Tender Process",
+      "priority": "Medium",
+      "status": "Not Started",
+      "recommendation": "Issue Request for Qualification (RFQ) to 5–6 Johor-registered industrial EPC contractors by Q1 2027. Preferred shortlist to include IJM Construction, Sunway Construction, and Kerjaya Prospek. Engage a quantity surveyor to prepare Bills of Quantities (BQ) for tender package.",
+      "decisionNeeded": "Approve RFQ preparation budget — est. MYR 120,000 QS fee",
+      "owner": "Project Director / CFO",
+      "deadline": "2027-03-31"
+    },
+    {
+      "title": "Maybank Development Facility Annual Review",
+      "priority": "Low",
+      "status": "Open",
+      "recommendation": "Maybank development facility reviewed annually (next review June 2026). Ensure compliance with facility covenants — specifically the requirement to maintain a minimum land value of 2.0× facility drawn (current: MYR 15.1M / MYR 6.63M = 2.28×, compliant). Prepare updated land valuation certificate before lender review.",
+      "decisionNeeded": "Commission updated land valuation from C H Williams or Jones Lang Wootton",
+      "owner": "CFO / GoWell Industrial Sdn. Bhd.",
+      "deadline": "2026-06-15"
+    }
+  ],
+  "linkedDocuments": [
+    { "name": "Freehold Land Title — Lot PTD 24681 (HS(M) 9843)",         "category": "Legal",      "date": "2023-03-15", "type": "PDF" },
+    { "name": "EIA Report — Pengerang Industrial Hub (DoE Approved)",      "category": "Compliance", "date": "2025-11-20", "type": "PDF" },
+    { "name": "Maybank Development Facility Agreement — MYR 6.63M",       "category": "Finance",    "date": "2023-06-01", "type": "PDF" },
+    { "name": "JV Shareholders Agreement — GoWell / PIPC (70/30)",        "category": "Legal",      "date": "2022-09-10", "type": "PDF" },
+    { "name": "C H Williams Land Valuation — MYR 15.1M (Q4 2025)",       "category": "Valuation",  "date": "2025-10-31", "type": "PDF" }
+  ],
+  "topRisks": [
+    { "level": "High",   "title": "Planning Approval Delay",           "impact": "MPKT decision delay beyond Q3 2026 pushes groundbreak to 2027, increasing holding costs and potentially triggering Maybank facility covenant review." },
+    { "level": "High",   "title": "O&G Market Demand Risk",            "impact": "GoWell OCTG hub demand is dependent on upstream O&G activity in PIC — sustained low oil prices could reduce tenant/offtake demand for completed facility." },
+    { "level": "Medium", "title": "PIPC Partner Alignment Risk",       "impact": "PIPC (30% JV partner) has not committed additional development capital; disagreement on EPC contractor selection could delay groundbreak." }
+  ],
+  "marketSnapshot": {
+    "submarket": "Pengerang Integrated Complex (PIC) Industrial Zone, Johor",
+    "medianRentPM2": "MYR 2.50–3.80 / sqm / month (industrial shed, PIC zone, est.)",
+    "vacancyRate": "N/A — pre-development land, no existing improvements",
+    "yoyRentGrowth": "+3.2% (Johor industrial land, 2025)",
+    "assetVsMarket": "Freehold industrial land MYR 98.7/sqm — in line with recent PIC-adjacent comparable transactions",
+    "capRateBenchmark": "6.5%–8.0% (Johor industrial completed facilities, 2025)"
+  }
+}

@@ -1,0 +1,68 @@
+{
+  "summary": {
+    "title": "Houston Energy Corridor — Multi-Family & Commercial Market Q2 2026",
+    "narrative": "The Houston Energy Corridor submarket experienced significant headwinds through 2020–2024 driven by oil price volatility and remote work adoption; however, multi-family residential demand has proven resilient, supported by in-migration and energy sector hiring recovery. The office segment remains challenged with ~18% vacancy. For the dormitory complex at 1720 Eldridge Pkwy, the relevant benchmark is Houston multi-family residential — where West Houston vacancy is a tight 5.2% and rent growth of +2.1% YoY has been recorded. The complex's subsidised pricing ($450/mo) is significantly below market ($950/mo average), reflecting its employee welfare purpose rather than investment optimisation.",
+    "keyThemes": [
+      "Houston multi-family vacancy remains tight at 5.2% in West Houston submarket",
+      "Energy Corridor office market structurally challenged — ~18% vacancy creating downward pressure on rents",
+      "GoWell employee housing significantly below market ($450 vs. $950 market rate)",
+      "Houston economy benefits from LNG export boom and energy transition capex",
+      "Refinancing market tighter — US commercial lenders applying conservative LTVs on subsidised-use assets"
+    ]
+  },
+  "assetCompetitiveness": {
+    "strengths": [
+      "Fully occupied corporate-use dormitory — captive GoWell employee tenant base",
+      "80 units with amenities (pool, gym, community room) competitive with Class B/C multi-family",
+      "Below-market rents ($450 vs. $950) create strong employee retention value to GoWell US",
+      "Freehold ownership in improving West Houston submarket"
+    ],
+    "weaknesses": [
+      "Subsidised rent profile ($450/mo) suppresses cap rate to 1.28% vs. 6.0% market cap rate",
+      "Lenders unable to underwrite to market rents due to contractual below-market use",
+      "Aging HVAC infrastructure requires $185K Phase 2 replacement",
+      "Low DSCR (0.09x) creates refinancing challenge — insufficient income to service market-rate debt"
+    ],
+    "opportunities": [
+      "Convert to market-rate on future lease with new GoWell corporate tenancy agreement at $700/mo (market-approach)",
+      "Sell to regional multi-family investor at ~$8.5M (6% cap rate on market rents) — proceeds could reduce debt",
+      "Houston LNG sector expansion may drive GoWell headcount growth, improving occupancy to 95%+"
+    ],
+    "threats": [
+      "Regions Bank may not refinance at favourable terms given subsidised use — risk of forced sale",
+      "Interest rate environment remains elevated — refinancing at 5.5–6.0% adds $26–$35K/yr to debt service",
+      "Harris County tax reassessment could increase property tax if value appreciated"
+    ]
+  },
+  "comparables": [
+    { "address": "Greenway Commons, 1600 Dairy Ashford Rd, Houston TX", "type": "Multi-family Apartments", "units": 84, "yearBuilt": 1998, "soldDate": "2025-06-15", "salePrice": 8900000, "pricePerUnit": 105952, "pricePM2": 1198, "capRate": "5.8%", "occupancy": "93%", "notes": "Class C multi-family; 84 units; West Houston submarket; market rents $920/mo avg" },
+    { "address": "Briar Village, 1800 Eldridge Pkwy, Houston TX", "type": "Multi-family Apartments", "units": 76, "yearBuilt": 2000, "soldDate": "2024-11-20", "salePrice": 7400000, "pricePerUnit": 97368, "pricePM2": 1100, "capRate": "6.1%", "occupancy": "89%", "notes": "Older Class C; directly comparable location to subject; some deferred maintenance" },
+    { "address": "Park West Apartments, 1900 Barker Cypress, Houston TX", "type": "Multi-family Apartments", "units": 90, "yearBuilt": 2002, "soldDate": "2025-03-10", "salePrice": 10200000, "pricePerUnit": 113333, "pricePM2": 1281, "capRate": "5.5%", "occupancy": "94%", "notes": "Better location / condition; market rents $960/mo" }
+  ],
+  "rentComparables": [
+    { "address": "1720 Eldridge Pkwy (Subject — GoWell Dormitory)", "unitType": "1BR Studio — Subsidised", "areaM2": 46, "askingRent": "$450", "rentPM2": "$9.78/sqm", "occupancy": "81.3%", "amenities": "Pool, gym, community room, parking", "isSubject": true },
+    { "address": "Briar Village, 1800 Eldridge Pkwy", "unitType": "1BR Standard", "areaM2": 54, "askingRent": "$920", "rentPM2": "$17.04/sqm", "occupancy": "89%", "amenities": "Pool, parking", "isSubject": false },
+    { "address": "Greenway Commons, 1600 Dairy Ashford Rd", "unitType": "1BR Standard", "areaM2": 56, "askingRent": "$950", "rentPM2": "$16.96/sqm", "occupancy": "93%", "amenities": "Pool, fitness, laundry", "isSubject": false }
+  ],
+  "capRateTrend": {
+    "labels": ["Q1'23","Q2'23","Q3'23","Q4'23","Q1'24","Q2'24","Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26"],
+    "values": [5.2, 5.3, 5.5, 5.8, 6.1, 6.2, 6.0, 5.9, 5.8, 5.7, 5.6, 5.6, 5.5]
+  },
+  "vacancyTrend": {
+    "labels": ["Q1'24","Q2'24","Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26"],
+    "submarket": [5.8, 5.6, 5.4, 5.2, 5.3, 5.2, 5.1, 5.0, 5.2],
+    "asset": [16.2, 17.5, 18.8, 20.0, 18.7, 18.7, 18.7, 18.7, 18.7]
+  },
+  "marketRisks": [
+    { "level": "High", "title": "Lender Scrutiny of Subsidised Use", "description": "Refinancing lenders will apply market cap rate but then haircut for below-market income — may require 30% LTV or less, implying $3.0M max loan vs. current $4.1M balance." },
+    { "level": "Medium", "title": "Houston Energy Sector Cyclicality", "description": "GoWell headcount (and dormitory demand) tied to Houston energy sector; oil price downturn could reduce occupancy." }
+  ],
+  "marketOpportunities": [
+    { "title": "Market-Rate Conversion Option", "description": "Converting dormitory to market-rate ($850–$950/mo) would generate $816K–$912K gross annual income vs. current $351K — transforming the asset economics and enabling conventional refinancing." },
+    { "title": "Houston LNG Expansion Tailwind", "description": "US LNG export capacity expansion driving energy company hiring in Houston — GoWell Americas headcount growth supports sustained dormitory demand." }
+  ],
+  "marketImplication": {
+    "title": "Refinancing is Existential — Act Before June 30",
+    "body": "The August 2026 maturity of the Regions Bank facility is the single most time-critical item in the entire portfolio. The Houston multi-family market is healthy enough to support refinancing, but the subsidised-use model creates a structural challenge in the lender underwriting process. Two parallel tracks are recommended: (1) negotiate a 3-year extension with Regions Bank while preparing the refinancing package, and (2) brief 2–3 alternative lenders on the corporate-use model with a path to higher rents. If neither achieves results by July 31, bridge financing should be initiated immediately to avoid default."
+  }
+}

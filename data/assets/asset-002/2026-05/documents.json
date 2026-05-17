@@ -1,0 +1,20 @@
+{
+  "importantDocuments": [
+    { "name": "Regions Bank Facility Agreement — $4.1M Term Loan", "category": "Finance", "date": "2019-08-15", "type": "PDF", "notes": "Loan matures 15 Aug 2026 — CRITICAL; personal guarantee by Zhang Xi attached" },
+    { "name": "Dormitory Complex Warranty Deed — 1720 Eldridge Pkwy", "category": "Legal", "date": "2019-09-01", "type": "PDF", "notes": "Harris County recorded deed; GoWell US Inc. fee simple owner" },
+    { "name": "CBRE Appraisal — USD 10.2M (Q1 2026)", "category": "Valuation", "date": "2026-01-31", "type": "PDF", "notes": "Used for portfolio reporting; update required for refinancing" },
+    { "name": "Office Lease Agreement — 5050 Westway Park Blvd, Suite 100", "category": "Legal", "date": "2022-10-15", "type": "PDF", "notes": "5-year lease expiring Oct 2027; Hines REIT as landlord" }
+  ],
+  "library": [
+    { "id": "DOC-001", "name": "Regions Bank Facility Agreement — $4.1M", "category": "Finance", "date": "2019-08-15", "source": "Regions Bank", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "5-year term loan; secured on dormitory complex; matures Aug 2026" },
+    { "id": "DOC-002", "name": "Regions Bank Personal Guarantee — Zhang Xi", "category": "Finance", "date": "2019-08-15", "source": "Regions Bank / Legal", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Full recourse personal guarantee; co-terminus with facility" },
+    { "id": "DOC-003", "name": "Harris County Warranty Deed — 1720 Eldridge Pkwy", "category": "Legal", "date": "2019-09-01", "source": "Harris County Clerk", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "GoWell US Inc. registered as fee simple owner" },
+    { "id": "DOC-004", "name": "Office Lease — 5050 Westway Park Blvd (Hines REIT)", "category": "Legal", "date": "2022-10-15", "source": "Hines Real Estate / Tenant Rep Lawyer", "relatedSection": "Operations", "type": "PDF", "notes": "5-yr term; 5,200 sqft Suite 100; $7,800/mo gross; expires Oct 2027" },
+    { "id": "DOC-005", "name": "CBRE Appraisal Report — USD 10.2M", "category": "Valuation", "date": "2026-01-31", "source": "CBRE Houston", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "Dormitory complex only; sales + income approach; subsidised income noted" },
+    { "id": "DOC-006", "name": "Greystar Property Management Agreement", "category": "Operations", "date": "2025-07-01", "source": "Greystar Real Estate Partners", "relatedSection": "Operations", "type": "PDF", "notes": "5% management fee; 2-yr agreement; full-service multi-family management" },
+    { "id": "DOC-007", "name": "Harris County Property Tax Statement 2025", "category": "Finance", "date": "2025-10-01", "source": "Harris County Tax Office", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "Assessed at $10.0M; annual tax $42,000" },
+    { "id": "DOC-008", "name": "Travelers Commercial Property Insurance 2026", "category": "Insurance", "date": "2026-08-01", "source": "Travelers Insurance", "relatedSection": "Operations", "type": "PDF", "notes": "Full replacement value $10.2M; $28,500 annual premium" },
+    { "id": "DOC-009", "name": "HVAC Phase 1 Completion Certificate (Carrier)", "category": "Capital Works", "date": "2024-10-30", "source": "Carrier Corporation", "relatedSection": "Operations", "type": "PDF", "notes": "24 units Building A east wing; warranty until Oct 2029" },
+    { "id": "DOC-010", "name": "GoWell US Inc. Delaware Certificate of Incorporation", "category": "Corporate", "date": "2018-05-22", "source": "Delaware SOS", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "C-Corp; registered agent CT Corporation" }
+  ]
+}

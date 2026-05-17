@@ -1,0 +1,107 @@
+{
+  "summary": {
+    "narrative": "The Address Boulevard Unit 3812 is a 77.5 sqm (1-bedroom+study) investment apartment in Emaar's iconic Address Boulevard hotel-branded residences, situated at Sheikh Mohammed Bin Rashid Boulevard in the heart of Downtown Dubai. The unit was acquired in 2021 for AED 2.95M and has appreciated 21.3% to an assessed AED 3.58M (USD 974,834) — the highest appreciation rate in the portfolio. It is currently let to a British oil & gas consultant on an annual tenancy at AED 172,000/year (USD 46,800), producing a 4.80% net cap rate. The Address Boulevard commands a premium due to its 5-star hotel management, Burj Khalifa views, and access to all hotel amenities including pool deck, spa, and room service.",
+    "keyMessage": "USD 975K · AED 172K/yr rent · 4.80% cap rate · +21.3% appreciation since 2021 · Address Boulevard's branded residences premium"
+  },
+  "basicInfo": {
+    "assetName": "The Address Boulevard — Unit 3812, Downtown Dubai",
+    "assetType": "Residential Apartment — Investment (Hotel-Branded Residence)",
+    "location": "Unit 3812, The Address Boulevard, Sheikh Mohammed Bin Rashid Blvd, Downtown Dubai, Dubai, UAE",
+    "submarket": "Downtown Dubai — Premium Hotel-Branded Residences",
+    "yearBuilt": 2017,
+    "yearAcquired": 2021,
+    "totalSQM": 77.5,
+    "currentStatus": "Leased — Annual Tenancy, British O&G Consultant",
+    "reportingPeriod": "Q2 2026 (May 2026)",
+    "ownershipSummary": "Zhang Xi (Personal) — held in trust nominee structure (BVI entity)",
+    "tenure": "Freehold (Downtown Dubai is a designated freehold zone)"
+  },
+  "keyFigures": [
+    { "label": "Assessed Value",   "value": "$974,834",    "subLabel": "AED 3.58M · Q2 2026",            "trend": "up",   "trendValue": "+5.8% YoY" },
+    { "label": "Annual Rent",      "value": "$46,800",     "subLabel": "AED 172,000 / year",              "trend": "up",   "trendValue": "+7.5% YoY" },
+    { "label": "Net Cap Rate",     "value": "4.80%",       "subLabel": "Downtown Dubai 1BR benchmark",   "trend": "flat", "trendValue": "Slightly below mkt" },
+    { "label": "Appreciation",     "value": "+21.3%",      "subLabel": "Since AED 2.95M in 2021",        "trend": "up",   "trendValue": "Best in portfolio" },
+    { "label": "Debt",             "value": "$0",          "subLabel": "Unencumbered",                   "trend": "flat", "trendValue": "—" },
+    { "label": "Tenant",           "value": "Yr 1 of 1",  "subLabel": "British O&G consultant",         "trend": "flat", "trendValue": "Renewal May 2027" }
+  ],
+  "kpiCards": [
+    {
+      "id": "rent",
+      "title": "Annual Rental Income (AED)",
+      "value": "AED 172,000",
+      "period": "TTM May 2026",
+      "trend": "+AED 12,000 on last renewal",
+      "trendDir": "pos",
+      "chartType": "bar",
+      "chartData": {
+        "labels": ["2021","2022","2023","2024","2025","2026"],
+        "values": [110000, 120000, 140000, 155000, 160000, 172000]
+      }
+    },
+    {
+      "id": "value",
+      "title": "Asset Value (AED M)",
+      "value": "AED 3.58M",
+      "period": "Q2 2026",
+      "trend": "+21.3% total return",
+      "trendDir": "pos",
+      "chartType": "line",
+      "chartData": {
+        "labels": ["2021","2022","2023","2024","2025","2026"],
+        "values": [2950000, 3100000, 3200000, 3300000, 3380000, 3580000]
+      }
+    },
+    {
+      "id": "caprate",
+      "title": "Net Cap Rate",
+      "value": "4.80%",
+      "period": "Q2 2026",
+      "trend": "Improving trend",
+      "trendDir": "pos",
+      "chartType": "line",
+      "chartData": {
+        "labels": ["2021","2022","2023","2024","2025","2026"],
+        "values": [3.73, 3.87, 4.38, 4.70, 4.73, 4.80]
+      }
+    }
+  ],
+  "actions": [
+    {
+      "title": "Tenant Renewal — Annual Tenancy Expires May 2027",
+      "priority": "Low",
+      "status": "Open",
+      "recommendation": "Downtown Dubai 1BR branded residences currently achieving AED 175,000–200,000/yr (Emaar/Address buildings). Target AED 178,000–185,000 on renewal — 3.5–7.6% uplift. Engage Espace Real Estate or Allsopp & Allsopp for renewal advisory in February 2027.",
+      "decisionNeeded": "No immediate action — monitor from Q1 2027",
+      "owner": "Asset Manager / Dubai Property Agent",
+      "deadline": "2027-02-28"
+    },
+    {
+      "title": "Hotel Management Service Charge — Annual Review",
+      "priority": "Low",
+      "status": "Open",
+      "recommendation": "Address Boulevard charges approximately AED 30/sqft/yr for full hotel services (AED 24,960/yr = $6,800/yr). This is higher than non-branded buildings but justified by the hotel amenity package that supports premium rental. Confirm 2026 RERA service charge index filing.",
+      "decisionNeeded": "No action — confirm amount only",
+      "owner": "Asset Manager",
+      "deadline": "2026-07-31"
+    }
+  ],
+  "linkedDocuments": [
+    { "name": "Title Deed — Unit 3812 Address Boulevard (Dubai Land Dept.)", "category": "Legal",      "date": "2021-06-10", "type": "PDF" },
+    { "name": "Tenancy Agreement — British O&G Consultant (May 2026–May 2027)", "category": "Legal",   "date": "2026-05-01", "type": "PDF" },
+    { "name": "Asteco Valuation — AED 3.58M (Q1 2026)",                       "category": "Valuation",  "date": "2026-01-31", "type": "PDF" },
+    { "name": "Emaar Hospitality Hotel Management Agreement",                  "category": "Operations", "date": "2021-06-15", "type": "PDF" }
+  ],
+  "topRisks": [
+    { "level": "Low",    "title": "Downtown Dubai Oversupply",           "impact": "~12,000 Downtown Dubai units in pipeline 2025–2027; partially offset by branded residence premium of Address Boulevard." },
+    { "level": "Low",    "title": "Hotel Management Fee Pressure",       "impact": "Emaar Hospitality management fees are fixed at high end; any renegotiation would require collective owner action." },
+    { "level": "Low",    "title": "O&G Sector Tenant Volatility",        "impact": "Tenant is energy sector consultant — departure risk if oil price cycle turns; Downtown Dubai well-diversified tenant base provides re-let confidence." }
+  ],
+  "marketSnapshot": {
+    "submarket": "Downtown Dubai — Hotel-Branded Residences (1BR)",
+    "medianRentPM2": "AED 140–175 / sqm / year (Downtown Dubai 1BR, hotel-branded, Q1 2026)",
+    "vacancyRate": "3.9% (Downtown Dubai premium residential, Q1 2026)",
+    "yoyRentGrowth": "+9.4% (Downtown Dubai branded residences, 2025–2026)",
+    "assetVsMarket": "Subject: AED 2,219/sqm/yr — at lower end of Address branded comp set; upside on renewal to AED 2,300–2,500/sqm",
+    "capRateBenchmark": "4.5%–5.5% (Downtown Dubai hotel-branded residences, Q1 2026)"
+  }
+}

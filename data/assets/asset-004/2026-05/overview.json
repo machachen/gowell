@@ -1,0 +1,107 @@
+{
+  "summary": {
+    "narrative": "The Masterpiece, Tsim Sha Tsui is a 124.7 sqm (3-bedroom) luxury residential apartment at 18 Hanoi Rd, Kowloon — one of Hong Kong's most prestigious residential addresses, situated within the core TST cultural and luxury retail district. The unit is currently leased to a senior vice president of a Swiss private bank at HKD 33,000/month (USD 4,244/month), generating annualised rental income of approximately USD 50,900 after property management fees. The existing lease expires October 2026; a strategic decision is required on whether to re-let at prevailing market rents, hold for owner use, or evaluate a disposal in the context of Hong Kong residential market softness. No mortgage is outstanding — the unit is held unencumbered.",
+    "keyMessage": "USD 2.72M unencumbered luxury asset · Annual NOI $50,900 · 1.87% cap rate · Lease expires Oct 2026 — re-let/hold/sell decision required by Aug 2026"
+  },
+  "basicInfo": {
+    "assetName": "The Masterpiece — Unit 12A, Tower 1, TST",
+    "assetType": "Luxury Residential Apartment",
+    "location": "Unit 12A, Tower 1, The Masterpiece, 18 Hanoi Road, Tsim Sha Tsui, Kowloon, Hong Kong",
+    "submarket": "Tsim Sha Tsui (TST) Core — Luxury Residential",
+    "yearBuilt": 2005,
+    "yearAcquired": 2017,
+    "totalSQM": 124.7,
+    "currentStatus": "Leased — Swiss Private Bank VP, expires Oct 2026",
+    "reportingPeriod": "Q2 2026 (May 2026)",
+    "ownershipSummary": "Zhang Family Trust (100%) — direct registered title under BVI holding company",
+    "tenure": "Residential Lease 999 years from 1881 (effectively freehold)"
+  },
+  "keyFigures": [
+    { "label": "Assessed Value",    "value": "$2,724,200",  "subLabel": "HKD 21.2M · Q2 2026",            "trend": "flat", "trendValue": "–0.9% YoY" },
+    { "label": "Annual NOI",        "value": "$50,900",     "subLabel": "Net of management fees",          "trend": "down", "trendValue": "–2.1% YoY" },
+    { "label": "Gross Cap Rate",    "value": "1.87%",       "subLabel": "TST luxury norm 1.5–2.2%",        "trend": "flat", "trendValue": "In range" },
+    { "label": "Monthly Rent",      "value": "HKD 33,000",  "subLabel": "$4,244 USD / month",              "trend": "flat", "trendValue": "Lease locked" },
+    { "label": "Debt",              "value": "$0",          "subLabel": "Unencumbered",                    "trend": "flat", "trendValue": "—" },
+    { "label": "Lease Expiry",      "value": "Oct 2026",    "subLabel": "Re-let / hold / sell decision",  "trend": "flat", "trendValue": "Action needed" }
+  ],
+  "kpiCards": [
+    {
+      "id": "rent",
+      "title": "Monthly Rental Income",
+      "value": "HKD 33,000",
+      "period": "May 2026",
+      "trend": "Stable — tenant in place",
+      "trendDir": "flat",
+      "chartType": "line",
+      "chartData": {
+        "labels": ["Nov'24","Feb'25","May'25","Aug'25","Nov'25","Feb'26","May'26"],
+        "values": [33000, 33000, 33000, 33000, 33000, 33000, 33000]
+      }
+    },
+    {
+      "id": "value",
+      "title": "Asset Value (HKD M)",
+      "value": "HKD 21.2M",
+      "period": "Q2 2026",
+      "trend": "–0.9% YoY",
+      "trendDir": "neg",
+      "chartType": "line",
+      "chartData": {
+        "labels": ["2017","2018","2019","2020","2021","2022","2023","2024","2025","2026"],
+        "values": [24800000, 26500000, 25200000, 23800000, 24900000, 23300000, 22600000, 21900000, 21400000, 21200000]
+      }
+    },
+    {
+      "id": "noi",
+      "title": "Annual NOI (USD)",
+      "value": "$50,900",
+      "period": "TTM May 2026",
+      "trend": "After mgmt fees 2.5%",
+      "trendDir": "flat",
+      "chartType": "bar",
+      "chartData": {
+        "labels": ["2022","2023","2024","2025","2026"],
+        "values": [54200, 53100, 52400, 52000, 50900]
+      }
+    }
+  ],
+  "actions": [
+    {
+      "title": "Lease Expiry Decision — Re-let, Hold, or Sell",
+      "priority": "High",
+      "status": "Open",
+      "recommendation": "Current tenant (Swiss bank VP) has expressed interest in renewal but is requesting a 5–8% rent reduction citing broader HK market softness. Options: (A) Renew at HKD 31,000–32,000/mo (small concession, maintain occupancy), (B) Re-let to new tenant at market (risk 2–3 month vacancy), (C) Hold vacant for family use, (D) Evaluate disposal — HKD 21.2M may represent a local peak given HK residential market headwinds. Recommend engaging Savills HK for a formal advisory before August 2026.",
+      "decisionNeeded": "Family decision on leasing strategy or disposal — engagement of Savills / JLL required",
+      "owner": "Zhang Family Trust / Asset Manager",
+      "deadline": "2026-08-15"
+    },
+    {
+      "title": "Annual Property Management Fee Review",
+      "priority": "Low",
+      "status": "Open",
+      "recommendation": "Current property manager (Knight Frank HK) charges 2.5% of gross rent. Industry norm for TST luxury is 2.0–2.5%. No immediate action — review upon lease renewal.",
+      "decisionNeeded": "None immediate",
+      "owner": "Asset Manager",
+      "deadline": "2026-10-31"
+    }
+  ],
+  "linkedDocuments": [
+    { "name": "Tenancy Agreement — Swiss Bank VP, Unit 12A (Nov 2024–Oct 2026)", "category": "Legal",      "date": "2024-10-31", "type": "PDF" },
+    { "name": "Property Title Deed — BVI Co. registered owner",                   "category": "Legal",      "date": "2017-06-15", "type": "PDF" },
+    { "name": "Jones Lang Wootton Valuation — HKD 21.2M (Q1 2026)",              "category": "Valuation",  "date": "2026-02-28", "type": "PDF" },
+    { "name": "Knight Frank HK Property Management Agreement",                    "category": "Operations", "date": "2024-11-01", "type": "PDF" }
+  ],
+  "topRisks": [
+    { "level": "High",   "title": "Lease Expiry / Vacancy Risk",        "impact": "Post-lease vacancy could result in 2–3 months lost rental income ($8,500–$12,700 USD) and additional letting fees 1 month rent." },
+    { "level": "Medium", "title": "HK Residential Market Decline",      "impact": "HK luxury residential market has declined ~14% from 2021 peak; further deterioration driven by emigration and reduced mainland buyer demand." },
+    { "level": "Low",    "title": "BVI Holding Structure Costs",        "impact": "Annual BVI company secretarial, banking and compliance costs ~HKD 28,000/yr ($3,600); manageable but requires ongoing attention." }
+  ],
+  "marketSnapshot": {
+    "submarket": "Tsim Sha Tsui Core — Luxury Residential (>2,000 sqft)",
+    "medianRentPM2": "HKD 240–280 / sqm / month (TST luxury, Q1 2026)",
+    "vacancyRate": "6.8% (HK luxury residential, Q1 2026)",
+    "yoyRentGrowth": "–4.1% (TST luxury residential, 2025–2026)",
+    "assetVsMarket": "Subject property: HKD 265/sqm/mo — at mid-market for TST luxury comp set",
+    "capRateBenchmark": "1.5%–2.2% (TST luxury residential, 2025–2026)"
+  }
+}

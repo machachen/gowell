@@ -1,0 +1,53 @@
+{
+  "incomeStatement": {
+    "rows": [
+      { "label": "REVENUE",                             "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "Rental Income (owner-occupied)",     "indent": 1, "type": "income",   "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "TOTAL REVENUE",                       "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "OWNERSHIP EXPENSES",                  "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "Property Tax (IRAS owner-occupier)", "indent": 1, "type": "expense",  "actual": -9800,   "budget": -9800,   "priorYear": -9400 },
+      { "label": "Maintenance & Repairs",              "indent": 1, "type": "expense",  "actual": -14500,  "budget": -15000,  "priorYear": -13800 },
+      { "label": "Landscaping & Garden",               "indent": 1, "type": "expense",  "actual": -7200,   "budget": -7200,   "priorYear": -6900 },
+      { "label": "Utilities (electricity, water)",     "indent": 1, "type": "expense",  "actual": -4200,   "budget": -4500,   "priorYear": -4100 },
+      { "label": "Insurance (building + contents)",    "indent": 1, "type": "expense",  "actual": -4000,   "budget": -4000,   "priorYear": -3800 },
+      { "label": "TOTAL OWNERSHIP EXPENSES",           "indent": 0, "type": "subtotal", "actual": -39700,  "budget": -40500,  "priorYear": -38000 },
+      { "label": "NET OPERATING INCOME (NOI)",         "indent": 0, "type": "noi",      "actual": -39700,  "budget": -40500,  "priorYear": -38000 },
+      { "label": "Mortgage Interest (UOB SORA+0.98%)","indent": 1, "type": "deduction","actual": -53424,  "budget": -53424,  "priorYear": -51380 },
+      { "label": "PRE-TAX NET CASH FLOW",              "indent": 0, "type": "total",    "actual": -93124,  "budget": -93924,  "priorYear": -89380 }
+    ]
+  },
+  "valuation": {
+    "purchasePrice": 3150000,
+    "purchaseDate": "2020-08-15",
+    "lastAppraisalValue": 5160000,
+    "lastAppraisalDate": "2026-02-20",
+    "currentEstimatedValue": 5353200,
+    "impliedCapRate": "N/A (primary residence)",
+    "valueChange": 2203200,
+    "valueChangePct": 69.9,
+    "valuePM2": 8864,
+    "netEquity": 3940550,
+    "history": [
+      { "date": "2020-08-31", "value": 3150000 },
+      { "date": "2021-06-30", "value": 3866000 },
+      { "date": "2022-06-30", "value": 4600000 },
+      { "date": "2023-06-30", "value": 4900000 },
+      { "date": "2024-06-30", "value": 5100000 },
+      { "date": "2025-06-30", "value": 5150000 },
+      { "date": "2026-05-31", "value": 5353200 }
+    ]
+  },
+  "projections": {
+    "years": ["2026","2027","2028","2029","2030"],
+    "value": {
+      "Downside": [5100000, 4900000, 4750000, 4800000, 5000000],
+      "Base":     [5353200, 5510000, 5670000, 5840000, 6010000],
+      "Upside":   [5353200, 5700000, 6100000, 6500000, 6900000]
+    }
+  },
+  "capex": [
+    { "project": "Comprehensive Renovation at Acquisition",  "year": 2020, "budgeted": 280000, "actual": 280000, "status": "Complete",  "notes": "Kitchen, bathrooms, landscaping, security system overhaul" },
+    { "project": "Solar Panels & A/C Replacement",          "year": 2023, "budgeted": 45000,  "actual": 45000,  "status": "Complete",  "notes": "3.5kW solar system + 6 inverter aircons; completed May 2023" },
+    { "project": "Interior Refresh — Main Living Areas",    "year": 2026, "budgeted": 90000,  "actual": 0,      "status": "Open",      "notes": "10-yr cycle refresh — painting, flooring, kitchen cabinetry" }
+  ]
+}

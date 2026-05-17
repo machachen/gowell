@@ -1,0 +1,68 @@
+{
+  "summary": {
+    "title": "Jurong Innovation District Industrial Strata Market — Q2 2026",
+    "narrative": "The Jurong Innovation District (JID) industrial strata market has remained broadly stable in 2025–2026, supported by Singapore's continued investment in advanced manufacturing, cleantech, and precision engineering sectors. JTC-managed industrial parks within JID benefit from government-backed demand and infrastructure investment, though secondary strata transaction volumes remain thin. Rental values are constrained by oversupply of new JTC factory units in the West region, keeping cap rates in the 4.5–5.5% range. The GoWell HQ property compares favourably in terms of specification and fit-out quality, though owner-occupied usage precludes income-based valuation.",
+    "keyThemes": [
+      "Singapore advanced manufacturing policy supports continued industrial demand in JID",
+      "JTC strata secondary market remains illiquid — limited comparable transactions",
+      "Industrial rental growth moderate at 1.8% YoY — constrained by new JTC supply",
+      "IPO-related valuation scrutiny increasing importance of independent appraisal quality",
+      "Post-pandemic hybrid work has not significantly impacted industrial/lab-type occupancy"
+    ]
+  },
+  "assetCompetitiveness": {
+    "strengths": [
+      "JTC Cleantech Two — recognised premium address in JID ecosystem",
+      "Fully fitted-out to high spec (engineering labs, meeting rooms, executive suite)",
+      "Proximate to one-north, IMDA, and NTU research cluster — talent pipeline",
+      "Owner-occupied — no vacancy or tenant default risk"
+    ],
+    "weaknesses": [
+      "JTC leasehold (expires 2038) reduces long-term collateral value",
+      "Industrial strata illiquid — limited buyer pool if exit required",
+      "No income generation — cost centre only, not a yield-producing asset",
+      "Western Singapore location adds ~20 min commute vs. CBD for senior staff"
+    ],
+    "opportunities": [
+      "Potential JTC lease renewal to 2058 if applied for within renewal window (from ~2033)",
+      "Subletting unused floor space (est. 150 sqm surplus capacity) at SGD 4/sqm/mo = $24K/yr income",
+      "JID co-working / shared lab space demand growing — possible sublease to SpaceTech or biotech SMEs"
+    ],
+    "threats": [
+      "JTC change-of-control consent requirement for IPO listing could introduce administrative burden",
+      "Singapore government repurposing of JID industrial zones to mixed-use could affect permitted uses",
+      "Rising utilities costs — SP Group industrial tariff increases of ~3–5%/yr"
+    ]
+  },
+  "comparables": [
+    { "address": "Cleantech One, Cleantech Loop, Singapore", "type": "Industrial Strata Office", "units": null, "yearBuilt": 2008, "soldDate": "2025-08-15", "salePrice": 3100000, "pricePerUnit": null, "pricePM2": 4429, "capRate": "4.8%", "occupancy": "Owner-occ", "notes": "Single floor unit, 700 sqm; JTC leasehold; comparable condition to subject" },
+    { "address": "Cleantech Two, Bulim Lane, Singapore", "type": "Industrial Strata Office", "units": null, "yearBuilt": 2008, "soldDate": "2025-03-20", "salePrice": 2950000, "pricePerUnit": null, "pricePM2": 4214, "capRate": "5.1%", "occupancy": "Leased", "notes": "Same development as subject; slight discount as let to SME tenant at below-market rent" },
+    { "address": "JTC MedTech Hub, Tukang Innovation Place", "type": "Industrial Strata", "units": null, "yearBuilt": 2012, "soldDate": "2024-11-10", "salePrice": 3600000, "pricePerUnit": null, "pricePM2": 5143, "capRate": "4.5%", "occupancy": "Owner-occ", "notes": "Newer building; premium specification; slightly higher value per sqm than subject" }
+  ],
+  "rentComparables": [
+    { "address": "Cleantech Two #03 (adjacent floor)", "unitType": "Industrial Strata — Standard", "areaM2": 650, "askingRent": "SGD 2,600", "rentPM2": "SGD 4.00/sqm", "occupancy": "Leased", "amenities": "Basic — shared lobby, goods lift", "isSubject": false },
+    { "address": "GoWell HQ — Bulim Lane 2 #04-51/54 (Subject)", "unitType": "Industrial Strata — Enhanced Fit-out", "areaM2": 700, "askingRent": "SGD 2,940 (est.)", "rentPM2": "SGD 4.20/sqm", "occupancy": "Owner-occ", "amenities": "Full fit-out, labs, executive rooms", "isSubject": true },
+    { "address": "Cleantech One #08, Cleantech Loop", "unitType": "Industrial Strata — Premium", "areaM2": 720, "askingRent": "SGD 3,168", "rentPM2": "SGD 4.40/sqm", "occupancy": "Leased", "amenities": "Premium spec; co-working zone", "isSubject": false }
+  ],
+  "capRateTrend": {
+    "labels": ["Q1'23","Q2'23","Q3'23","Q4'23","Q1'24","Q2'24","Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26"],
+    "values": [4.80, 4.82, 4.85, 4.78, 4.72, 4.70, 4.68, 4.65, 4.60, 4.58, 4.55, 4.52, 4.50]
+  },
+  "vacancyTrend": {
+    "labels": ["Q1'24","Q2'24","Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26"],
+    "submarket": [9.2, 8.8, 8.5, 8.2, 8.1, 8.0, 8.2, 8.3, 8.2],
+    "asset": [0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "marketRisks": [
+    { "level": "Medium", "title": "JTC New Supply in JID", "description": "JTC continues to develop new factory units in Jurong, adding supply and capping rental growth potential for existing strata owners." },
+    { "level": "Low", "title": "Singapore Manufacturing Cycle Risk", "description": "Electronics and semiconductor downturns affect industrial demand, though GoWell is in energy sector — partially insulated from electronics cycle." }
+  ],
+  "marketOpportunities": [
+    { "title": "JID Ecosystem Premiumisation", "description": "JTC's continued investment in JID — new amenities, MRT connectivity improvements, talent programmes — supports long-term value uplift for quality industrial assets." },
+    { "title": "Singapore Clean Energy Policy Tailwinds", "description": "GoWell's cleantech positioning aligns with Singapore's Green Plan 2030 — potential for preferential JTC terms on lease renewal." }
+  ],
+  "marketImplication": {
+    "title": "Owner-Occupied Strategic Asset — IPO Optionality",
+    "body": "The GoWell Singapore HQ is a strategic operational asset rather than an investment property. Its value to the portfolio lies primarily in supporting GoWell's business operations and in the optionality it provides for the IPO structure. A market rental income approach would value the property at approximately SGD 2.94M (SGD 4.20/sqm × 700 sqm × 12 mo / 5% cap rate = SGD 7.06M — but this overstates given leasehold and location discount). The current SGD 4.68M assessment is reasonable and broadly in line with comparable transaction evidence."
+  }
+}

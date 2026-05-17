@@ -1,0 +1,15 @@
+{
+  "importantDocuments": [
+    { "name": "Title Deed — Unit 3812 Address Boulevard (Dubai Land Dept.)",       "category": "Legal",     "date": "2021-06-10", "type": "PDF", "notes": "Registered in name of ABD Downtown Holdings Ltd. (BVI); freehold title" },
+    { "name": "Tenancy Agreement — British O&G Consultant (May 2026–May 2027)",    "category": "Legal",     "date": "2026-05-01", "type": "PDF", "notes": "RERA-registered; AED 172,000/yr; 2-month deposit; auto-renewal 90-day notice" },
+    { "name": "Asteco Valuation — AED 3.58M (Q1 2026)",                           "category": "Valuation", "date": "2026-01-31", "type": "PDF", "notes": "Desktop valuation; comparable Address Boulevard transactions reviewed" }
+  ],
+  "library": [
+    { "id": "DOC-001", "name": "Dubai Land Dept. Title Deed — Unit 3812 Address Boulevard", "category": "Legal",     "date": "2021-06-10", "source": "Dubai Land Department", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Freehold; ABD Downtown Holdings Ltd. (BVI)" },
+    { "id": "DOC-002", "name": "S&P Agreement — AED 2.95M (June 2021)",                     "category": "Legal",     "date": "2021-05-20", "source": "Emaar Properties / Agent", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Secondary market purchase; completion June 2021" },
+    { "id": "DOC-003", "name": "RERA Tenancy — British O&G Consultant 2026–2027",           "category": "Legal",     "date": "2026-05-01", "source": "RERA / Espace RE", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "AED 172,000/yr; new tenant commencing May 2026" },
+    { "id": "DOC-004", "name": "Asteco Valuation — AED 3.58M (Jan 2026)",                   "category": "Valuation", "date": "2026-01-31", "source": "Asteco Property Management", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "+21.3% from AED 2.95M acquisition price" },
+    { "id": "DOC-005", "name": "Espace RE Property Management Agreement",                   "category": "Operations","date": "2026-05-01", "source": "Espace Real Estate Dubai", "relatedSection": "Operations", "type": "PDF", "notes": "1-year agreement; 5% management fee" },
+    { "id": "DOC-006", "name": "Emaar Hospitality Management Agreement",                    "category": "Operations","date": "2021-06-15", "source": "Emaar Hospitality", "relatedSection": "Operations", "type": "PDF", "notes": "Hotel-branded residence services; service charges at AED 30/sqft/yr" }
+  ]
+}

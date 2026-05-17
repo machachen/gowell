@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atlas Point by BPM — Secure Access</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script>
+    if (sessionStorage.getItem('gw_auth') === '1') {
+      window.location.replace('portfolio.html');
+    }
+  </script>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --font: 'Inter', system-ui, -apple-system, sans-serif;
+      --navy:   #0d1b2e;
+      --navy-2: #162033;
+      --accent: #1d4ed8;
+      --accent-h:#1e40af;
+      --red:    #b91c1c;
+      --border: #e2e6ea;
+      --text-1: #0d1b2e;
+      --text-2: #4a5568;
+      --text-m: #8a97a8;
+    }
+    html, body { height: 100%; font-family: var(--font); background: var(--navy); }
+    body::before {
+      content: '';
+      position: fixed; inset: 0;
+      background-image: radial-gradient(circle, rgba(255,255,255,0.045) 1px, transparent 1px);
+      background-size: 28px 28px;
+      pointer-events: none;
+    }
+    body::after {
+      content: '';
+      position: fixed; inset: 0;
+      background: radial-gradient(ellipse at center, transparent 40%, rgba(0,0,0,0.5) 100%);
+      pointer-events: none;
+    }
+    .login-wrap {
+      position: relative; z-index: 1;
+      min-height: 100vh;
+      display: flex; flex-direction: column;
+      align-items: center; justify-content: center;
+      padding: 40px 20px;
+    }
+    .login-card {
+      background: #ffffff; border-radius: 12px;
+      width: 100%; max-width: 420px;
+      box-shadow: 0 0 0 1px rgba(0,0,0,0.06), 0 4px 16px rgba(0,0,0,0.18), 0 16px 48px rgba(0,0,0,0.24);
+      overflow: hidden;
+    }
+    .login-card-top { height: 3px; background: linear-gradient(90deg, var(--accent) 0%, #60a5fa 100%); }
+    .login-card-body { padding: 40px 44px 36px; }
+    .login-brand { display: flex; align-items: center; gap: 12px; margin-bottom: 24px; }
+    .login-brand-icon {
+      width: 40px; height: 40px; background: var(--navy-2);
+      border-radius: 8px; display: flex; align-items: center; justify-content: center;
+      font-size: 12px; font-weight: 800; letter-spacing: 0.02em; color: #fff; flex-shrink: 0;
+    }
+    .login-brand-text { display: flex; flex-direction: column; }
+    .login-brand-name { font-size: 15px; font-weight: 700; color: var(--text-1); letter-spacing: -0.01em; line-height: 1.2; }
+    .login-brand-sub  { font-size: 11px; color: var(--text-m); letter-spacing: 0.02em; line-height: 1.4; }
+    .login-rule { height: 1px; background: var(--border); margin-bottom: 24px; }
+    .login-client { font-size: 17px; font-weight: 700; color: var(--text-1); letter-spacing: -0.02em; line-height: 1.3; margin-bottom: 4px; }
+    .login-scope  { font-size: 12px; color: var(--text-m); letter-spacing: 0.01em; margin-bottom: 32px; }
+    .login-label  {
+      display: block; font-size: 11px; font-weight: 600;
+      color: var(--text-2); letter-spacing: 0.06em; text-transform: uppercase; margin-bottom: 8px;
+    }
+    .login-input-wrap { position: relative; }
+    .login-input {
+      width: 100%; height: 44px; padding: 0 44px 0 14px;
+      font-family: var(--font); font-size: 14px; font-weight: 500;
+      color: var(--text-1); background: #f8f9fb;
+      border: 1.5px solid var(--border); border-radius: 7px;
+      outline: none; transition: border-color 0.15s, box-shadow 0.15s, background 0.15s;
+      letter-spacing: 0.04em;
+    }
+    .login-input:focus { background: #fff; border-color: var(--accent); box-shadow: 0 0 0 3px rgba(29,78,216,0.12); }
+    .login-input.err  { border-color: var(--red); box-shadow: 0 0 0 3px rgba(185,28,28,0.10); }
+    .login-input.shake { animation: shake 0.28s ease; }
+    @keyframes shake {
+      0%   { transform: translateX(0); }
+      18%  { transform: translateX(-5px); }
+      36%  { transform: translateX(5px); }
+      54%  { transform: translateX(-4px); }
+      72%  { transform: translateX(4px); }
+      86%  { transform: translateX(-2px); }
+      100% { transform: translateX(0); }
+    }
+    .login-eye {
+      position: absolute; right: 0; top: 0; bottom: 0; width: 44px;
+      display: flex; align-items: center; justify-content: center;
+      background: none; border: none; cursor: pointer;
+      color: var(--text-m); transition: color 0.15s; padding: 0;
+    }
+    .login-eye:hover { color: var(--text-2); }
+    .login-eye svg { width: 17px; height: 17px; flex-shrink: 0; }
+    .login-error {
+      display: flex; align-items: center; gap: 5px;
+      font-size: 12px; color: var(--red);
+      margin-top: 7px; min-height: 18px;
+      opacity: 0; transition: opacity 0.15s;
+    }
+    .login-error.visible { opacity: 1; }
+    .login-btn {
+      width: 100%; height: 44px; margin-top: 20px;
+      background: var(--accent); color: #fff;
+      font-family: var(--font); font-size: 14px; font-weight: 600;
+      border: none; border-radius: 7px; cursor: pointer;
+      letter-spacing: 0.01em;
+      transition: background 0.15s, transform 0.1s, box-shadow 0.15s;
+      display: flex; align-items: center; justify-content: center; gap: 8px;
+    }
+    .login-btn:hover  { background: var(--accent-h); box-shadow: 0 2px 10px rgba(29,78,216,0.30); }
+    .login-btn:active { transform: translateY(1px); }
+    .login-btn.loading { background: var(--accent-h); pointer-events: none; }
+    .login-footer {
+      display: flex; align-items: center; justify-content: center; gap: 6px;
+      margin-top: 28px; padding-top: 20px;
+      border-top: 1px solid var(--border);
+      font-size: 11px; color: var(--text-m); letter-spacing: 0.01em;
+    }
+    .login-footer svg { width: 12px; height: 12px; flex-shrink: 0; opacity: 0.7; }
+    .login-legal {
+      margin-top: 24px; font-size: 11px; color: rgba(255,255,255,0.28);
+      letter-spacing: 0.03em; text-align: center; line-height: 1.7;
+    }
+    .login-notice {
+      display: flex; align-items: flex-start; gap: 8px;
+      margin-top: 14px; padding: 10px 12px;
+      background: rgba(29,78,216,0.08); border-radius: 6px;
+      font-size: 11px; color: var(--text-2); line-height: 1.5;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+  </style>
+</head>
+<body>
+<div class="login-wrap">
+  <div class="login-card">
+    <div class="login-card-top"></div>
+    <div class="login-card-body">
+      <div class="login-brand">
+        <div class="login-brand-icon">AP</div>
+        <div class="login-brand-text">
+          <span class="login-brand-name">Atlas Point</span>
+          <span class="login-brand-sub">by BPM · Real Estate Intelligence Platform</span>
+        </div>
+      </div>
+      <div class="login-rule"></div>
+      <p class="login-client">GoWell Energy Solutions</p>
+      <p class="login-scope">Zhang Family Trust — Real Estate Portfolio · Restricted Access · Confidential</p>
+      <label class="login-label" for="passcode">Access Code</label>
+      <div class="login-input-wrap">
+        <input
+          type="password" id="passcode" class="login-input"
+          placeholder="Enter access code"
+          autocomplete="current-password" spellcheck="false" autofocus
+        />
+        <button class="login-eye" id="toggle-eye" type="button" aria-label="Show access code" tabindex="-1">
+          <svg id="eye-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/>
+            <circle cx="12" cy="12" r="3"/>
+          </svg>
+        </button>
+      </div>
+      <div class="login-error" id="login-error">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" style="width:12px;height:12px;flex-shrink:0">
+          <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
+        </svg>
+        Incorrect access code. Please try again.
+      </div>
+      <button class="login-btn" id="login-btn" type="button">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px">
+          <path d="M15 3h4a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2h-4"/><polyline points="10 17 15 12 10 7"/><line x1="15" y1="12" x2="3" y2="12"/>
+        </svg>
+        Access Portfolio
+      </button>
+      <div class="login-footer">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+          <rect x="3" y="11" width="18" height="11" rx="2" ry="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/>
+        </svg>
+        Restricted system · Authorised users only
+      </div>
+    </div>
+  </div>
+  <p class="login-legal">
+    © 2026 BPM Asset Management · Confidential — Not for distribution<br>
+    This system is for demonstration purposes only
+  </p>
+</div>
+
+<script>
+  const PASSCODE    = 'gowell2026';
+  const SESSION_KEY = 'gw_auth';
+
+  const input   = document.getElementById('passcode');
+  const btn     = document.getElementById('login-btn');
+  const errMsg  = document.getElementById('login-error');
+  const eyeBtn  = document.getElementById('toggle-eye');
+  const eyeIcon = document.getElementById('eye-icon');
+
+  const EYE_OPEN   = '<path d="M1 12s4-8 11-8 11 8 11 8-4 8-11 8-11-8-11-8z"/><circle cx="12" cy="12" r="3"/>';
+  const EYE_CLOSED = '<path d="M17.94 17.94A10.07 10.07 0 0 1 12 20c-7 0-11-8-11-8a18.45 18.45 0 0 1 5.06-5.94M9.9 4.24A9.12 9.12 0 0 1 12 4c7 0 11 8 11 8a18.5 18.5 0 0 1-2.16 3.19m-6.72-1.07a3 3 0 1 1-4.24-4.24"/><line x1="1" y1="1" x2="23" y2="23"/>';
+
+  function clearError() { errMsg.classList.remove('visible'); input.classList.remove('err'); }
+
+  function attempt() {
+    clearError();
+    if (input.value.trim() === PASSCODE) {
+      btn.classList.add('loading');
+      btn.innerHTML = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="width:15px;height:15px;animation:spin 0.7s linear infinite"><polyline points="23 4 23 10 17 10"/><path d="M20.49 15a9 9 0 1 1-.08-8.2"/></svg> Authenticating…';
+      sessionStorage.setItem(SESSION_KEY, '1');
+      setTimeout(() => window.location.replace('portfolio.html'), 500);
+    } else {
+      input.classList.add('err');
+      errMsg.classList.add('visible');
+      input.classList.remove('shake');
+      void input.offsetWidth;
+      input.classList.add('shake');
+      input.select();
+    }
+  }
+
+  btn.addEventListener('click', attempt);
+  input.addEventListener('keydown', e => { if (e.key === 'Enter') { attempt(); return; } clearError(); });
+  eyeBtn.addEventListener('click', () => {
+    const show = input.type === 'password';
+    input.type = show ? 'text' : 'password';
+    eyeIcon.innerHTML = show ? EYE_CLOSED : EYE_OPEN;
+    input.focus();
+  });
+</script>
+</body>
+</html>

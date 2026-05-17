@@ -1,0 +1,41 @@
+{
+  "priorityMatrix": {
+    "items": [
+      { "title": "Refinance UOB mortgage before March 2028 maturity — assess fixed vs. floating", "quadrant": "Do First", "owner": "Zhang Xi / Family Office", "deadline": "2027-09-30", "status": "Open" },
+      { "title": "Engage licensed contractor for external facade and roof inspection (building age 28 yrs)", "quadrant": "Do First", "owner": "Asset Manager", "deadline": "2026-09-30", "status": "Open" },
+      { "title": "Annual IRAS property tax payment (Q1 2027 assessment)", "quadrant": "Schedule", "owner": "Family Office CFO", "deadline": "2027-01-31", "status": "Open" },
+      { "title": "Full interior refresh — primary bedrooms and bathrooms (Phase 2)", "quadrant": "Schedule", "owner": "Zhang Family / Interior Designer", "deadline": "2027-06-30", "status": "Open" },
+      { "title": "Landscaping contract renewal — Greenscape Services", "quadrant": "Delegate", "owner": "Property Manager", "deadline": "2026-12-31", "status": "Open" },
+      { "title": "Home insurance renewal — AIG Singapore", "quadrant": "Delegate", "owner": "Family Office", "deadline": "2026-11-30", "status": "Open" },
+      { "title": "Review ABSD/SSD regulatory changes for potential future disposal planning", "quadrant": "Eliminate", "owner": "Legal Advisor", "deadline": "2026-12-31", "status": "Open" }
+    ]
+  },
+  "capexProjects": [
+    { "project": "Kitchen and Living Area Full Renovation (Phase 1)", "budgeted": 74600, "spent": 74600, "pctComplete": 100, "contractor": "ID Studio SG Pte. Ltd.", "estCompletion": "2023-08-31", "status": "Complete", "expectedROI": "Enhanced liveability; maintains premium valuation alignment for West Coast freehold tier" },
+    { "project": "EV Charging Point Installation (Porsche Taycan)", "budgeted": 4450, "spent": 4450, "pctComplete": 100, "contractor": "SP Group / Charge+ Singapore", "estCompletion": "2024-04-15", "status": "Complete", "expectedROI": "EV infrastructure; supports family lifestyle and future lettability" },
+    { "project": "Smart Home Automation Upgrade (lighting, security, HVAC)", "budgeted": 18500, "spent": 14200, "pctComplete": 77, "contractor": "Control4 Singapore / KNX Solutions", "estCompletion": "2026-07-31", "status": "In Progress", "expectedROI": "Energy efficiency 12–15% savings on DEWA-equivalent; security enhancement" },
+    { "project": "Primary Bedroom and Master Bath Refresh (Phase 2)", "budgeted": 42000, "spent": 0, "pctComplete": 0, "contractor": "TBD — tender Q4 2026", "estCompletion": "2027-06-30", "status": "Planned", "expectedROI": "Quality of life; maintains luxury standard for premium West Coast landed" }
+  ],
+  "opexRecurring": [
+    { "category": "Mortgage Interest (UOB)", "vendor": "United Overseas Bank (UOB)", "annualCost": 53390, "frequency": "Monthly", "contractExpiry": "2028-03-15", "status": "Active", "notes": "SGD 71,820/yr interest on SGD 1.9M @ SORA+0.98% (est. 3.78%); SORA repricing quarterly; matures Mar 2028" },
+    { "category": "Property Tax (IRAS)", "vendor": "Inland Revenue Authority of Singapore", "annualCost": 9812, "frequency": "Annual (Q1)", "contractExpiry": "Ongoing", "status": "Active", "notes": "SGD 13,200/yr; owner-occupied concessionary rate applied; based on Annual Value SGD 66,000" },
+    { "category": "Domestic Maintenance & General Repairs", "vendor": "In-house / ad hoc contractors", "annualCost": 14500, "frequency": "Monthly allocation", "contractExpiry": "Ongoing", "status": "Active", "notes": "SGD 19,500/yr; includes plumbing, electrical, general upkeep for 1998-built detached house" },
+    { "category": "Landscaping & Garden Maintenance", "vendor": "Greenscape Services Pte. Ltd.", "annualCost": 7210, "frequency": "Bi-weekly visits", "contractExpiry": "2026-12-31", "status": "Active", "notes": "SGD 9,700/yr; full garden maintenance, lawn, hedges, seasonal planting; West Coast Park belt requirement" },
+    { "category": "Utilities (SP Group / PUB)", "vendor": "SP Group / PUB Singapore", "annualCost": 4237, "frequency": "Monthly", "contractExpiry": "Ongoing", "status": "Active", "notes": "SGD 5,700/yr electricity and water; family of 4 occupancy; includes pool pump and HVAC" },
+    { "category": "Home Insurance", "vendor": "AIG Singapore", "annualCost": 4015, "frequency": "Annual", "contractExpiry": "2026-11-30", "status": "Active", "notes": "SGD 5,400/yr; structure SGD 3.5M + contents SGD 800K + liability; detached freehold policy" }
+  ],
+  "suppliers": [
+    { "name": "United Overseas Bank (UOB)", "category": "Mortgage / Banking", "contact": "UOB Private Banking, Raffles Place", "contractPeriod": "2022-03-15 to 2028-03-15", "warrantyOrSLA": "Monthly statement; Relationship Manager assigned", "status": "Active", "notes": "SGD 1.9M facility; SORA-linked floating rate; maturity Mar 2028 — refinancing required" },
+    { "name": "Greenscape Services Pte. Ltd.", "category": "Landscaping", "contact": "Clementi branch", "contractPeriod": "2026-01-01 to 2026-12-31", "warrantyOrSLA": "Bi-weekly visits; 24hr response for urgent works", "status": "Active", "notes": "Long-standing relationship; landscaping for 42A West Coast Park since 2019" },
+    { "name": "ID Studio SG Pte. Ltd.", "category": "Interior Design / Renovation", "contact": "Alexandra Road studio", "contractPeriod": "Engagement basis", "warrantyOrSLA": "12-month defect liability on renovation works", "status": "Retained (Phase 2 pending)", "notes": "Completed Phase 1 kitchen + living renovation 2023; retained for Phase 2 bedroom refresh" },
+    { "name": "AIG Singapore", "category": "Insurance", "contact": "AIG Singapore — Corporate Centre", "contractPeriod": "2025-12-01 to 2026-11-30", "warrantyOrSLA": "Claims SLA 5 business days response; 24hr emergency line", "status": "Active", "notes": "Comprehensive home insurance; structure + contents + liability; renewal Nov 2026" }
+  ],
+  "serviceHistory": [
+    { "date": "2026-04-10", "vendor": "Control4 Singapore", "description": "Smart home automation Phase 2 install — HVAC integration and security cameras", "category": "Capital Works", "cost": 8200, "status": "Complete" },
+    { "date": "2026-02-20", "vendor": "Greenscape Services", "description": "Chinese New Year garden refresh — full landscape tidy and seasonal planting", "category": "Maintenance", "cost": 1800, "status": "Complete" },
+    { "date": "2025-12-15", "vendor": "Ad hoc contractor", "description": "Pool pump replacement and resurfacing — routine lifecycle maintenance", "category": "Maintenance", "cost": 4800, "status": "Complete" },
+    { "date": "2025-10-30", "vendor": "AIG Singapore", "description": "Annual home insurance renewal — structure SGD 3.5M + contents SGD 800K", "category": "Insurance", "cost": 5400, "status": "Complete" },
+    { "date": "2025-09-01", "vendor": "ID Studio SG", "description": "Phase 1 post-completion inspection — minor touch-ups and defect rectification", "category": "Maintenance", "cost": 1200, "status": "Complete" },
+    { "date": "2025-06-15", "vendor": "Licensed Electrician", "description": "Electrical panel upgrade — old DB box replaced with RCCB-equipped modern panel", "category": "Maintenance", "cost": 3200, "status": "Complete" }
+  ]
+}

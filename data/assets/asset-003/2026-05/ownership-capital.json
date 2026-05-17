@@ -1,0 +1,69 @@
+{
+  "entity": {
+    "name": "GoWell Industrial Sdn. Bhd.",
+    "type": "Malaysian Private Limited Company (Sendirian Berhad)",
+    "registered": "Johor Bahru, Malaysia (SSM)",
+    "taxElection": "Malaysian Corporate Tax — 24% standard rate; pioneer status application pending",
+    "formed": "2022-07-08"
+  },
+  "owners": [
+    {
+      "name": "Zhang Family Trust (BVI)",
+      "type": "Trust / Corporate Shareholder",
+      "role": "Controlling Shareholder",
+      "ownershipPct": 70.0,
+      "equityContributed": 1680000,
+      "currentEquityValue": 1340934,
+      "since": "2022"
+    },
+    {
+      "name": "PIPC Petroleum Infrastructure Partners Consortium",
+      "type": "Malaysian JV Partner",
+      "role": "Development Partner",
+      "ownershipPct": 30.0,
+      "equityContributed": 720000,
+      "currentEquityValue": 574686,
+      "since": "2022"
+    }
+  ],
+  "capitalContributions": [
+    { "date": "2022-09-15", "contributor": "Zhang Family Trust",     "type": "Acquisition",       "amount": 1120000, "note": "Land acquisition tranche 1 — Phase 1 plots (7.2 ha)" },
+    { "date": "2022-09-15", "contributor": "PIPC Consortium",        "type": "Acquisition",       "amount": 480000,  "note": "Land acquisition tranche 1 — Phase 1 plots (7.2 ha)" },
+    { "date": "2023-03-20", "contributor": "Zhang Family Trust",     "type": "Acquisition",       "amount": 560000,  "note": "Land acquisition tranche 2 — Phase 2 plots (8.1 ha)" },
+    { "date": "2023-03-20", "contributor": "PIPC Consortium",        "type": "Acquisition",       "amount": 240000,  "note": "Land acquisition tranche 2 — Phase 2 plots (8.1 ha)" },
+    { "date": "2024-06-01", "contributor": "Maybank BHD (Facility)", "type": "Debt Drawdown",     "amount": 1500000, "note": "Maybank development facility fully drawn — MYR 6.63M equivalent at time of drawdown" },
+    { "date": "2025-08-15", "contributor": "GoWell Industrial",      "type": "Capital Expenditure","amount": 120000,  "note": "EIA study (DoE-approved Nov 2025) + topographic survey" }
+  ],
+  "capitalStack": {
+    "assetValue": 3415620,
+    "seniorDebt": 1500000,
+    "seniorDebtPct": 43.9,
+    "netEquity": 1915620,
+    "equityPct": 56.1,
+    "equityContributed": 2400000,
+    "accumulatedRetainedEarnings": -484380
+  },
+  "debtSummary": [
+    {
+      "lender": "Maybank BHD",
+      "type": "Development Land Facility",
+      "currentBalance": 1500000,
+      "interestRate": "4.85%",
+      "rateType": "Variable (BLR+0.50%)",
+      "maturityDate": "2028-06-30",
+      "dscr": "N/A",
+      "ltv": "43.9%",
+      "status": "Current"
+    }
+  ],
+  "guaranteesObligations": [
+    {
+      "type": "Corporate Guarantee",
+      "obligor": "GoWell Energy Solutions Pte. Ltd.",
+      "beneficiary": "Maybank BHD",
+      "amount": 1500000,
+      "expiryDate": "2028-06-30",
+      "description": "Maybank requires a corporate guarantee from GoWell Energy Solutions Pte. Ltd. (Singapore parent) as additional security for the MYR 6.63M development facility. Guarantee requires Maybank consent for material change in GoWell's ownership structure — IPO must be disclosed to Maybank before SGX listing."
+    }
+  ]
+}

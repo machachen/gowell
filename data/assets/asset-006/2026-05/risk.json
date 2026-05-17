@@ -1,0 +1,24 @@
+{
+  "summary": { "overallRiskLevel": "Low", "lastReviewed": "2026-05-12", "highRisks": 0, "mediumRisks": 1, "lowRisks": 3 },
+  "register": [
+    { "id": "R01", "category": "Leasing", "title": "Tenant Turnover on Lease Expiry (Apr 2027)", "description": "Swiss analyst tenant may relocate on lease expiry; typical re-let period in Dubai Marina is 30–45 days, minimal void risk.", "probability": 2, "impact": 2, "riskScore": 4, "level": "Medium", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R02", "category": "Market", "title": "New Supply Pipeline in Dubai Marina", "description": "~8,000 new units in Dubai Marina pipeline 2025–2027 could compress rents; Marina Gate I premium partially insulates.", "probability": 2, "impact": 2, "riskScore": 4, "level": "Low", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R03", "category": "Operations", "title": "Service Charge Escalation", "description": "RERA-regulated service charges could increase above RERA index; Select Group has been within RERA limits historically.", "probability": 1, "impact": 1, "riskScore": 1, "level": "Low", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R04", "category": "Macro", "title": "UAE Regulatory — Foreign Ownership", "description": "UAE continues to expand freehold zones; no risk to existing ownership. BVI structure adds minor annual compliance cost.", "probability": 1, "impact": 1, "riskScore": 1, "level": "Low", "owner": "Legal", "status": "Monitoring" }
+  ],
+  "scenarios": [
+    { "name": "45-Day Void on Tenant Turnover", "baseCashFlow": 37600, "scenarioCashFlow": 31900, "cashFlowDelta": -5700, "verdict": "Manageable — 45-day void costs ~$5,200 lost rent. Dubai Marina demand is robust; re-let at AED 143K–148K on renewal likely." },
+    { "name": "Rental Market Correction –10%", "baseCashFlow": 37600, "scenarioCashFlow": 33900, "cashFlowDelta": -3700, "verdict": "AED 138K drops to AED 124K; NOI reduces from $37.6K to ~$33.9K. Still strong positive carry. Low probability given current demand." }
+  ],
+  "scenarioChart": {
+    "labels": ["2026","2027","2028","2029","2030"],
+    "cashFlow": {
+      "Downside": [30000, 28000, 29000, 31000, 33000],
+      "Base":     [37600, 39500, 41200, 43000, 45000],
+      "Upside":   [37600, 42000, 46000, 50000, 54000]
+    }
+  },
+  "mitigationPlan": [
+    { "riskId": "R01", "action": "Brief Better Homes / Espace Real Estate for renewal advisory in January 2027; target AED 143K–148K", "owner": "Asset Manager", "deadline": "2027-01-31", "status": "Open" }
+  ]
+}

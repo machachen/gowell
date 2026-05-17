@@ -1,0 +1,35 @@
+{
+  "entity": {
+    "name": "MGI Dubai Holdings Ltd.",
+    "type": "BVI Business Company",
+    "registered": "British Virgin Islands",
+    "taxElection": "BVI — no corporate tax; UAE Freehold ownership via nominee / BVI structure",
+    "formed": "2022-07-15"
+  },
+  "owners": [
+    {
+      "name": "Zhang Xi (Personal / Trust Nominee)",
+      "type": "Individual / Trust Nominee",
+      "role": "Registered Owner — Trust Beneficial",
+      "ownershipPct": 100.0,
+      "equityContributed": 620900,
+      "currentEquityValue": 713226,
+      "since": "2022"
+    }
+  ],
+  "capitalContributions": [
+    { "date": "2022-09-15", "contributor": "Zhang Xi", "type": "Acquisition",       "amount": 620900,  "note": "Purchase price AED 2.28M; USD 620,900 at acquisition; paid cash via trust structure" },
+    { "date": "2023-04-01", "contributor": "Zhang Xi", "type": "Capital Expenditure","amount": 12800,   "note": "Furniture package and white goods installation for tenant occupancy" }
+  ],
+  "capitalStack": {
+    "assetValue": 713226,
+    "seniorDebt": 0,
+    "seniorDebtPct": 0.0,
+    "netEquity": 713226,
+    "equityPct": 100.0,
+    "equityContributed": 633700,
+    "accumulatedRetainedEarnings": 79526
+  },
+  "debtSummary": [],
+  "guaranteesObligations": []
+}

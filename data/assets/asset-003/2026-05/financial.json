@@ -1,0 +1,50 @@
+{
+  "incomeStatement": {
+    "rows": [
+      { "label": "REVENUE",                              "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "Rental / Operating Income",            "indent": 1, "type": "income",   "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "TOTAL REVENUE",                        "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "LAND HOLDING EXPENSES",                "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "Cukai Tanah (Annual Land Tax)",        "indent": 1, "type": "expense",  "actual": -8200,   "budget": -8200,   "priorYear": -8000 },
+      { "label": "Site Security & Perimeter Fencing",   "indent": 1, "type": "expense",  "actual": -7800,   "budget": -8000,   "priorYear": -7400 },
+      { "label": "EIA Monitoring (DoE requirement)",     "indent": 1, "type": "expense",  "actual": -4200,   "budget": -4500,   "priorYear": -18000 },
+      { "label": "Legal & Professional (dev permits)",  "indent": 1, "type": "expense",  "actual": -2300,   "budget": -3000,   "priorYear": -12000 },
+      { "label": "TOTAL HOLDING EXPENSES",               "indent": 0, "type": "subtotal", "actual": -22500,  "budget": -23700,  "priorYear": -45400 },
+      { "label": "NET OPERATING INCOME (NOI)",           "indent": 0, "type": "noi",      "actual": -22500,  "budget": -23700,  "priorYear": -45400 },
+      { "label": "Interest Expense (Maybank 4.85%)",    "indent": 1, "type": "deduction","actual": -72750,  "budget": -72750,  "priorYear": -60624 },
+      { "label": "PRE-TAX NET CASH FLOW",                "indent": 0, "type": "total",    "actual": -95250,  "budget": -96450,  "priorYear": -106024 }
+    ]
+  },
+  "valuation": {
+    "purchasePrice": 2400000,
+    "purchaseDate": "2023-03-20",
+    "lastAppraisalValue": 3350000,
+    "lastAppraisalDate": "2025-10-31",
+    "currentEstimatedValue": 3415620,
+    "impliedCapRate": "N/A (pre-development land)",
+    "valueChange": 1015620,
+    "valueChangePct": 42.3,
+    "valuePM2": 22.3,
+    "netEquity": 1915620,
+    "history": [
+      { "date": "2023-03-31", "value": 2400000 },
+      { "date": "2023-12-31", "value": 3200000 },
+      { "date": "2024-12-31", "value": 3350000 },
+      { "date": "2026-05-31", "value": 3415620 }
+    ]
+  },
+  "projections": {
+    "years": ["2026","2027","2028","2029","2030"],
+    "value": {
+      "Downside": [3200000, 3100000, 4500000, 6800000, 9000000],
+      "Base":     [3415620, 3500000, 6000000, 10000000, 14500000],
+      "Upside":   [3415620, 3600000, 7500000, 13000000, 18500000]
+    }
+  },
+  "capex": [
+    { "project": "EIA Study & Environmental Surveys",              "year": 2025, "budgeted": 120000, "actual": 120000, "status": "Complete",    "notes": "DoE approval received Nov 2025 — key milestone achieved" },
+    { "project": "Detailed Development Plan (Architecture + Civil)","year": 2026, "budgeted": 85000,  "actual": 45000,  "status": "In Progress", "notes": "Plan submitted to MPKT Apr 2026; 53% drawn" },
+    { "project": "Quantity Surveyor (BQ Preparation)",             "year": 2027, "budgeted": 55000,  "actual": 0,      "status": "Not Started", "notes": "Required for EPC tender package — pending planning approval" },
+    { "project": "Site Preparation & Earthworks",                  "year": 2027, "budgeted": 850000, "actual": 0,      "status": "Proposed",    "notes": "Subject to planning approval and EPC contractor appointment" }
+  ]
+}

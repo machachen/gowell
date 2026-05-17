@@ -1,0 +1,35 @@
+{
+  "priorityMatrix": {
+    "items": [
+      { "title": "Maybank annual review — updated land valuation required", "quadrant": "Do First", "owner": "CFO", "deadline": "2026-06-15", "status": "Open" },
+      { "title": "MPKT planning decision follow-up — monthly liaison", "quadrant": "Do First", "owner": "Project Director", "deadline": "2026-07-31", "status": "In Progress" },
+      { "title": "Maybank IPO change-of-control consent notice", "quadrant": "Schedule", "owner": "CFO / Legal", "deadline": "2026-09-30", "status": "Open" },
+      { "title": "EPC pre-qualification RFQ preparation", "quadrant": "Schedule", "owner": "Project Director", "deadline": "2027-03-31", "status": "Not Started" },
+      { "title": "PIPC JV partner capital commitment discussion", "quadrant": "Schedule", "owner": "BD / Legal", "deadline": "2026-12-31", "status": "Open" },
+      { "title": "Site perimeter security review", "quadrant": "Delegate", "owner": "Site Manager", "deadline": "2026-07-31", "status": "Open" }
+    ]
+  },
+  "capexProjects": [
+    { "project": "EIA Study & Environmental Surveys (DoE-approved)", "budgeted": 120000, "spent": 120000, "pctComplete": 100, "contractor": "ERM Malaysia Sdn. Bhd.", "estCompletion": "2025-11-20", "status": "Complete", "expectedROI": "Regulatory milestone — unlocks planning submission" },
+    { "project": "Detailed Development Plan (Architecture + Civil)", "budgeted": 85000, "spent": 45000, "pctComplete": 53, "contractor": "Jurutera Perunding Johor Sdn. Bhd.", "estCompletion": "2026-06-30", "status": "In Progress", "expectedROI": "Required for planning permission approval" },
+    { "project": "Quantity Surveyor — Bills of Quantities", "budgeted": 55000, "spent": 0, "pctComplete": 0, "contractor": "Pending appointment", "estCompletion": "2027-06-30", "status": "Not Started", "expectedROI": "Required for EPC tender package" },
+    { "project": "Site Preparation & Earthworks (Phase 1)", "budgeted": 850000, "spent": 0, "pctComplete": 0, "contractor": "TBD — EPC tender process", "estCompletion": "2027-12-31", "status": "Proposed", "expectedROI": "Foundation for OCTG hub development" }
+  ],
+  "opexRecurring": [
+    { "category": "Land Tax", "vendor": "Pejabat Tanah & Galian Johor", "annualCost": 8200, "frequency": "Annual", "contractExpiry": "Ongoing", "status": "Active", "notes": "Cukai Tanah — annual land tax on 15.3 ha industrial land" },
+    { "category": "Site Security", "vendor": "Cawangan Kawalan Keselamatan JB", "annualCost": 7800, "frequency": "Monthly", "contractExpiry": "2027-01-31", "status": "Active", "notes": "24-hour perimeter security; 2 guards; electric fence monitoring" },
+    { "category": "Interest Expense", "vendor": "Maybank BHD", "annualCost": 72750, "frequency": "Monthly", "contractExpiry": "2028-06-30", "status": "Active", "notes": "MYR 6.63M development facility at 4.85% p.a.; all interest, no principal repayment" },
+    { "category": "Legal & Professional", "vendor": "Christopher & Lee Ong (Johor)", "annualCost": 2300, "frequency": "As incurred", "contractExpiry": "Ongoing", "status": "Active", "notes": "Development permit advisory, MPKT liaison, regulatory filings" }
+  ],
+  "suppliers": [
+    { "name": "ERM Malaysia Sdn. Bhd.", "category": "Environmental Consulting", "contact": "Kuala Lumpur office; Johor project lead", "contractPeriod": "2024-06-01 to 2026-06-30", "warrantyOrSLA": "DoE compliance; post-approval monitoring reports", "status": "Active", "notes": "EIA approved Nov 2025; ongoing DoE monitoring obligations" },
+    { "name": "Jurutera Perunding Johor Sdn. Bhd.", "category": "Civil & Structural Engineering", "contact": "Johor Bahru office", "contractPeriod": "2025-10-01 to 2026-06-30", "warrantyOrSLA": "Development plan deliverables per contract milestones", "status": "Active", "notes": "Preparing detailed development plan for MPKT submission" },
+    { "name": "C H Williams Malaysia", "category": "Property Valuation", "contact": "Johor Bahru office; Ms. Nur Aisyah", "contractPeriod": "On-call", "warrantyOrSLA": "Valuation report within 3 weeks of instruction", "status": "Active", "notes": "Preferred valuer for Maybank compliance valuations" }
+  ],
+  "serviceHistory": [
+    { "date": "2026-04-08", "vendor": "Jurutera Perunding Johor", "description": "Detailed development plan submitted to MPKT — planning application lodged", "category": "Development", "cost": 45000, "status": "Complete" },
+    { "date": "2025-11-20", "vendor": "ERM Malaysia Sdn. Bhd.", "description": "EIA report — DoE approval received", "category": "Environmental", "cost": 120000, "status": "Complete" },
+    { "date": "2025-10-31", "vendor": "C H Williams Malaysia", "description": "Land valuation — MYR 15.1M assessment for Maybank annual review", "category": "Valuation", "cost": 8500, "status": "Complete" },
+    { "date": "2024-06-01", "vendor": "Maybank BHD", "description": "Development facility drawdown — MYR 6.63M fully drawn", "category": "Finance", "cost": 0, "status": "Complete" }
+  ]
+}

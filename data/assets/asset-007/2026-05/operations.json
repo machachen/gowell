@@ -1,0 +1,29 @@
+{
+  "priorityMatrix": {
+    "items": [
+      { "title": "Confirm 2026 RERA service charges — Address Boulevard Emaar", "quadrant": "Do First", "owner": "Asset Manager", "deadline": "2026-07-31", "status": "Open" },
+      { "title": "Tenant renewal advisory — brief Espace / Allsopp for Feb 2027", "quadrant": "Schedule", "owner": "Asset Manager", "deadline": "2027-01-31", "status": "Open" },
+      { "title": "BVI company annual compliance filing", "quadrant": "Delegate", "owner": "BVI Registered Agent", "deadline": "2026-09-30", "status": "Open" },
+      { "title": "Minor refresh budget planning for 2027 re-let", "quadrant": "Eliminate", "owner": "Asset Manager", "deadline": "2027-04-01", "status": "Proposed" }
+    ]
+  },
+  "capexProjects": [
+    { "project": "Premium FF&E Package at Acquisition", "budgeted": 18500, "spent": 18500, "pctComplete": 100, "contractor": "Dubai luxury furniture supplier", "estCompletion": "2021-07-01", "status": "Complete", "expectedROI": "Maintained Address Boulevard 5-star standard for tenants" },
+    { "project": "Minor Refresh for Re-let 2027", "budgeted": 10000, "spent": 0, "pctComplete": 0, "contractor": "TBD", "estCompletion": "2027-05-15", "status": "Proposed", "expectedROI": "Maintain AED 178K–185K target rental premium" }
+  ],
+  "opexRecurring": [
+    { "category": "Hotel Service Charges", "vendor": "Emaar Hospitality (Address Boulevard)", "annualCost": 6793, "frequency": "Quarterly (RERA)", "contractExpiry": "Ongoing", "status": "Active", "notes": "AED 24,960/yr; includes 24-hr concierge, pool, spa, room service access" },
+    { "category": "Property Management", "vendor": "Espace Real Estate Dubai", "annualCost": 2341, "frequency": "Annual (5% of rent)", "contractExpiry": "2027-05-30", "status": "Active", "notes": "Full tenant management; DEWA, maintenance, rent collection" },
+    { "category": "Insurance", "vendor": "Oman Insurance UAE", "annualCost": 544, "frequency": "Annual", "contractExpiry": "2027-06-10", "status": "Active", "notes": "Contents and liability; AED 2,000 annual premium" },
+    { "category": "BVI / Trust Fees", "vendor": "Maples Trust (BVI)", "annualCost": 2800, "frequency": "Annual", "contractExpiry": "Ongoing", "status": "Active", "notes": "BVI company secretarial and annual compliance" }
+  ],
+  "suppliers": [
+    { "name": "Espace Real Estate Dubai", "category": "Property Management", "contact": "DIFC office; agent Priya Nair", "contractPeriod": "2026-05-01 to 2027-05-31", "warrantyOrSLA": "24hr maintenance response; monthly rental report", "status": "Active", "notes": "Specialist in Downtown Dubai hotel-branded residences; strong Address portfolio" }
+  ],
+  "serviceHistory": [
+    { "date": "2026-05-01", "vendor": "Espace Real Estate", "description": "New tenancy commencement — British O&G consultant; AED 172,000", "category": "Operations", "cost": 0, "status": "Complete" },
+    { "date": "2026-04-20", "vendor": "Emaar Hospitality", "description": "Pre-tenancy unit inspection and handover", "category": "Inspection", "cost": 0, "status": "Complete" },
+    { "date": "2025-12-15", "vendor": "Espace Real Estate", "description": "Tenant search — new tenant sourced in 18 days vs. previous tenant departure", "category": "Operations", "cost": 2341, "status": "Complete" },
+    { "date": "2025-09-01", "vendor": "Emaar Maintenance", "description": "Annual apartment service — AC, plumbing, appliances check", "category": "Maintenance", "cost": 1850, "status": "Complete" }
+  ]
+}

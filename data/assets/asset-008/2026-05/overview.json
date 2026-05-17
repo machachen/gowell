@@ -1,0 +1,106 @@
+{
+  "summary": {
+    "narrative": "Oceana Residences Unit 15B (Oceana Atlantic Tower) is a 197.3 sqm (3-bedroom) luxury apartment on The Palm Jumeirah's crescent, acquired in October 2022 for AED 5.19M. The unit is held for Zhang family self-use, with the family typically using the property for approximately 45 nights per year during Dubai visits. The unit is not let to third parties. Since acquisition, the property has appreciated an exceptional 50.3% to an assessed AED 7.80M (USD 2,123,940) — benefiting from The Palm Jumeirah's dramatic post-COVID price recovery and global ultra-high-net-worth investor demand. The carrying cost is AED 52,000/year ($14,200/yr USD) in service charges and maintenance, producing a negative carry of –$14,200/year. There is significant potential rental income if the family chose to let the unit during non-use periods.",
+    "keyMessage": "USD 2.12M · +50.3% appreciation since Oct 2022 · AED 7.80M · Self-use ~45 nights/yr · Estimated rental potential AED 200,000–250,000/yr if let"
+  },
+  "basicInfo": {
+    "assetName": "Oceana Residences — Unit 15B, Palm Jumeirah",
+    "assetType": "Luxury Residential Apartment — Self-Use",
+    "location": "Unit 15B, Oceana Atlantic Tower, The Palm Jumeirah, Dubai, UAE",
+    "submarket": "Palm Jumeirah Crescent — Ultra-Luxury Residential",
+    "yearBuilt": 2008,
+    "yearAcquired": 2022,
+    "totalSQM": 197.3,
+    "currentStatus": "Self-Use — Zhang Family (approx. 45 nights/yr)",
+    "reportingPeriod": "Q2 2026 (May 2026)",
+    "ownershipSummary": "Zhang Xi & Spouse (Joint) — held in trust nominee structure (BVI entity)",
+    "tenure": "Freehold (Palm Jumeirah is a designated freehold zone)"
+  },
+  "keyFigures": [
+    { "label": "Assessed Value",    "value": "$2,123,940",  "subLabel": "AED 7.80M · Q2 2026",            "trend": "up",   "trendValue": "+7.5% YoY" },
+    { "label": "Appreciation",      "value": "+50.3%",      "subLabel": "Since AED 5.19M in Oct 2022",    "trend": "up",   "trendValue": "+AED 2.61M" },
+    { "label": "Annual Net CF",     "value": "($14,200)",   "subLabel": "Service charges — self-use",     "trend": "flat", "trendValue": "Manageable carry" },
+    { "label": "Service Charge",    "value": "AED 52,000",  "subLabel": "$14,159 USD / year",             "trend": "flat", "trendValue": "AED 0.26/sqft/mo" },
+    { "label": "Debt",              "value": "$0",          "subLabel": "Unencumbered",                   "trend": "flat", "trendValue": "—" },
+    { "label": "Rental Potential",  "value": "AED 220K+",  "subLabel": "If fully let (est.)",            "trend": "flat", "trendValue": "Optionality" }
+  ],
+  "kpiCards": [
+    {
+      "id": "value",
+      "title": "Asset Value (AED M)",
+      "value": "AED 7.80M",
+      "period": "Q2 2026",
+      "trend": "+50.3% since Oct 2022",
+      "trendDir": "pos",
+      "chartType": "line",
+      "chartData": {
+        "labels": ["Oct'22","2023","2024","2025","2026"],
+        "values": [5190000, 6100000, 6800000, 7250000, 7800000]
+      }
+    },
+    {
+      "id": "svccharge",
+      "title": "Annual Service Charge (AED)",
+      "value": "AED 52,000",
+      "period": "2026",
+      "trend": "+3.2% vs. 2025",
+      "trendDir": "neg",
+      "chartType": "bar",
+      "chartData": {
+        "labels": ["2022","2023","2024","2025","2026"],
+        "values": [44000, 47000, 49500, 50400, 52000]
+      }
+    },
+    {
+      "id": "rentpotential",
+      "title": "Market Rent Potential (AED)",
+      "value": "AED 220,000",
+      "period": "2026 estimate",
+      "trend": "+AED 30K vs. 2023",
+      "trendDir": "pos",
+      "chartType": "line",
+      "chartData": {
+        "labels": ["2022","2023","2024","2025","2026"],
+        "values": [120000, 150000, 175000, 200000, 220000]
+      }
+    }
+  ],
+  "actions": [
+    {
+      "title": "Evaluate Rental Income Potential — AED 200K+ Annual Yield",
+      "priority": "Low",
+      "status": "Open",
+      "recommendation": "If the Zhang family reduces personal usage at this unit, engaging a premium Dubai property manager (Luxhabitat, Driven Properties) for flexible holiday / annual let could generate AED 200,000–250,000/yr (USD 54,500–68,100). At current AED 7.80M valuation, this would achieve a 2.6–3.2% cap rate — modest but positive carry vs. current negative $14,200/yr. Family lifestyle preference governs timing.",
+      "decisionNeeded": "Family decision on rental strategy — no financial urgency",
+      "owner": "Zhang Family / Asset Manager",
+      "deadline": "2026-12-31"
+    },
+    {
+      "title": "Service Charge — Confirm 2026 RERA Filing",
+      "priority": "Low",
+      "status": "Open",
+      "recommendation": "Confirm 2026 service charge breakdown from Nakheel Communities and ensure correct RERA registration. Oceana service charges historically run AED 18–22/sqft/year; confirm the 2026 budget allocation.",
+      "decisionNeeded": "No action — administrative confirmation only",
+      "owner": "Asset Manager",
+      "deadline": "2026-07-31"
+    }
+  ],
+  "linkedDocuments": [
+    { "name": "Title Deed — Unit 15B Oceana Atlantic, Palm Jumeirah",    "category": "Legal",      "date": "2022-10-20", "type": "PDF" },
+    { "name": "Knight Frank Valuation — AED 7.80M (Q1 2026)",           "category": "Valuation",  "date": "2026-02-28", "type": "PDF" },
+    { "name": "Nakheel Communities Service Charge Notice 2025",         "category": "Compliance", "date": "2025-12-01", "type": "PDF" }
+  ],
+  "topRisks": [
+    { "level": "Medium", "title": "Palm Jumeirah Price Correction Risk",  "impact": "After 50%+ appreciation since 2020, a UAE property market correction could disproportionately affect ultra-luxury Palm Jumeirah assets — typically -15% to -25% in downturns." },
+    { "level": "Low",    "title": "Negative Carry Cost",                 "impact": "AED 52,000/yr ($14,200) service charge creates ongoing cash outflow with no offsetting income — manageable but represents opportunity cost." },
+    { "level": "Low",    "title": "Age of Building (2008)",              "impact": "Oceana Residences is 17 years old; building maintenance requirements will increase; major refurbishment may be needed within 5–8 years." }
+  ],
+  "marketSnapshot": {
+    "submarket": "Palm Jumeirah Crescent — Ultra-Luxury 3BR Residences",
+    "medianRentPM2": "AED 100–140 / sqm / month (Palm Jumeirah 3BR, crescent, Q1 2026)",
+    "vacancyRate": "2.9% (Palm Jumeirah premium residential, Q1 2026 — extremely low)",
+    "yoyRentGrowth": "+13.2% (Palm Jumeirah 3BR, 2025–2026)",
+    "assetVsMarket": "Self-use — not let; estimated market rent AED 200,000–240,000/yr implies AED 1,000–1,200/sqm/yr",
+    "capRateBenchmark": "3.5%–4.5% (Palm Jumeirah 3BR, crescent, Q1 2026)"
+  }
+}

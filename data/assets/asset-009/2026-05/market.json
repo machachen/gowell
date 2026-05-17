@@ -1,0 +1,71 @@
+{
+  "summary": {
+    "title": "West Coast / Clementi Freehold Landed Residential Market — Q2 2026",
+    "narrative": "The West Coast and Clementi freehold landed residential market is one of Singapore's most structurally constrained sub-markets. Foreign ownership restrictions, the permanent scarcity of Singapore freehold landed stock, and proximity to NUS, one-north, and the future Greater Southern Waterfront have sustained strong price floors even through broader property market softening. Detached houses in the SGD 6.5M–9.0M range along West Coast Park, West Coast Road, and Clementi Avenue 6 have experienced steady 7–10% per annum capital appreciation since 2020. Rental demand from senior NUS academics, one-north tech executives, and expatriate families provides meaningful alternative use optionality.",
+    "keyThemes": [
+      "West Coast / Clementi freehold landed prices up ~30–35% since 2020 — structural undersupply",
+      "Singapore landed policy (Residential Property Act) permanently restricts foreign buyer pool — price floor preserved",
+      "Proximity to NUS, one-north, and Greater Southern Waterfront underpins long-term demand",
+      "Comparable detached houses (400–600 sqm land) transacting SGD 6.5M–8.5M in 2025–2026",
+      "Rental potential SGD 18,000–22,000/mo — strong expat demand from NUS and one-north tenants"
+    ]
+  },
+  "assetCompetitiveness": {
+    "strengths": [
+      "42A West Coast Park — direct fronting of West Coast Park; rare greenery outlook for Singapore",
+      "Freehold title — Singapore's most valued tenure; permanent intergenerational wealth asset",
+      "604 sqm built-up detached — larger than typical Clementi semi-D; full landed lifestyle",
+      "SGD 7.20M valuation at SGD 18,462/sqm land — competitive within submarket range",
+      "Fully renovated 2023 — modern kitchen/living; EV charging; smart home automation underway"
+    ],
+    "weaknesses": [
+      "1998 built — 28 years old; building age becoming visible; structural and M&E maintenance cycle approaching",
+      "West Coast Park frontage = park noise/weekend crowds; less premium than Coronation Road or Gallop area",
+      "UOB mortgage SGD 1.9M matures March 2028 — refinancing risk if SORA remains elevated",
+      "No current income — annual carrying cost SGD ~120,000 with no rental offset"
+    ],
+    "opportunities": [
+      "Rental activation: SGD 18,000–22,000/mo to senior NUS or one-north tech executive — positive carry versus current -SGD 120K/yr",
+      "Greater Southern Waterfront redevelopment (2028–2040 govt. masterplan) expected to further elevate West Coast values",
+      "Refinancing in 2027–2028 could benefit from SORA normalisation if rates decline from 2025 peaks"
+    ],
+    "threats": [
+      "Singapore ABSD for additional property acquisition — no direct impact here (primary residence), but limits portfolio flexibility",
+      "Building age-related maintenance — roof, foundation, plumbing for 28-year-old structure may require SGD 150K–300K in coming 5 years",
+      "Singapore landed property cooling measures — TDSR constraints could limit buyer pool in a future disposal"
+    ]
+  },
+  "comparables": [
+    { "address": "44B West Coast Park (Detached, 420 sqm land)", "type": "Freehold Detached", "units": null, "yearBuilt": 2001, "soldDate": "2026-01-15", "salePrice": 6580000, "pricePerUnit": null, "pricePM2": 15667, "capRate": "N/A", "occupancy": "Owner-occupied", "notes": "Slightly smaller land; older build; West Coast Park frontage; good baseline comp" },
+    { "address": "38 West Coast Road (Detached, 500 sqm land)", "type": "Freehold Detached", "units": null, "yearBuilt": 2005, "soldDate": "2025-10-22", "salePrice": 7350000, "pricePerUnit": null, "pricePM2": 14700, "capRate": "N/A", "occupancy": "Owner-occupied", "notes": "500 sqm land; slightly newer; West Coast Road cluster; strong comp for subject" },
+    { "address": "Clementi Avenue 6 (Semi-D, 350 sqm land)", "type": "Freehold Semi-Detached", "units": null, "yearBuilt": 1995, "soldDate": "2025-08-05", "salePrice": 5400000, "pricePerUnit": null, "pricePM2": 15429, "capRate": "N/A", "occupancy": "Owner-occupied", "notes": "Semi-D; smaller; older; shows floor pricing for the Clementi/West Coast corridor" }
+  ],
+  "rentComparables": [
+    { "address": "42A West Coast Park (Subject — if let)", "unitType": "Detached 4BR+Study 604 sqm GFA", "areaM2": 604.0, "askingRent": "SGD 20,000 est.", "rentPM2": "SGD 33/sqm", "occupancy": "Owner-occupied (primary residence)", "amenities": "West Coast Park frontage, pool, 2-car garage, full renovation 2023", "isSubject": true },
+    { "address": "40C West Coast Park (Detached 4BR, 580 sqm GFA)", "unitType": "Detached 4BR", "areaM2": 580.0, "askingRent": "SGD 21,500", "rentPM2": "SGD 37/sqm", "occupancy": "Leased to NUS Professor", "amenities": "Park frontage, pool, 2-car garage; slightly larger", "isSubject": false },
+    { "address": "Clementi Avenue 4 (Semi-D 4BR, 380 sqm GFA)", "unitType": "Semi-D 4BR", "areaM2": 380.0, "askingRent": "SGD 12,800", "rentPM2": "SGD 34/sqm", "occupancy": "Leased to Expat Family", "amenities": "No pool; smaller semi-D; Clementi schools zone", "isSubject": false }
+  ],
+  "capRateTrend": {
+    "labels": ["Q1'22","Q3'22","Q1'23","Q3'23","Q1'24","Q3'24","Q1'25","Q3'25","Q1'26"],
+    "values": [2.8, 2.9, 3.1, 3.2, 3.2, 3.3, 3.3, 3.35, 3.4]
+  },
+  "vacancyTrend": {
+    "labels": ["Q1'24","Q2'24","Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26"],
+    "submarket": [4.1, 3.9, 3.8, 3.7, 3.7, 3.6, 3.5, 3.6, 3.5],
+    "asset": [100, 100, 100, 100, 100, 100, 100, 100, 100]
+  },
+  "marketRisks": [
+    { "level": "Low", "title": "Singapore Landed Cooling Measures", "description": "Singapore's Residential Property Act restricts landed ownership to Singapore Citizens; ABSD and TDSR regulations limit speculative demand. These protect against overheating but also constrain buyer pool in a disposal scenario — primarily an SGD-denominated, domestic SC buyer market." },
+    { "level": "Medium", "title": "Building Age Maintenance Liability", "description": "1998-built (28 years); structural survey recommended prior to 2028 refinancing. Roof, plumbing, M&E systems entering their second major maintenance cycle. Estimated SGD 150K–300K in capital works may be required within 5 years." },
+    { "level": "Low", "title": "SORA Repricing Risk", "description": "UOB mortgage at SORA+0.98% currently 3.78%; if SORA rises above 4.5% before March 2028 refinancing, annual interest cost increases by ~SGD 13,300. Manageable given family income profile but warrants monitoring." }
+  ],
+  "marketOpportunities": [
+    { "title": "Greater Southern Waterfront Value Uplift", "description": "Singapore's Greater Southern Waterfront masterplan (Labrador–West Coast corridor) is expected to significantly enhance the West Coast precinct's residential desirability from 2028 onward, with new waterfront promenade, retail, and F&B — likely to drive 10–20% additional capital uplift versus broader market." },
+    { "title": "Rental Activation — Senior Executive / NUS Demand", "description": "West Coast Park detached homes command SGD 18,000–22,000/mo from senior NUS academics, one-north tech executives, and expatriate families with school-age children. Rental activation would convert the asset from -SGD 120K/yr carrying cost to +SGD 100K–145K/yr positive cashflow (net of mortgage and ops)." },
+    { "title": "Disposal Optionality at Cyclical Peak", "description": "West Coast freehold landed values near a cyclical high at SGD 7.2M. A future disposal at SGD 7.5M–8.0M would realise SGD 2.0M–2.5M net gain (vs. SGD 5.5M acquisition + costs), suitable if family relocates or GoWell IPO liquidity needs arise." }
+  ],
+  "marketImplication": {
+    "title": "Structurally Sound Primary Residence — Refinance and Maintain; Monitor GSW Uplift",
+    "body": "42A West Coast Park is a textbook Singapore generational wealth asset: freehold detached landed in a supply-constrained, policy-protected segment with direct park frontage, a top-tier renovation, and strong long-term demand anchors from NUS, one-north, and the forthcoming Greater Southern Waterfront precinct. The primary near-term action is the UOB mortgage refinancing by Q3 2027 — the family should evaluate fixed-rate packages to lock out SORA volatility through 2030. The building age (28 years) warrants a structural survey in 2026 to identify any major works before the refinancing cycle. If the Zhang family's Singapore residential needs evolve — particularly if GoWell's IPO triggers a lifestyle relocation — rental activation at SGD 20,000–22,000/mo or strategic disposal at SGD 7.5M+ should be evaluated. For now: hold, refinance, and benefit from the Greater Southern Waterfront value trajectory."
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "incomeStatement": {
+    "rows": [
+      { "label": "REVENUE",                           "indent": 0, "type": "subtotal", "actual": 0,      "budget": 0,      "priorYear": 0 },
+      { "label": "Gross Rental Income (HKD 33K/mo)", "indent": 1, "type": "income",   "actual": 50928,  "budget": 50928,  "priorYear": 52224 },
+      { "label": "TOTAL REVENUE",                     "indent": 0, "type": "subtotal", "actual": 50928,  "budget": 50928,  "priorYear": 52224 },
+      { "label": "OPERATING EXPENSES",                "indent": 0, "type": "subtotal", "actual": 0,      "budget": 0,      "priorYear": 0 },
+      { "label": "Property Management Fee (2.5%)",   "indent": 1, "type": "expense",  "actual": -1273,  "budget": -1273,  "priorYear": -1306 },
+      { "label": "Building Management Fees",         "indent": 1, "type": "expense",  "actual": -3850,  "budget": -3800,  "priorYear": -3700 },
+      { "label": "Government Rates & Rent (HK)",     "indent": 1, "type": "expense",  "actual": -2580,  "budget": -2580,  "priorYear": -2450 },
+      { "label": "Insurance (HK)",                   "indent": 1, "type": "expense",  "actual": -820,   "budget": -800,   "priorYear": -780 },
+      { "label": "BVI Company Annual Fees",          "indent": 1, "type": "expense",  "actual": -3600,  "budget": -3600,  "priorYear": -3600 },
+      { "label": "TOTAL OPERATING EXPENSES",         "indent": 0, "type": "subtotal", "actual": -12123, "budget": -12053, "priorYear": -11836 },
+      { "label": "NET OPERATING INCOME (NOI)",       "indent": 0, "type": "noi",      "actual": 38805,  "budget": 38875,  "priorYear": 40388 },
+      { "label": "Property Tax Provision (HK)",      "indent": 1, "type": "deduction","actual": -12195, "budget": -12195, "priorYear": -13073 },
+      { "label": "PRE-TAX NET CASH FLOW",            "indent": 0, "type": "total",    "actual": 26610,  "budget": 26680,  "priorYear": 27315 }
+    ]
+  },
+  "valuation": {
+    "purchasePrice": 2180000,
+    "purchaseDate": "2017-06-15",
+    "lastAppraisalValue": 2750000,
+    "lastAppraisalDate": "2025-04-30",
+    "currentEstimatedValue": 2724200,
+    "impliedCapRate": "1.87%",
+    "valueChange": 544200,
+    "valueChangePct": 25.0,
+    "valuePM2": 21847,
+    "netEquity": 2724200,
+    "history": [
+      { "date": "2017-06-30", "value": 2180000 },
+      { "date": "2018-12-31", "value": 3440000 },
+      { "date": "2019-12-31", "value": 3290000 },
+      { "date": "2020-12-31", "value": 3100000 },
+      { "date": "2021-12-31", "value": 3250000 },
+      { "date": "2022-12-31", "value": 3040000 },
+      { "date": "2023-12-31", "value": 2945000 },
+      { "date": "2024-12-31", "value": 2850000 },
+      { "date": "2026-05-31", "value": 2724200 }
+    ]
+  },
+  "projections": {
+    "years": ["2026","2027","2028","2029","2030"],
+    "value": {
+      "Downside": [2550000, 2400000, 2300000, 2250000, 2300000],
+      "Base":     [2724200, 2750000, 2800000, 2850000, 2900000],
+      "Upside":   [2724200, 2850000, 3050000, 3200000, 3350000]
+    }
+  },
+  "capex": [
+    { "project": "Full Apartment Redecoration",   "year": 2024, "budgeted": 28000, "actual": 28000, "status": "Complete", "notes": "Completed Oct 2024 in advance of new tenancy commencement" },
+    { "project": "Air-conditioning Unit Replacement", "year": 2027, "budgeted": 8500, "actual": 0, "status": "Proposed", "notes": "Wall-mounted units nearing 10-year service life; budget for replacement" }
+  ]
+}

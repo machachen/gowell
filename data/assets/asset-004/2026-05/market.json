@@ -1,0 +1,68 @@
+{
+  "summary": {
+    "title": "Tsim Sha Tsui Luxury Residential Market — Q2 2026",
+    "narrative": "The TST luxury residential market has faced persistent headwinds since the 2021 peak, driven by Hong Kong's emigration wave (primarily to the UK and Canada), reduced mainland Chinese buyer interest due to capital controls, and ongoing macroeconomic uncertainty. However, the international tenant market — primarily expat banking, finance, and legal professionals — has remained more resilient than the capital market. The Masterpiece TST remains one of Hong Kong's most iconic luxury addresses and attracts the top tier of expat tenant demand.",
+    "keyThemes": [
+      "HK luxury residential values down ~14% from 2021 peak — further near-term softness likely",
+      "Expat rental demand resilient — driven by international financial institution hiring",
+      "TST maintains premium over NT and outer areas due to central location and brand recognition",
+      "Cap rates at 1.5–2.2% — income yield very low, capital value the primary return driver",
+      "Lease expiry Oct 2026 — strategic decision point: renew, re-let, or evaluate disposal"
+    ]
+  },
+  "assetCompetitiveness": {
+    "strengths": [
+      "The Masterpiece is one of HK's most recognised luxury residential addresses",
+      "TST core location — walking distance to cultural district, luxury retail, Star Ferry",
+      "Full hotel-like amenities: concierge, pool, gym, valet parking",
+      "Expat financial sector tenants seek this address for proximity to Central/TST offices"
+    ],
+    "weaknesses": [
+      "HK luxury market in multi-year decline since 2021 — capital value erosion risk",
+      "Low yield (1.87%) makes asset challenging to justify on income basis alone",
+      "Dated interior specification vs. newer luxury developments in West Kowloon",
+      "BVI holding structure adds annual compliance costs HKD ~28K"
+    ],
+    "opportunities": [
+      "Rent uplift on re-let if tenant departs — target HKD 33,000–35,000/mo from new tenant",
+      "West Kowloon Cultural District completion driving renewed expat interest in TST area",
+      "Disposal opportunity at current prices before further market deterioration — seek Savills advisory"
+    ],
+    "threats": [
+      "HK emigration trend continues — reduced talent pool for expat financial sector tenancy",
+      "Mainland China economic slowdown reduces Hong Kong status as financial hub",
+      "Stamp duty on non-resident buyers limits secondary market liquidity"
+    ]
+  },
+  "comparables": [
+    { "address": "The Masterpiece Tower 2 Unit 18A, 18 Hanoi Rd TST", "type": "Luxury Residential", "units": null, "yearBuilt": 2005, "soldDate": "2025-08-20", "salePrice": 2650000, "pricePerUnit": null, "pricePM2": 21281, "capRate": "1.9%", "occupancy": "Owner-occ", "notes": "Same development; smaller unit 124.5 sqm; post-lease sale to end-user" },
+    { "address": "The Cullinan Tower 1, 1 Austin Rd West, West Kowloon", "type": "Luxury Residential", "units": null, "yearBuilt": 2010, "soldDate": "2026-01-15", "salePrice": 3200000, "pricePerUnit": null, "pricePM2": 23529, "capRate": "1.7%", "occupancy": "Leased", "notes": "136 sqm; premium newer building; slight premium to The Masterpiece" },
+    { "address": "K11 Atelier, 18 Salisbury Rd, TST", "type": "Luxury Residential", "units": null, "yearBuilt": 2021, "soldDate": "2025-11-10", "salePrice": 3100000, "pricePerUnit": null, "pricePM2": 25000, "capRate": "2.1%", "occupancy": "Leased", "notes": "Newer development; 124 sqm; K11 brand premium; slightly higher cap rate" }
+  ],
+  "rentComparables": [
+    { "address": "Unit 12A Tower 1, The Masterpiece (Subject)", "unitType": "3BR Luxury", "areaM2": 124.7, "askingRent": "HKD 33,000", "rentPM2": "HKD 265/sqm", "occupancy": "100%", "amenities": "Concierge, pool, gym, valet", "isSubject": true },
+    { "address": "The Cullinan Tower 2, West Kowloon", "unitType": "3BR Luxury", "areaM2": 130.0, "askingRent": "HKD 38,000", "rentPM2": "HKD 292/sqm", "occupancy": "Leased", "amenities": "Hotel services, ICC address", "isSubject": false },
+    { "address": "K11 Atelier 3BR, TST", "unitType": "3BR Luxury", "areaM2": 124.0, "askingRent": "HKD 35,000", "rentPM2": "HKD 282/sqm", "occupancy": "Leased", "amenities": "New build, hotel facilities", "isSubject": false }
+  ],
+  "capRateTrend": {
+    "labels": ["Q1'22","Q3'22","Q1'23","Q3'23","Q1'24","Q3'24","Q1'25","Q3'25","Q1'26"],
+    "values": [1.55, 1.62, 1.72, 1.78, 1.82, 1.85, 1.87, 1.88, 1.87]
+  },
+  "vacancyTrend": {
+    "labels": ["Q1'24","Q2'24","Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26"],
+    "submarket": [7.2, 7.0, 6.8, 6.9, 7.0, 6.8, 6.8, 6.9, 6.8],
+    "asset": [2, 2, 2, 0, 0, 0, 0, 0, 0]
+  },
+  "marketRisks": [
+    { "level": "High", "title": "HK Luxury Residential Further Decline", "description": "Structural headwinds from emigration and reduced mainland demand could push TST luxury values down a further 8–12% by 2027." },
+    { "level": "Medium", "title": "Tenant Departure on Lease Expiry", "description": "If tenant does not renew, 2–3 month void period reduces annual NOI by $8,500–$12,700." }
+  ],
+  "marketOpportunities": [
+    { "title": "West Kowloon Cultural District Completion", "description": "M+ Museum and Xiqu Centre are drawing international cultural tourists and improving TST neighbourhood perception, supporting luxury residential demand." },
+    { "title": "International Financial Institution Hiring", "description": "Standard Chartered, HSBC, and other IFIs hiring in HK supports demand for TST luxury expat accommodation at HKD 30,000–40,000/mo." }
+  ],
+  "marketImplication": {
+    "title": "Lease Expiry is the Critical Decision Point — Strategic Review Required",
+    "body": "With the tenancy expiring October 2026, the Zhang Family Trust faces a genuine strategic fork: (A) Re-let at HKD 31,000–35,000/mo — maintaining positive cash flow at 1.7–1.9% yield; (B) Hold vacant for family use — negative carry of $15,000–20,000/yr; (C) Evaluate disposal — current HKD 21.2M may represent a reasonable exit in a declining market. The asset has lost ~14% vs. its 2021 peak and further near-term softness is the more likely scenario. A Savills disposal analysis would provide quantitative basis for the decision. Recommendation: obtain formal market advisory before August 2026, when the re-letting window opens."
+  }
+}

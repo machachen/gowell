@@ -1,0 +1,25 @@
+{
+  "summary": { "overallRiskLevel": "Medium", "lastReviewed": "2026-05-12", "highRisks": 1, "mediumRisks": 2, "lowRisks": 2 },
+  "register": [
+    { "id": "R01", "category": "Leasing", "title": "Lease Expiry — Vacancy Risk", "description": "Current tenancy expires Oct 2026. Tenant requesting 5–8% rent reduction; failure to agree could result in 2–3 month vacancy.", "probability": 3, "impact": 3, "riskScore": 9, "level": "High", "owner": "Asset Manager", "status": "Open" },
+    { "id": "R02", "category": "Market", "title": "HK Luxury Residential Decline", "description": "TST luxury residential market has declined ~14% from 2021 peak; further deterioration driven by emigration and reduced mainland buyer demand.", "probability": 3, "impact": 3, "riskScore": 9, "level": "Medium", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R03", "category": "Regulatory", "title": "HK Government Cooling Measures", "description": "Government stamp duty or rental regulation changes could impact rental yield and capital value.", "probability": 2, "impact": 3, "riskScore": 6, "level": "Medium", "owner": "Legal / Asset Manager", "status": "Monitoring" },
+    { "id": "R04", "category": "Operations", "title": "Tenant Damage / Rent Default", "description": "Tenant default or property damage risk; mitigated by 2-month security deposit held.", "probability": 1, "impact": 2, "riskScore": 2, "level": "Low", "owner": "Property Manager", "status": "Monitoring" },
+    { "id": "R05", "category": "Macro", "title": "HKD Peg — No FX Risk", "description": "HKD pegged to USD; no material FX risk for USD-reporting trust.", "probability": 1, "impact": 1, "riskScore": 1, "level": "Low", "owner": "Treasury", "status": "Monitoring" }
+  ],
+  "scenarios": [
+    { "name": "Tenant Vacates — 3-Month Void Period", "baseCashFlow": 50900, "scenarioCashFlow": 25000, "cashFlowDelta": -25900, "verdict": "Manageable — 3 months vacancy costs ~$12,700 USD; re-let at HKD 31,000/mo recovers within 6 months." },
+    { "name": "HK Market Decline 15% — Valuation Impact", "baseValue": 2724200, "scenarioValue": 2315000, "scenarioLTV": 0.0, "verdict": "Asset unencumbered — no LTV covenant risk. Capital loss of $409K unrealised; hold strategy appropriate given family trust horizon." }
+  ],
+  "scenarioChart": {
+    "labels": ["2026","2027","2028","2029","2030"],
+    "cashFlow": {
+      "Downside": [25000, 42000, 44000, 45000, 46000],
+      "Base":     [50900, 52000, 53000, 54000, 55000],
+      "Upside":   [50900, 56000, 60000, 63000, 66000]
+    }
+  },
+  "mitigationPlan": [
+    { "riskId": "R01", "action": "Engage Savills HK to advise on renewal strategy; obtain market comp data to counter tenant rent reduction request", "owner": "Asset Manager", "deadline": "2026-08-01", "status": "Open" }
+  ]
+}

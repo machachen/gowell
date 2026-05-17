@@ -1,0 +1,24 @@
+{
+  "summary": { "overallRiskLevel": "Low", "lastReviewed": "2026-05-12", "highRisks": 0, "mediumRisks": 1, "lowRisks": 3 },
+  "register": [
+    { "id": "R01", "category": "Market", "title": "Downtown Dubai Oversupply", "description": "~12,000 units in Downtown Dubai pipeline 2025–2027; branded residence premium of Address Boulevard partially insulates but broad market softness possible.", "probability": 2, "impact": 3, "riskScore": 6, "level": "Medium", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R02", "category": "Operations", "title": "Hotel Management Fee Inflation", "description": "Emaar Hospitality service charges at AED 30/sqft/yr (~$6,800/yr) are high end; increases are passed directly to unit owners.", "probability": 2, "impact": 1, "riskScore": 2, "level": "Low", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R03", "category": "Leasing", "title": "O&G Sector Tenant Departure", "description": "Tenant is energy sector consultant; departure risk if employer relocates or oil cycle turns; Downtown Dubai diverse tenant base supports rapid re-let.", "probability": 1, "impact": 2, "riskScore": 2, "level": "Low", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R04", "category": "Macro", "title": "Global Real Estate Capital Rotation", "description": "Institutional capital rotation away from Dubai could impact branded residence pricing; current cycle remains very positive.", "probability": 1, "impact": 2, "riskScore": 2, "level": "Low", "owner": "Asset Manager", "status": "Monitoring" }
+  ],
+  "scenarios": [
+    { "name": "30-Day Vacancy on Tenant Turnover (May 2027)", "baseCashFlow": 46800, "scenarioCashFlow": 42700, "cashFlowDelta": -4100, "verdict": "Low impact — 30-day void at AED 172K/yr = AED 14,333 ($3,900 USD). Address Boulevard typically re-lets in 2–3 weeks at this price point." },
+    { "name": "Supply Pressures — Rent Flat at Renewal", "baseCashFlow": 46800, "scenarioCashFlow": 46800, "cashFlowDelta": 0, "verdict": "Even flat renewal at AED 172K remains strong positive carry at 4.80% cap rate. Upside target AED 178K–185K. No base downside risk." }
+  ],
+  "scenarioChart": {
+    "labels": ["2026","2027","2028","2029","2030"],
+    "cashFlow": {
+      "Downside": [35000, 34000, 35000, 37000, 39000],
+      "Base":     [46800, 49000, 52000, 55000, 58000],
+      "Upside":   [46800, 54000, 62000, 70000, 78000]
+    }
+  },
+  "mitigationPlan": [
+    { "riskId": "R01", "action": "Monitor Dubai Marina 2025–2027 supply delivery; review pricing strategy 3 months before lease expiry", "owner": "Asset Manager", "deadline": "2027-02-28", "status": "Open" }
+  ]
+}

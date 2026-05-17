@@ -1,0 +1,107 @@
+{
+  "summary": {
+    "narrative": "Marina Gate I Unit 2304 is a 106.4 sqm (2-bedroom) investment apartment on the 23rd floor of Marina Gate I, one of Select Group's flagship developments at Al Safouh Road, Dubai Marina. The unit was acquired in 2022 for AED 2.28M and has appreciated 15.0% to an assessed AED 2.62M (USD 713,226). It is currently let to a Swiss financial analyst on an annual tenancy at AED 138,000/year (USD 37,600), producing a net cap rate of 5.27% — one of the strongest yielding assets in the portfolio. Dubai Marina continues to demonstrate rental resilience underpinned by expat financial sector demand, with the subject building commanding a premium due to its full-service amenities including infinity pool, private beach access, and direct marina frontage.",
+    "keyMessage": "USD 713K · AED 138K/yr rent · 5.27% cap rate · 15% appreciation since 2022 acquisition · Tenant in 2nd year — strong occupancy"
+  },
+  "basicInfo": {
+    "assetName": "Marina Gate I — Unit 2304, Dubai Marina",
+    "assetType": "Residential Apartment — Investment",
+    "location": "Unit 2304, Marina Gate I, Al Safouh Road, Dubai Marina, Dubai, UAE",
+    "submarket": "Dubai Marina — Premium Residential",
+    "yearBuilt": 2019,
+    "yearAcquired": 2022,
+    "totalSQM": 106.4,
+    "currentStatus": "Leased — Annual Tenancy, Swiss financial analyst",
+    "reportingPeriod": "Q2 2026 (May 2026)",
+    "ownershipSummary": "Zhang Xi (Personal) — held in trust nominee structure (BVI entity)",
+    "tenure": "Freehold (Dubai Marina is a designated freehold zone)"
+  },
+  "keyFigures": [
+    { "label": "Assessed Value",  "value": "$713,226",    "subLabel": "AED 2.62M · Q2 2026",         "trend": "up",   "trendValue": "+5.2% YoY" },
+    { "label": "Annual Rent",     "value": "$37,600",     "subLabel": "AED 138,000 / year",           "trend": "up",   "trendValue": "+2.2% YoY" },
+    { "label": "Net Cap Rate",    "value": "5.27%",       "subLabel": "Strong Dubai Marina yield",    "trend": "flat", "trendValue": "Above mkt avg" },
+    { "label": "Acquisition Cost","value": "$620,900",    "subLabel": "AED 2.28M · 2022",             "trend": "flat", "trendValue": "+$92K uplift" },
+    { "label": "Debt",            "value": "$0",          "subLabel": "Unencumbered",                 "trend": "flat", "trendValue": "—" },
+    { "label": "Tenant",         "value": "Yr 2 of 2",  "subLabel": "Swiss financial analyst",      "trend": "flat", "trendValue": "Renewal Apr 2027" }
+  ],
+  "kpiCards": [
+    {
+      "id": "rent",
+      "title": "Annual Rental Income (AED)",
+      "value": "AED 138,000",
+      "period": "TTM May 2026",
+      "trend": "+AED 3,000 on renewal",
+      "trendDir": "pos",
+      "chartType": "bar",
+      "chartData": {
+        "labels": ["2022","2023","2024","2025","2026"],
+        "values": [120000, 128000, 132000, 135000, 138000]
+      }
+    },
+    {
+      "id": "value",
+      "title": "Asset Value (AED M)",
+      "value": "AED 2.62M",
+      "period": "Q2 2026",
+      "trend": "+15.0% since acquisition",
+      "trendDir": "pos",
+      "chartType": "line",
+      "chartData": {
+        "labels": ["2022","2023","2024","2025","2026"],
+        "values": [2280000, 2420000, 2500000, 2490000, 2620000]
+      }
+    },
+    {
+      "id": "caprate",
+      "title": "Net Cap Rate",
+      "value": "5.27%",
+      "period": "Q2 2026",
+      "trend": "Stable vs. 5.20% last year",
+      "trendDir": "flat",
+      "chartType": "line",
+      "chartData": {
+        "labels": ["2022","2023","2024","2025","2026"],
+        "values": [5.26, 5.29, 5.28, 5.20, 5.27]
+      }
+    }
+  ],
+  "actions": [
+    {
+      "title": "Tenant Renewal Planning — Lease Expires April 2027",
+      "priority": "Low",
+      "status": "Open",
+      "recommendation": "Begin tenant renewal discussions 3 months before lease expiry (January 2027). Dubai Marina 2BR market is currently achieving AED 140,000–155,000/yr; target AED 143,000–148,000 on renewal — 4–7% uplift from current AED 138,000. Engage Better Homes or Espace Real Estate to handle renewal.",
+      "decisionNeeded": "No immediate action — monitor from November 2026",
+      "owner": "Asset Manager / Dubai Property Agent",
+      "deadline": "2027-01-31"
+    },
+    {
+      "title": "Service Charge Annual Budget Review",
+      "priority": "Low",
+      "status": "Open",
+      "recommendation": "Marina Gate I RERA-registered service charges are approximately AED 18/sqft/yr (AED 20,600/yr or $5,600/yr). Verify latest RERA service charge index filing for 2026 and ensure correct accounting in OpEx model.",
+      "decisionNeeded": "Confirm 2026 service charge amount from Select Group building management",
+      "owner": "Asset Manager",
+      "deadline": "2026-07-31"
+    }
+  ],
+  "linkedDocuments": [
+    { "name": "Title Deed — Unit 2304 Marina Gate I (Dubai Land Dept.)",  "category": "Legal",      "date": "2022-09-15", "type": "PDF" },
+    { "name": "Tenancy Agreement — Swiss analyst (Apr 2025–Apr 2027)",    "category": "Legal",      "date": "2025-04-01", "type": "PDF" },
+    { "name": "Asteco Valuation — AED 2.62M (Q1 2026)",                   "category": "Valuation",  "date": "2026-01-31", "type": "PDF" },
+    { "name": "RERA Service Charge Certificate 2025",                     "category": "Compliance", "date": "2025-12-15", "type": "PDF" }
+  ],
+  "topRisks": [
+    { "level": "Low",    "title": "Dubai Marina Market Saturation",     "impact": "Pipeline of new supply in Dubai Marina over 2025–2027 (~8,000 units) could compress rental rates; subject well-positioned due to Marina Gate I premium positioning." },
+    { "level": "Low",    "title": "AED/USD Exchange Rate Stability",   "impact": "AED pegged to USD at 3.6725 — no material FX risk for USD-reporting trust." },
+    { "level": "Low",    "title": "Tenant Turnover on Lease Expiry",   "impact": "Some risk of 1–2 month vacancy on renewal if tenant relocates; Dubai Marina typically re-lets within 30–45 days at this price point." }
+  ],
+  "marketSnapshot": {
+    "submarket": "Dubai Marina — Premium 2BR Residential",
+    "medianRentPM2": "AED 100–130 / sqm / year (Dubai Marina, 2BR, Q1 2026)",
+    "vacancyRate": "4.8% (Dubai Marina residential, Q1 2026)",
+    "yoyRentGrowth": "+7.2% (Dubai Marina, 2025–2026)",
+    "assetVsMarket": "Subject: AED 1,297/sqm/yr — at lower end of Marina Gate I premium comp set; upside on renewal to AED 1,350–1,425/sqm",
+    "capRateBenchmark": "4.8%–5.8% (Dubai Marina, 2BR, Q1 2026)"
+  }
+}

@@ -1,0 +1,60 @@
+{
+  "incomeStatement": {
+    "rows": [
+      { "label": "REVENUE",                             "indent": 0, "type": "subtotal", "actual": 0,        "budget": 0,        "priorYear": 0 },
+      { "label": "Dormitory Rental Income (65 units)",  "indent": 1, "type": "income",   "actual": 351000,   "budget": 360000,   "priorYear": 362400 },
+      { "label": "Laundry / Vending Income",            "indent": 1, "type": "income",   "actual": 8400,     "budget": 8000,     "priorYear": 7800 },
+      { "label": "TOTAL REVENUE",                       "indent": 0, "type": "subtotal", "actual": 359400,   "budget": 368000,   "priorYear": 370200 },
+      { "label": "OPERATING EXPENSES",                  "indent": 0, "type": "subtotal", "actual": 0,        "budget": 0,        "priorYear": 0 },
+      { "label": "Property Management Fee (5%)",        "indent": 1, "type": "expense",  "actual": -17970,   "budget": -18400,   "priorYear": -18510 },
+      { "label": "Utilities — Common Areas",            "indent": 1, "type": "expense",  "actual": -62000,   "budget": -60000,   "priorYear": -58500 },
+      { "label": "Property Insurance",                  "indent": 1, "type": "expense",  "actual": -28500,   "budget": -28000,   "priorYear": -27200 },
+      { "label": "Maintenance & Repairs",               "indent": 1, "type": "expense",  "actual": -45200,   "budget": -40000,   "priorYear": -38900 },
+      { "label": "Property Tax (Harris County)",        "indent": 1, "type": "expense",  "actual": -42000,   "budget": -42000,   "priorYear": -41300 },
+      { "label": "Landscaping & Groundskeeping",        "indent": 1, "type": "expense",  "actual": -8400,    "budget": -8000,    "priorYear": -7800 },
+      { "label": "Pest Control & Security",             "indent": 1, "type": "expense",  "actual": -7800,    "budget": -7600,    "priorYear": -7400 },
+      { "label": "Legal & Professional",                "indent": 1, "type": "expense",  "actual": -12000,   "budget": -10000,   "priorYear": -8500 },
+      { "label": "Administrative & Other",              "indent": 1, "type": "expense",  "actual": -4530,    "budget": -5000,    "priorYear": -4800 },
+      { "label": "TOTAL OPERATING EXPENSES",            "indent": 0, "type": "subtotal", "actual": -228400,  "budget": -219000,  "priorYear": -212910 },
+      { "label": "NET OPERATING INCOME (NOI)",          "indent": 0, "type": "noi",      "actual": 131000,   "budget": 149000,   "priorYear": 157290 },
+      { "label": "Interest Expense (Regions Bank 5.15%)", "indent": 1, "type": "deduction","actual": -211150,"budget": -211150,  "priorYear": -211150 },
+      { "label": "Principal Repayment",                 "indent": 1, "type": "deduction","actual": -128850,  "budget": -128850,  "priorYear": -128850 },
+      { "label": "PRE-TAX NET CASH FLOW",               "indent": 0, "type": "total",    "actual": -209000,  "budget": -191000,  "priorYear": -182710 }
+    ]
+  },
+  "valuation": {
+    "purchasePrice": 9300000,
+    "purchaseDate": "2019-08-01",
+    "lastAppraisalValue": 10000000,
+    "lastAppraisalDate": "2025-06-30",
+    "currentEstimatedValue": 10200000,
+    "impliedCapRate": "1.28% (subsidised use — effective cap rate artificially low)",
+    "valueChange": 900000,
+    "valueChangePct": 9.7,
+    "valuePM2": 1372,
+    "netEquity": 6100000,
+    "history": [
+      { "date": "2019-08-01", "value": 9300000 },
+      { "date": "2020-12-31", "value": 8400000 },
+      { "date": "2021-12-31", "value": 9000000 },
+      { "date": "2022-12-31", "value": 9500000 },
+      { "date": "2023-12-31", "value": 9800000 },
+      { "date": "2024-12-31", "value": 10000000 },
+      { "date": "2026-05-31", "value": 10200000 }
+    ]
+  },
+  "projections": {
+    "years": ["2026","2027","2028","2029","2030"],
+    "value": {
+      "Downside": [9500000, 9200000, 9000000, 9100000, 9300000],
+      "Base":     [10200000, 10400000, 10650000, 10900000, 11150000],
+      "Upside":   [10200000, 10800000, 11400000, 12000000, 12600000]
+    }
+  },
+  "capex": [
+    { "project": "HVAC Replacement Phase 1 — Building A East Wing",  "year": 2024, "budgeted": 185000, "actual": 185000, "status": "Complete",    "notes": "24 units replaced; 5-ton Carrier units; completed Oct 2024" },
+    { "project": "HVAC Replacement Phase 2 — Building A West Wing",  "year": 2026, "budgeted": 185000, "actual": 0,      "status": "Not Started", "notes": "24 units; contractor quotes pending; urgent for summer 2026" },
+    { "project": "Building B Exterior Waterproofing",                 "year": 2025, "budgeted": 115000, "actual": 115000, "status": "Complete",    "notes": "Completed Nov 2024; 10-year waterproofing warranty" },
+    { "project": "Community Room & Fitness Centre Upgrade",           "year": 2027, "budgeted": 95000,  "actual": 0,      "status": "Proposed",    "notes": "Improve occupancy rate and tenant retention" }
+  ]
+}

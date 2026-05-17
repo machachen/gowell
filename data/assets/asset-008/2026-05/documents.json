@@ -1,0 +1,15 @@
+{
+  "importantDocuments": [
+    { "name": "Title Deed — Unit 15B Oceana Atlantic, Palm Jumeirah",          "category": "Legal",     "date": "2022-10-20", "type": "PDF", "notes": "Registered in name of Oceana Palm Holdings Ltd. (BVI); freehold title" },
+    { "name": "Knight Frank Valuation — AED 7.80M (Q1 2026)",                  "category": "Valuation", "date": "2026-02-28", "type": "PDF", "notes": "+50.3% appreciation from AED 5.19M acquisition; key portfolio wealth asset" },
+    { "name": "Nakheel Service Charge Notice 2025",                            "category": "Finance",   "date": "2025-12-01", "type": "PDF", "notes": "AED 52,000/yr confirmed; RERA-registered; 2026 amount to be confirmed" }
+  ],
+  "library": [
+    { "id": "DOC-001", "name": "Dubai Land Dept. Title Deed — Unit 15B Oceana Atlantic",  "category": "Legal",     "date": "2022-10-20", "source": "Dubai Land Department", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Oceana Palm Holdings Ltd. (BVI); freehold Palm Jumeirah title" },
+    { "id": "DOC-002", "name": "S&P Agreement — AED 5.19M (October 2022)",                "category": "Legal",     "date": "2022-09-15", "source": "Seller / Agent", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Secondary market acquisition; excellent post-COVID entry pricing" },
+    { "id": "DOC-003", "name": "Knight Frank Valuation — AED 7.80M (Feb 2026)",           "category": "Valuation", "date": "2026-02-28", "source": "Knight Frank Dubai", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "Desk-based comparable analysis; Oceana Atlantic transactions reviewed" },
+    { "id": "DOC-004", "name": "Interior Fit-out Contract — Luxury Living Interiors",     "category": "Capital Works","date": "2022-11-01", "source": "Luxury Living Interiors Dubai", "relatedSection": "Operations", "type": "PDF", "notes": "USD 85,000 full fit-out; completed Jan 2023; full specifications attached" },
+    { "id": "DOC-005", "name": "Nakheel Communities Service Charge 2025",                 "category": "Finance",   "date": "2025-12-01", "source": "Nakheel Communities", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "AED 52,000/yr; RERA-registered service charge" },
+    { "id": "DOC-006", "name": "AXA UAE Insurance Policy — Oceana 15B",                  "category": "Insurance", "date": "2025-10-22", "source": "AXA UAE", "relatedSection": "Operations", "type": "PDF", "notes": "Contents AED 500K + liability; annual renewal Oct 2026" }
+  ]
+}

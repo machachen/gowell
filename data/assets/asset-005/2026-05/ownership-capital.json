@@ -1,0 +1,35 @@
+{
+  "entity": {
+    "name": "Bel-Air PFL Holdings Ltd.",
+    "type": "BVI Business Company",
+    "registered": "British Virgin Islands",
+    "taxElection": "BVI — no corporate income tax; Hong Kong stamp duty paid on transfer",
+    "formed": "2019-01-22"
+  },
+  "owners": [
+    {
+      "name": "Zhang Family Trust (BVI)",
+      "type": "Trust",
+      "role": "Beneficial Owner (100%)",
+      "ownershipPct": 100.0,
+      "equityContributed": 2510000,
+      "currentEquityValue": 2287300,
+      "since": "2019"
+    }
+  ],
+  "capitalContributions": [
+    { "date": "2019-04-12", "contributor": "Zhang Family Trust", "type": "Acquisition",       "amount": 2510000,  "note": "Purchase price HKD 19.53M; USD 2.51M at acquisition rate; all-equity, no mortgage" },
+    { "date": "2021-08-10", "contributor": "Zhang Family Trust", "type": "Capital Expenditure","amount": 42000,    "note": "Kitchen and master bathroom renovation prior to partial-let arrangement" }
+  ],
+  "capitalStack": {
+    "assetValue": 2287300,
+    "seniorDebt": 0,
+    "seniorDebtPct": 0.0,
+    "netEquity": 2287300,
+    "equityPct": 100.0,
+    "equityContributed": 2552000,
+    "accumulatedRetainedEarnings": -264700
+  },
+  "debtSummary": [],
+  "guaranteesObligations": []
+}

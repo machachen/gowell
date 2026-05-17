@@ -1,0 +1,14 @@
+{
+  "importantDocuments": [
+    { "name": "Property Title — Unit 11C Tower 7 Residence Bel-Air",    "category": "Legal",      "date": "2019-04-12", "type": "PDF", "notes": "Registered in name of BVI company: Bel-Air PFL Holdings Ltd." },
+    { "name": "Knight Frank Valuation — HKD 18.2M (Oct 2023)",         "category": "Valuation",  "date": "2023-10-15", "type": "PDF", "notes": "Most recent valuation — OVERDUE for refresh; market declined since" },
+    { "name": "CBRE Short-term Letting Agreement (2023–2026)",         "category": "Operations", "date": "2023-11-01", "type": "PDF", "notes": "3-year letting management arrangement; expires Nov 2026" }
+  ],
+  "library": [
+    { "id": "DOC-001", "name": "Property Title — Unit 11C Tower 7 Residence Bel-Air",  "category": "Legal",      "date": "2019-04-12", "source": "Land Registry HK", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Bel-Air PFL Holdings Ltd. registered owner" },
+    { "id": "DOC-002", "name": "S&P Agreement — 2019 Acquisition (HKD 19.53M)",         "category": "Legal",      "date": "2019-02-15", "source": "Solicitors / Developer", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "All-equity acquisition; completion April 2019" },
+    { "id": "DOC-003", "name": "Knight Frank Valuation — HKD 18.2M (Oct 2023)",         "category": "Valuation",  "date": "2023-10-15", "source": "Knight Frank HK", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "Last formal valuation; update required Q3 2026" },
+    { "id": "DOC-004", "name": "CBRE Residential Management Agreement (2023–2026)",     "category": "Operations", "date": "2023-11-01", "source": "CBRE HK Residential", "relatedSection": "Operations", "type": "PDF", "notes": "Short-term letting management; 5% letting fee; expires Nov 2026" },
+    { "id": "DOC-005", "name": "QBE Landlord Insurance Policy 2026",                    "category": "Insurance",  "date": "2026-04-01", "source": "QBE Hong Kong", "relatedSection": "Operations", "type": "PDF", "notes": "Annual policy; contents HKD 600K; liability HKD 3M" }
+  ]
+}

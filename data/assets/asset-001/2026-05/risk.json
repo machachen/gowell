@@ -1,0 +1,46 @@
+{
+  "summary": {
+    "overallRiskLevel": "Medium",
+    "lastReviewed": "2026-05-12",
+    "highRisks": 1,
+    "mediumRisks": 2,
+    "lowRisks": 3
+  },
+  "register": [
+    { "id": "R01", "category": "IPO / Regulatory", "title": "SGX Disclosure Non-Compliance", "description": "Failure to correctly ring-fence or disclose HQ property in IPO prospectus could trigger MAS/SGX action.", "probability": 3, "impact": 5, "riskScore": 15, "level": "High", "owner": "CFO / Legal Counsel", "status": "Open" },
+    { "id": "R02", "category": "Leasehold", "title": "JTC Lease Residual — Change of Control", "description": "SGX listing constitutes a change in beneficial ownership; JTC consent may be required under lease terms.", "probability": 3, "impact": 3, "riskScore": 9, "level": "Medium", "owner": "Corporate Secretary", "status": "Open" },
+    { "id": "R03", "category": "Market", "title": "JID Industrial Strata Value Softening", "description": "Jurong industrial strata remains illiquid; any forced sale or refinancing would face limited buyer pool.", "probability": 2, "impact": 3, "riskScore": 6, "level": "Medium", "owner": "Asset Manager", "status": "Monitoring" },
+    { "id": "R04", "category": "Operations", "title": "Utility / SCDF Compliance Failure", "description": "Annual fire safety certificate renewal; failure to maintain could trigger SCDF closure order.", "probability": 1, "impact": 3, "riskScore": 3, "level": "Low", "owner": "Building Manager", "status": "Monitoring" },
+    { "id": "R05", "category": "Operations", "title": "IT Infrastructure Failure", "description": "Aging UPS and server room infrastructure — failure could cause GoWell corporate data loss or downtime.", "probability": 2, "impact": 2, "riskScore": 4, "level": "Low", "owner": "IT Manager", "status": "Open" },
+    { "id": "R06", "category": "Macro", "title": "Singapore Industrial Real Estate Policy", "description": "JTC policy changes on industrial zoning or land use could affect permitted use or lease extension terms.", "probability": 1, "impact": 2, "riskScore": 2, "level": "Low", "owner": "Property Manager", "status": "Monitoring" }
+  ],
+  "scenarios": [
+    {
+      "name": "IPO Disclosure Error — SGX Action",
+      "baseValue": 3479580,
+      "scenarioValue": 3479580,
+      "scenarioLTV": 0.0,
+      "verdict": "Non-financial risk — reputational and regulatory impact; no direct asset value impact but could delay IPO by 6–12 months, costing significant advisory fees and management bandwidth."
+    },
+    {
+      "name": "JTC Refuses Lease Extension (2038)",
+      "baseValue": 3479580,
+      "scenarioValue": 1200000,
+      "scenarioLTV": 0.0,
+      "verdict": "If JTC does not renew the 30-year lease, residual value of the strata title approaches nil. Probability low but outcome is severe — contingency planning should begin by 2030."
+    }
+  ],
+  "scenarioChart": {
+    "labels": ["2026","2027","2028","2029","2030"],
+    "cashFlow": {
+      "Downside": [-85000, -88000, -91000, -94000, -97000],
+      "Base":     [-63200, -65000, -67000, -69000, -71000],
+      "Upside":   [-63200, -62000, -60000, -58000, -56000]
+    }
+  },
+  "mitigationPlan": [
+    { "riskId": "R01", "action": "Engage KPMG for independent HQ valuation; seek SGX pre-clearance on asset disclosure approach", "owner": "CFO / Legal", "deadline": "2026-07-31", "status": "In Progress" },
+    { "riskId": "R02", "action": "Obtain formal legal opinion from Rajah & Tann on JTC change-of-control consent requirement", "owner": "Corporate Secretary", "deadline": "2026-08-31", "status": "Open" },
+    { "riskId": "R05", "action": "Procure replacement APC UPS units; schedule server room infrastructure upgrade Q3 2026", "owner": "IT Manager", "deadline": "2026-09-30", "status": "Open" }
+  ]
+}

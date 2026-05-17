@@ -1,0 +1,56 @@
+{
+  "incomeStatement": {
+    "rows": [
+      { "label": "REVENUE",                       "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "Rental Income",                 "indent": 1, "type": "income",   "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "Other Operating Income",        "indent": 1, "type": "income",   "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "TOTAL REVENUE",                 "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "OPERATING EXPENSES",            "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "Property Tax (IRAS AV-based)",  "indent": 1, "type": "expense",  "actual": -14200,  "budget": -14000,  "priorYear": -13800 },
+      { "label": "JTC Service & Maintenance",     "indent": 1, "type": "expense",  "actual": -23800,  "budget": -24000,  "priorYear": -22500 },
+      { "label": "Utilities (Electricity)",       "indent": 1, "type": "expense",  "actual": -17400,  "budget": -18000,  "priorYear": -16900 },
+      { "label": "Building Insurance",            "indent": 1, "type": "expense",  "actual": -4200,   "budget": -4200,   "priorYear": -4100 },
+      { "label": "Security & Access Control",     "indent": 1, "type": "expense",  "actual": -2100,   "budget": -2200,   "priorYear": -2000 },
+      { "label": "Minor Repairs & Maintenance",   "indent": 1, "type": "expense",  "actual": -1500,   "budget": -2000,   "priorYear": -3200 },
+      { "label": "TOTAL OPERATING EXPENSES",      "indent": 0, "type": "subtotal", "actual": -63200,  "budget": -64400,  "priorYear": -62500 },
+      { "label": "NET OPERATING INCOME (NOI)",    "indent": 0, "type": "noi",      "actual": -63200,  "budget": -64400,  "priorYear": -62500 },
+      { "label": "Debt Service",                  "indent": 1, "type": "deduction","actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "PRE-TAX NET CASH FLOW",         "indent": 0, "type": "total",    "actual": -63200,  "budget": -64400,  "priorYear": -62500 }
+    ]
+  },
+  "valuation": {
+    "purchasePrice": 2580000,
+    "purchaseDate": "2016-11-15",
+    "lastAppraisalValue": 3420000,
+    "lastAppraisalDate": "2025-06-30",
+    "currentEstimatedValue": 3479580,
+    "impliedCapRate": "N/A (owner-occupied)",
+    "valueChange": 899580,
+    "valueChangePct": 34.9,
+    "valuePM2": 4971,
+    "netEquity": 3479580,
+    "history": [
+      { "date": "2016-12-31", "value": 2580000 },
+      { "date": "2018-12-31", "value": 2780000 },
+      { "date": "2020-12-31", "value": 2950000 },
+      { "date": "2021-12-31", "value": 3100000 },
+      { "date": "2022-12-31", "value": 3250000 },
+      { "date": "2023-12-31", "value": 3380000 },
+      { "date": "2024-12-31", "value": 3420000 },
+      { "date": "2026-05-31", "value": 3479580 }
+    ]
+  },
+  "projections": {
+    "years": ["2026","2027","2028","2029","2030"],
+    "value": {
+      "Downside": [3350000, 3280000, 3200000, 3150000, 3100000],
+      "Base":     [3479580, 3545000, 3615000, 3688000, 3762000],
+      "Upside":   [3479580, 3640000, 3820000, 3960000, 4100000]
+    }
+  },
+  "capex": [
+    { "project": "Fire Suppression System Annual Check",    "year": 2026, "budgeted": 8500,   "actual": 8500,   "status": "Complete",     "notes": "Annual SCDF FSC renewal — completed March 2026" },
+    { "project": "Server Room UPS Replacement",            "year": 2026, "budgeted": 22000,  "actual": 0,      "status": "Not Started",  "notes": "APC UPS units end of life — Q3 2026 target" },
+    { "project": "Office Fit-out Refresh — Meeting Rooms", "year": 2027, "budgeted": 45000,  "actual": 0,      "status": "Proposed",     "notes": "Partial refresh for IPO road-show presentation quality" }
+  ]
+}

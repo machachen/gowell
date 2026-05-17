@@ -1,0 +1,49 @@
+{
+  "incomeStatement": {
+    "rows": [
+      { "label": "REVENUE",                          "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "Rental Income (self-use only)",   "indent": 1, "type": "income",   "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "TOTAL REVENUE",                    "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "HOLDING EXPENSES",                 "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "Service Charges (Nakheel)",       "indent": 1, "type": "expense",  "actual": -14159,  "budget": -14159,  "priorYear": -13718 },
+      { "label": "BVI / Trust Maintenance Fees",    "indent": 1, "type": "expense",  "actual": -2800,   "budget": -2800,   "priorYear": -2800 },
+      { "label": "Insurance",                       "indent": 1, "type": "expense",  "actual": -980,    "budget": -980,    "priorYear": -920 },
+      { "label": "Utilities (family stays ~45 nts)","indent": 1, "type": "expense",  "actual": -3600,   "budget": -3600,   "priorYear": -3400 },
+      { "label": "Housekeeping / Maintenance",      "indent": 1, "type": "expense",  "actual": -4200,   "budget": -4200,   "priorYear": -4000 },
+      { "label": "TOTAL HOLDING EXPENSES",          "indent": 0, "type": "subtotal", "actual": -25739,  "budget": -25739,  "priorYear": -24838 },
+      { "label": "NET OPERATING INCOME (NOI)",      "indent": 0, "type": "noi",      "actual": -25739,  "budget": -25739,  "priorYear": -24838 },
+      { "label": "PRE-TAX NET CASH FLOW",           "indent": 0, "type": "total",    "actual": -25739,  "budget": -25739,  "priorYear": -24838 }
+    ]
+  },
+  "valuation": {
+    "purchasePrice": 1413000,
+    "purchaseDate": "2022-10-20",
+    "lastAppraisalValue": 1976000,
+    "lastAppraisalDate": "2025-11-30",
+    "currentEstimatedValue": 2123940,
+    "impliedCapRate": "N/A (self-use)",
+    "valueChange": 710940,
+    "valueChangePct": 50.3,
+    "valuePM2": 10764,
+    "netEquity": 2123940,
+    "history": [
+      { "date": "2022-10-31", "value": 1413000 },
+      { "date": "2023-06-30", "value": 1650000 },
+      { "date": "2024-06-30", "value": 1850000 },
+      { "date": "2025-06-30", "value": 1976000 },
+      { "date": "2026-05-31", "value": 2123940 }
+    ]
+  },
+  "projections": {
+    "years": ["2026","2027","2028","2029","2030"],
+    "value": {
+      "Downside": [1900000, 1750000, 1650000, 1700000, 1780000],
+      "Base":     [2123940, 2200000, 2280000, 2360000, 2440000],
+      "Upside":   [2123940, 2350000, 2600000, 2850000, 3100000]
+    }
+  },
+  "capex": [
+    { "project": "Full Luxury Interior Fit-out & FF&E", "year": 2023, "budgeted": 85000, "actual": 85000, "status": "Complete",  "notes": "Branded furniture, custom cabinetry, AV, smart home system" },
+    { "project": "Preventive Maintenance Program",      "year": 2026, "budgeted": 12000, "actual": 4200,  "status": "In Progress","notes": "Annual building maintenance; Nakheel recommended schedule" }
+  ]
+}

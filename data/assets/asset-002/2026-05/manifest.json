@@ -1,0 +1,15 @@
+{
+  "assetId": "asset-002",
+  "period": "2026-05",
+  "periodLabel": "Q2 2026",
+  "lastUpdated": "2026-05-12",
+  "sections": [
+    { "id": "overview",          "file": "overview.json" },
+    { "id": "ownership-capital", "file": "ownership-capital.json" },
+    { "id": "financial",         "file": "financial.json" },
+    { "id": "risk",              "file": "risk.json" },
+    { "id": "operations",        "file": "operations.json" },
+    { "id": "documents",         "file": "documents.json" },
+    { "id": "market",            "file": "market.json" }
+  ]
+}

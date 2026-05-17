@@ -1,0 +1,46 @@
+{
+  "entity": {
+    "name": "GoWell Energy Solutions Pte. Ltd.",
+    "type": "Singapore Private Limited Company",
+    "registered": "Singapore (ACRA)",
+    "taxElection": "Singapore Corporate Tax — 17% standard rate",
+    "formed": "2011-03-14"
+  },
+  "owners": [
+    {
+      "name": "Zhang Family Trust (BVI)",
+      "type": "Trust / Corporate Shareholder",
+      "role": "Controlling Shareholder",
+      "ownershipPct": 71.3,
+      "equityContributed": 1820000,
+      "currentEquityValue": 2480841,
+      "since": "2011"
+    },
+    {
+      "name": "Institutional Co-investors",
+      "type": "Minority Shareholders",
+      "role": "Passive Investors",
+      "ownershipPct": 28.7,
+      "equityContributed": 730000,
+      "currentEquityValue": 998739,
+      "since": "2014"
+    }
+  ],
+  "capitalContributions": [
+    { "date": "2016-11-15", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Acquisition",      "amount": 2580000, "note": "JTC strata purchase — SGD 3.47M (Nov 2016)" },
+    { "date": "2019-04-20", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Capital Expenditure","amount": 185000,  "note": "Office fit-out — engineering labs + executive offices" },
+    { "date": "2022-06-01", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Capital Expenditure","amount": 92000,   "note": "IT infrastructure upgrade — server room expansion" },
+    { "date": "2025-01-15", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Capital Expenditure","amount": 38000,   "note": "M&E maintenance + LED lighting retrofit" }
+  ],
+  "capitalStack": {
+    "assetValue": 3479580,
+    "seniorDebt": 0,
+    "seniorDebtPct": 0.0,
+    "netEquity": 3479580,
+    "equityPct": 100.0,
+    "equityContributed": 2895000,
+    "accumulatedRetainedEarnings": 584580
+  },
+  "debtSummary": [],
+  "guaranteesObligations": []
+}

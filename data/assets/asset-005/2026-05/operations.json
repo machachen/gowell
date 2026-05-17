@@ -1,0 +1,30 @@
+{
+  "priorityMatrix": {
+    "items": [
+      { "title": "Commission independent valuation (overdue — last Oct 2023)", "quadrant": "Do First", "owner": "Asset Manager", "deadline": "2026-09-30", "status": "Open" },
+      { "title": "Review partial-let vs. full-let strategy with family", "quadrant": "Schedule", "owner": "Zhang Family / Asset Manager", "deadline": "2026-12-31", "status": "Open" },
+      { "title": "CBRE short-term letting agreement renewal", "quadrant": "Schedule", "owner": "Asset Manager", "deadline": "2026-11-01", "status": "Open" },
+      { "title": "BVI company annual compliance filing", "quadrant": "Delegate", "owner": "BVI Registered Agent", "deadline": "2026-09-30", "status": "Open" },
+      { "title": "2028 full interior refresh feasibility", "quadrant": "Eliminate", "owner": "Asset Manager", "deadline": "2028-01-01", "status": "Proposed" }
+    ]
+  },
+  "capexProjects": [
+    { "project": "Kitchen & Master Bathroom Renovation", "budgeted": 42000, "spent": 42000, "pctComplete": 100, "contractor": "Wing Kee Renovation HK", "estCompletion": "2021-08-10", "status": "Complete", "expectedROI": "Enabled partial-let strategy at HKD 22,000/mo" },
+    { "project": "Full Interior Refresh (10-yr cycle)", "budgeted": 50000, "spent": 0, "pctComplete": 0, "contractor": "TBD", "estCompletion": "2028-06-30", "status": "Proposed", "expectedROI": "Maintain rental positioning vs. newer comparable units" }
+  ],
+  "opexRecurring": [
+    { "category": "Property Management", "vendor": "CBRE HK Residential Mgmt", "annualCost": 849, "frequency": "Per let period (5% of let income)", "contractExpiry": "2026-11-01", "status": "Active", "notes": "Short-term letting management; approximately 6 months per year let" },
+    { "category": "Building Management", "vendor": "Residence Bel-Air Management", "annualCost": 4210, "frequency": "Monthly", "contractExpiry": "Ongoing", "status": "Active", "notes": "Estate management charges; includes gate security, landscaping, pool, gym" },
+    { "category": "Government Rates", "vendor": "Rating & Valuation Dept. HK", "annualCost": 2180, "frequency": "Quarterly", "contractExpiry": "Ongoing", "status": "Active", "notes": "5% of rateable value annually" },
+    { "category": "Insurance", "vendor": "QBE Hong Kong", "annualCost": 750, "frequency": "Annual", "contractExpiry": "2027-04-01", "status": "Active", "notes": "Landlord and contents policy; liability HKD 3M" },
+    { "category": "BVI Company Fees", "vendor": "Maples Trust (BVI)", "annualCost": 3600, "frequency": "Annual", "contractExpiry": "Ongoing", "status": "Active", "notes": "Annual BVI compliance, registered agent, company secretarial" }
+  ],
+  "suppliers": [
+    { "name": "CBRE HK Residential", "category": "Short-term Letting Management", "contact": "Residential Lettings, HK Island", "contractPeriod": "2023-11-01 to 2026-11-01", "warrantyOrSLA": "Monthly income reports; 48hr tenant response", "status": "Active", "notes": "Manages lettings when family not using; typically 5–7 months per year" }
+  ],
+  "serviceHistory": [
+    { "date": "2026-04-01", "vendor": "CBRE HK Residential", "description": "Q1 2026 letting report — unit let Jan–Mar 2026", "category": "Operations", "cost": 0, "status": "Complete" },
+    { "date": "2025-10-20", "vendor": "Residence Bel-Air Management", "description": "Annual air-conditioning service — 4 units", "category": "Maintenance", "cost": 2400, "status": "Complete" },
+    { "date": "2025-08-15", "vendor": "Zhang Family (personal)", "description": "Family occupancy period — Aug–Oct 2025 (approximately)", "category": "Operations", "cost": 0, "status": "Complete" }
+  ]
+}

@@ -1,0 +1,108 @@
+{
+  "summary": {
+    "narrative": "42A West Coast Park is a detached, two-storey landed house situated in an established residential enclave near West Coast Park in Singapore — approximately 8km from GoWell's Jurong Innovation District HQ. The property serves as the Zhang family's primary Singapore residence and has been the family home since acquisition in 2020. The 6,500 sqft built-up area on a 4,200 sqft freehold land plot (approx. 604 sqm / 390 sqm respectively) provides generous space for the Zhang family including live-in household staff quarters. The property carries a UOB mortgage of SGD 1.9M (USD 1,412,650) at 3.78% p.a., maturing March 2028, with annual mortgage service of approximately SGD 72,000 (USD 53,580). Including property tax, maintenance, and utility costs, total annual outflow is approximately SGD 120,000 (USD 89,300).",
+    "keyMessage": "USD 5.35M primary residence · SGD 7.2M · UOB mortgage SGD 1.9M @ 3.78% · 26.4% LTV · Mortgage renewal Mar 2028 — monitor rate environment"
+  },
+  "basicInfo": {
+    "assetName": "West Coast Family Residence",
+    "assetType": "Detached Landed House — Primary Residence",
+    "location": "42A West Coast Park, Singapore 127735",
+    "submarket": "West Coast / Clementi — Prime District 5 Landed",
+    "yearBuilt": 1998,
+    "yearAcquired": 2020,
+    "totalSQM": 604,
+    "currentStatus": "Owner-Occupied — Zhang Family Primary Residence",
+    "reportingPeriod": "Q2 2026 (May 2026)",
+    "ownershipSummary": "Zhang Xi & Spouse (Joint) — Zhang Family Trust beneficiaries; property held in personal names",
+    "tenure": "Freehold",
+    "landArea": "390 sqm (approx. 4,200 sqft land)"
+  },
+  "keyFigures": [
+    { "label": "Assessed Value",   "value": "$5,353,200",  "subLabel": "SGD 7.2M · Q2 2026",            "trend": "up",   "trendValue": "+3.9% YoY" },
+    { "label": "UOB Mortgage",     "value": "$1,412,650",  "subLabel": "SGD 1.9M · 3.78% p.a.",         "trend": "flat", "trendValue": "Matures Mar 2028" },
+    { "label": "LTV",              "value": "26.4%",       "subLabel": "Conservative leverage",         "trend": "flat", "trendValue": "Within policy" },
+    { "label": "Annual Net CF",    "value": "($89,300)",   "subLabel": "Mortgage + property tax + maint","trend": "flat", "trendValue": "Residential cost" },
+    { "label": "Net Equity",       "value": "$3,940,550",  "subLabel": "After UOB mortgage",            "trend": "up",   "trendValue": "+$200K YoY" },
+    { "label": "Value / sqm",      "value": "$8,864",      "subLabel": "USD per sqm built-up",          "trend": "up",   "trendValue": "+3.9% YoY" }
+  ],
+  "kpiCards": [
+    {
+      "id": "value",
+      "title": "Asset Value (SGD M)",
+      "value": "SGD 7.2M",
+      "period": "Q2 2026",
+      "trend": "+3.9% YoY",
+      "trendDir": "pos",
+      "chartType": "line",
+      "chartData": {
+        "labels": ["2020","2021","2022","2023","2024","2025","2026"],
+        "values": [5200000, 5650000, 6200000, 6600000, 6800000, 6930000, 7200000]
+      }
+    },
+    {
+      "id": "equity",
+      "title": "Net Equity (USD)",
+      "value": "$3.94M",
+      "period": "Q2 2026",
+      "trend": "+$200K YoY",
+      "trendDir": "pos",
+      "chartType": "line",
+      "chartData": {
+        "labels": ["2020","2021","2022","2023","2024","2025","2026"],
+        "values": [2345000, 2780000, 3240000, 3550000, 3700000, 3740000, 3940550]
+      }
+    },
+    {
+      "id": "annualcost",
+      "title": "Annual Holding Cost (SGD)",
+      "value": "SGD 120,000",
+      "period": "TTM May 2026",
+      "trend": "Mortgage + tax + maint",
+      "trendDir": "flat",
+      "chartType": "bar",
+      "chartData": {
+        "labels": ["2021","2022","2023","2024","2025","2026"],
+        "values": [98000, 105000, 112000, 115000, 118000, 120000]
+      }
+    }
+  ],
+  "actions": [
+    {
+      "title": "UOB Mortgage Renewal Planning — Matures March 2028",
+      "priority": "Low",
+      "status": "Open",
+      "recommendation": "Begin UOB home loan renewal process 6 months before March 2028 maturity (i.e. September 2027). Interest rate environment in 2028 is uncertain; consider obtaining comparative quotes from DBS, OCBC, and Standard Chartered. At current SGD 1.9M balance, a 0.5% rate increase adds ~SGD 9,500/yr to debt service. Given conservative 26.4% LTV, strong refinancing position.",
+      "decisionNeeded": "No immediate action — add to calendar for September 2027 follow-up",
+      "owner": "Zhang Xi / Family Banker",
+      "deadline": "2027-09-01"
+    },
+    {
+      "title": "Interior Refresh — Main Living Areas (10-Year Cycle)",
+      "priority": "Low",
+      "status": "Open",
+      "recommendation": "Property was last refurbished in 2020 (at acquisition). A 10-year refresh cycle suggests minor interior renovation (kitchen cabinetry, bathrooms, repainting) in 2030; however, a mid-cycle cosmetic refresh in 2026–2027 could be considered given the property's age (28 years). Budget estimate: SGD 80,000–120,000.",
+      "decisionNeeded": "Family preference on timing of refresh",
+      "owner": "Zhang Family",
+      "deadline": "2026-12-31"
+    }
+  ],
+  "linkedDocuments": [
+    { "name": "Property Title — 42A West Coast Park (Freehold)",          "category": "Legal",      "date": "2020-08-15", "type": "PDF" },
+    { "name": "UOB Home Loan Agreement — SGD 1.9M @ 3.78%",             "category": "Finance",    "date": "2022-03-10", "type": "PDF" },
+    { "name": "PropNex Independent Valuation — SGD 7.2M (Q1 2026)",     "category": "Valuation",  "date": "2026-02-20", "type": "PDF" },
+    { "name": "IRAS Annual Value Assessment 2026",                        "category": "Compliance", "date": "2025-12-01", "type": "PDF" }
+  ],
+  "topRisks": [
+    { "level": "Low",    "title": "Interest Rate Reset Risk (Mar 2028)",     "impact": "UOB loan repricing in Q1 2028 — if rates remain elevated, SGD 1.9M at SORA+1.1% could increase debt service by SGD 8,000–14,000/yr vs. current." },
+    { "level": "Low",    "title": "Singapore Landed Property Policy Risk",   "impact": "Singapore government could introduce additional landed property cooling measures; current ABSD regime not applicable (Zhang Xi is Singapore PR/Citizen)." },
+    { "level": "Low",    "title": "Property Age & Maintenance",              "impact": "1998-built structure — roof, waterproofing, and M&E systems approaching end of life; major maintenance capex of SGD 50,000–150,000 possible in 5–10 years." }
+  ],
+  "marketSnapshot": {
+    "submarket": "West Coast / Clementi — Freehold Detached Landed",
+    "medianRentPM2": "SGD 45,000–70,000 (monthly rental for equivalent detached houses, if let)",
+    "vacancyRate": "Very low — Freehold landed Singapore is highly constrained supply",
+    "yoyRentGrowth": "+4.2% (Singapore detached landed, 2025–2026)",
+    "assetVsMarket": "Owner-occupied — not rented; market rent for comparable SGD 18,000–22,000/mo; estimated 3.0–3.7% gross yield if let",
+    "capRateBenchmark": "2.8%–3.5% (Singapore detached landed, freehold, 2025–2026)"
+  }
+}

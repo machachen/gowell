@@ -1,0 +1,66 @@
+{
+  "summary": {
+    "title": "Downtown Dubai Hotel-Branded Residences Market — Q2 2026",
+    "narrative": "Downtown Dubai hotel-branded residences — particularly the Emaar Address and Palace collections — continue to attract premium rental demand from senior corporate executives, diplomats, and high-income expats seeking five-star living with full hotel services. Rents have grown +9.4% in this segment YoY as supply remains constrained by Emaar's managed release strategy. The Address Boulevard's iconic BLVD frontage and Burj Khalifa views command a premium over standard Downtown Dubai apartments.",
+    "keyThemes": [
+      "Downtown Dubai branded residences rent growth +9.4% YoY — outperforming broader market",
+      "Global HNWI and corporate demand for Dubai branded residences remains structurally elevated",
+      "Address Boulevard commands premium due to full hotel management, BLVD frontage, Burj views",
+      "AED peg eliminates FX risk; UAE corporate tax not applicable to residential ownership",
+      "Emaar's controlled supply strategy in Address collection supports price stability"
+    ]
+  },
+  "assetCompetitiveness": {
+    "strengths": [
+      "Address Boulevard is Emaar's flagship Address brand — highest recognition globally",
+      "Floor 38 — exceptional Burj Khalifa and BLVD views; material premium over lower floors",
+      "Full 5-star hotel services: room service, spa, pool deck, concierge 24/7",
+      "1BR+Study ideal for senior executive single/couple occupancy — target tenant profile"
+    ],
+    "weaknesses": [
+      "Hotel service charge at AED 30/sqft/yr ($6,793/yr) is highest cost item — reduces net yield",
+      "1BR units more susceptible to vacancy than 2BR in tenant transition periods",
+      "77.5 sqm — smaller than many comparable branded 1BR+Study units at 85–90 sqm"
+    ],
+    "opportunities": [
+      "Rental growth trajectory: AED 172K → AED 178–185K on May 2027 renewal (+3.5–7.6%)",
+      "Capital upside: Comparable Address units transacting AED 3.8–4.1M — future disposal optionality",
+      "Corporate leasing demand from Dubai's DIFC, ADGM financial hubs remains robust"
+    ],
+    "threats": [
+      "New branded residence supply from DAMAC, Marriott, Four Seasons in Downtown pipeline",
+      "Global corporate capex reduction could reduce executive housing budgets in energy sector"
+    ]
+  },
+  "comparables": [
+    { "address": "Address Boulevard Unit 2205 (1BR+Study, 78 sqm)", "type": "Branded Residence", "units": null, "yearBuilt": 2017, "soldDate": "2026-02-10", "salePrice": 1020000, "pricePerUnit": null, "pricePM2": 13077, "capRate": "4.7%", "occupancy": "Leased", "notes": "Same development; floor 22; lower than subject; sold for $1.02M" },
+    { "address": "Address Fountain Views Unit 3501 (1BR, 74 sqm)", "type": "Branded Residence", "units": null, "yearBuilt": 2019, "soldDate": "2025-10-20", "salePrice": 950000, "pricePerUnit": null, "pricePM2": 12838, "capRate": "4.9%", "occupancy": "Leased", "notes": "Newer Address building; fountain view vs Burj view; slight discount to subject" },
+    { "address": "Palace Downtown Unit 1803 (1BR, 80 sqm)", "type": "Branded Residence", "units": null, "yearBuilt": 2012, "soldDate": "2025-07-15", "salePrice": 870000, "pricePerUnit": null, "pricePM2": 10875, "capRate": "5.2%", "occupancy": "Leased", "notes": "Older Emaar brand; lower specification; higher yield compensates" }
+  ],
+  "rentComparables": [
+    { "address": "Unit 3812 Address Boulevard (Subject)", "unitType": "1BR+Study Branded", "areaM2": 77.5, "askingRent": "AED 14,333", "rentPM2": "AED 185/sqm", "occupancy": "100%", "amenities": "Burj views, 5-star hotel, BLVD access", "isSubject": true },
+    { "address": "Address Fountain Views 1BR+Study", "unitType": "1BR+Study Branded", "areaM2": 74.0, "askingRent": "AED 14,500", "rentPM2": "AED 196/sqm", "occupancy": "Leased", "amenities": "Fountain views, similar hotel services", "isSubject": false },
+    { "address": "Palace Downtown 1BR", "unitType": "1BR Standard Branded", "areaM2": 80.0, "askingRent": "AED 13,500", "rentPM2": "AED 169/sqm", "occupancy": "Leased", "amenities": "Palace hotel services; older build", "isSubject": false }
+  ],
+  "capRateTrend": {
+    "labels": ["Q1'22","Q3'22","Q1'23","Q3'23","Q1'24","Q3'24","Q1'25","Q3'25","Q1'26"],
+    "values": [4.0, 4.2, 4.4, 4.5, 4.6, 4.7, 4.72, 4.75, 4.80]
+  },
+  "vacancyTrend": {
+    "labels": ["Q1'24","Q2'24","Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26"],
+    "submarket": [4.2, 4.0, 3.9, 3.9, 3.8, 3.9, 3.9, 3.8, 3.9],
+    "asset": [0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "marketRisks": [
+    { "level": "Low", "title": "Downtown Branded Residence Pipeline", "description": "New DAMAC, Four Seasons, Marriott branded units entering market 2026–2028; Emaar Address maintains strong differentiation." },
+    { "level": "Low", "title": "Energy Sector Tenant Concentration", "description": "Current tenant is O&G sector; potential vulnerability if Dubai energy company hiring contracts — offset by DIFC/ADGM corporate demand." }
+  ],
+  "marketOpportunities": [
+    { "title": "Premium Rental Upside on Renewal", "description": "Downtown branded residence rents growing +9.4% YoY; AED 178–185K target on May 2027 renewal is well-supported by market evidence." },
+    { "title": "Capital Exit Optionality at Peak", "description": "Comparable Address units trading AED 3.8–4.1M vs. AED 3.58M current; subject to family decision, disposal in 2026–2027 could crystallise 25–35% gain vs. 2021 cost." }
+  ],
+  "marketImplication": {
+    "title": "Best-in-Class Downtown Asset — Optimise on Renewal",
+    "body": "The Address Boulevard Unit 3812 has outperformed all Dubai assets in rental growth and capital appreciation. The combination of 5-star hotel services, Burj Khalifa views, and BLVD frontage creates a durable premium that insulates against broader market volatility. The strategic recommendation is hold and optimise: target AED 178K–185K on May 2027 renewal, continue with Espace RE management, and consider capital disposal evaluation at AED 4M+ (approximately 2028–2029). This asset requires minimal active management."
+  }
+}

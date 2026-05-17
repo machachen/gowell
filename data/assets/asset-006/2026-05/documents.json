@@ -1,0 +1,15 @@
+{
+  "importantDocuments": [
+    { "name": "Title Deed — Unit 2304 Marina Gate I (Dubai Land Dept.)", "category": "Legal",     "date": "2022-09-15", "type": "PDF", "notes": "Registered in name of MGI Dubai Holdings Ltd. (BVI nominee); freehold title" },
+    { "name": "Tenancy Agreement — Swiss analyst (Apr 2025–Apr 2027)",   "category": "Legal",     "date": "2025-04-01", "type": "PDF", "notes": "AED 138,000 annual; RERA tenancy contract registered; 2-month deposit" },
+    { "name": "Asteco Valuation — AED 2.62M (Q1 2026)",                 "category": "Valuation", "date": "2026-01-31", "type": "PDF", "notes": "Desktop comparison; in line with DLD recent comparable transactions" }
+  ],
+  "library": [
+    { "id": "DOC-001", "name": "Dubai Land Dept. Title Deed — Unit 2304 Marina Gate I", "category": "Legal",     "date": "2022-09-15", "source": "Dubai Land Department", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Freehold title; MGI Dubai Holdings Ltd. (BVI)" },
+    { "id": "DOC-002", "name": "S&P Agreement — AED 2.28M (Sep 2022)",                  "category": "Legal",     "date": "2022-08-10", "source": "Select Group / Agent", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Off-plan completion purchase; registered at Dubai Land Dept. Sep 2022" },
+    { "id": "DOC-003", "name": "RERA Tenancy Contract — Swiss analyst 2025–2027",       "category": "Legal",     "date": "2025-04-01", "source": "RERA / Better Homes", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "RERA-registered; AED 138,000/yr; auto-renewal clause with 90-day notice" },
+    { "id": "DOC-004", "name": "Asteco Valuation — AED 2.62M (Jan 2026)",              "category": "Valuation", "date": "2026-01-31", "source": "Asteco Property Management", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "Comparative valuation; comparable transactions Marina Gate I reviewed" },
+    { "id": "DOC-005", "name": "Better Homes Property Management Agreement",            "category": "Operations","date": "2025-04-01", "source": "Better Homes Dubai", "relatedSection": "Operations", "type": "PDF", "notes": "2-year agreement; 6% management fee; full-service" },
+    { "id": "DOC-006", "name": "RERA Service Charge Certificate 2025 — Marina Gate I", "category": "Compliance","date": "2025-12-15", "source": "Select Group / RERA", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "AED 20,600/yr; RERA index compliant" }
+  ]
+}

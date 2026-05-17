@@ -1,0 +1,69 @@
+{
+  "summary": {
+    "title": "Pengerang Integrated Complex — Industrial Land Market Q2 2026",
+    "narrative": "The Pengerang Integrated Complex (PIC) in southern Johor remains one of Southeast Asia's most significant industrial development zones, anchored by the USD 27B RAPID petrochemical complex operated by PETRONAS and its partners. Industrial land demand in PIC and its surrounding zones has been supported by O&G and petrochemical supply chain investors, though the broader Johor industrial market has experienced some moderation in 2025 due to global energy capex uncertainty. Freehold industrial land in PIC-adjacent areas trades at MYR 90–110/sqm (USD 20–25/sqm), and the GoWell Pengerang land at MYR 98.7/sqm is competitively positioned. The strategic relevance of the site for OCTG logistics — given RAPID's ongoing pipe demand — provides a clear demand driver, though execution risk remains high during the pre-development phase.",
+    "keyThemes": [
+      "PIC zone industrial demand supported by PETRONAS RAPID Phase 2 capex",
+      "Johor industrial land values stable at MYR 90–110/sqm in PIC-adjacent areas",
+      "Malaysia's National Energy Transition Roadmap creates policy tailwinds for O&G-adjacent infrastructure",
+      "Johor Bahru–Singapore RTS Link opening 2027 — improving logistics and investor confidence",
+      "Development lead time 3–5 years from land acquisition to operational facility in PIC zone"
+    ]
+  },
+  "assetCompetitiveness": {
+    "strengths": [
+      "Freehold title — rare and valuable in Malaysian industrial market (most industrial land is leasehold 60/99 years)",
+      "15.3 ha scale provides flexibility for phased development and potential sub-lease/JV structures",
+      "Adjacency to PIC/RAPID complex — captive O&G supply chain customer base",
+      "EIA approved — major regulatory hurdle cleared ahead of competitors"
+    ],
+    "weaknesses": [
+      "Pre-development land generates negative cash flow during holding period",
+      "PIPC partner (30%) has not committed additional development capital — execution risk",
+      "Site requires significant earthworks and enabling infrastructure investment",
+      "OCTG logistics hub demand dependent on oil price cycle"
+    ],
+    "opportunities": [
+      "PETRONAS RAPID Phase 2 expansion expected to drive additional pipe demand 2027–2032",
+      "Malaysian government pioneer status incentives for OCTG sector may provide 5-year tax holiday",
+      "Strategic investor or JV partner (e.g. Tenaga Nasional, SapuraKencana) could de-risk development capital requirement",
+      "Johor-Singapore Special Economic Zone (JS-SEZ) designation could attract additional industrial demand"
+    ],
+    "threats": [
+      "Sustained low oil prices could delay RAPID Phase 2 and reduce OCTG demand",
+      "MPKT planning rejection or conditions requiring site redesign — cost and time risk",
+      "Competing industrial land available in PIC-adjacent areas at MYR 85–95/sqm — price competition"
+    ]
+  },
+  "comparables": [
+    { "address": "Lot PTD 20412, Mukim Pengerang, Kota Tinggi", "type": "Freehold Industrial Land", "units": null, "yearBuilt": null, "soldDate": "2025-04-20", "salePrice": 2980000, "pricePerUnit": null, "pricePM2": 21.3, "capRate": "N/A", "occupancy": "Vacant land", "notes": "14.0 ha; freehold; similar location; slightly lower price per sqm than subject" },
+    { "address": "Lot PTD 22189, PIC Zone, Pengerang", "type": "Freehold Industrial Land", "units": null, "yearBuilt": null, "soldDate": "2024-09-15", "salePrice": 3600000, "pricePerUnit": null, "pricePM2": 24.0, "capRate": "N/A", "occupancy": "Vacant land", "notes": "15.0 ha; freehold; direct PIC zone — premium location; EIA not completed" },
+    { "address": "Lot PTD 18750, Industrial Zone Kota Tinggi", "type": "60-year Leasehold Industrial Land", "units": null, "yearBuilt": null, "soldDate": "2025-01-10", "salePrice": 1850000, "pricePerUnit": null, "pricePM2": 13.2, "capRate": "N/A", "occupancy": "Vacant land", "notes": "14.0 ha; 60-yr leasehold — significant discount to freehold comparable" }
+  ],
+  "rentComparables": [
+    { "address": "PIC Industrial Shed A, Jalan Pengerang Baru (est.)", "unitType": "Industrial Factory/Shed", "areaM2": 5000, "askingRent": "MYR 12,500", "rentPM2": "MYR 2.50/sqm", "occupancy": "Leased", "amenities": "Loading bays, overhead crane provision", "isSubject": false },
+    { "address": "PIC Industrial Shed B, comparable (est.)", "unitType": "Industrial Factory/Shed", "areaM2": 8000, "askingRent": "MYR 30,400", "rentPM2": "MYR 3.80/sqm", "occupancy": "Leased", "amenities": "Full service; O&G sector tenant", "isSubject": false },
+    { "address": "GoWell OCTG Hub (Subject — post-development est.)", "unitType": "OCTG Logistics Hub (planned)", "areaM2": 40000, "askingRent": "MYR 144,000 est.", "rentPM2": "MYR 3.60/sqm", "occupancy": "Pre-development", "amenities": "Pipe storage, coating facility, logistics", "isSubject": true }
+  ],
+  "capRateTrend": {
+    "labels": ["2021","2022","2023","2024","2025","2026e"],
+    "values": [6.5, 6.8, 7.2, 7.5, 7.0, 6.8]
+  },
+  "vacancyTrend": {
+    "labels": ["2021","2022","2023","2024","2025","2026e"],
+    "submarket": [22, 18, 15, 12, 11, 10],
+    "asset": [100, 100, 100, 100, 100, 100]
+  },
+  "marketRisks": [
+    { "level": "High", "title": "Oil Price Cycle Risk", "description": "Sustained Brent below $65/bbl could trigger PETRONAS capex reduction, directly reducing OCTG/pipe demand from PIC — the key demand driver for this facility." },
+    { "level": "Medium", "title": "PIC Zone Competition", "description": "Several competing industrial developers are acquiring PIC-adjacent land; GoWell's head start with EIA approval and 15.3 ha scale is defensible but not permanent." }
+  ],
+  "marketOpportunities": [
+    { "title": "RAPID Phase 2 Pipe Demand", "description": "PETRONAS RAPID Phase 2 expected to require significant OCTG pipe supply 2027–2030 — GoWell OCTG hub would be uniquely positioned to serve this demand if operational by 2028." },
+    { "title": "Johor-Singapore SEZ Benefits", "description": "Proposed JS-SEZ designation for south Johor could provide manufacturing incentives, bonded warehouse status, and streamlined foreign worker quotas — benefiting GoWell's planned facility." }
+  ],
+  "marketImplication": {
+    "title": "Strategic Value Hinges on Execution Speed — Secure Planning Approval Q3 2026",
+    "body": "The Pengerang Industrial Land is a high-conviction, long-duration investment that requires precise execution timing. The window to serve RAPID Phase 2 pipe demand (2027–2030) is narrow — groundbreak must occur by Q4 2026 to achieve operational status in 2028. The planning approval decision from MPKT is therefore existential for the strategic thesis. If approval is delayed to 2027, GoWell risks missing the capex window and the asset reverts to a passive land-holding with negative carry. Active engagement with MPKT and InvestJohor to expedite processing is the single most important operational priority for this asset."
+  }
+}

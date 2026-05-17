@@ -1,0 +1,17 @@
+{
+  "importantDocuments": [
+    { "name": "Property Title Deed — Unit 12A Tower 1, The Masterpiece",           "category": "Legal",      "date": "2017-06-15", "type": "PDF", "notes": "Registered in name of BVI holding company; Masterpiece TST Holdings Ltd." },
+    { "name": "Tenancy Agreement — Swiss Bank VP (Nov 2024 – Oct 2026)",            "category": "Legal",      "date": "2024-10-31", "type": "PDF", "notes": "HKD 33,000/mo; 2-month security deposit held by Knight Frank HK" },
+    { "name": "JLL Valuation Report — HKD 21.2M (Q1 2026)",                       "category": "Valuation",  "date": "2026-02-28", "type": "PDF", "notes": "Desktop valuation for portfolio reporting" },
+    { "name": "Knight Frank Property Management Agreement",                         "category": "Operations", "date": "2024-11-01", "type": "PDF", "notes": "2.5% management fee; tenant liaison and maintenance coordination" }
+  ],
+  "library": [
+    { "id": "DOC-001", "name": "Property Title Deed — Unit 12A Tower 1, The Masterpiece", "category": "Legal",      "date": "2017-06-15", "source": "Land Registry HK", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "BVI company registered owner; trust beneficial interest confirmed" },
+    { "id": "DOC-002", "name": "S&P Agreement — 2017 Acquisition (HKD 16.95M)",          "category": "Legal",      "date": "2017-04-20", "source": "Solicitors / Developer", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Primary acquisition SPA; completed June 2017" },
+    { "id": "DOC-003", "name": "Tenancy Agreement — Swiss Bank VP (2024–2026)",            "category": "Legal",      "date": "2024-10-31", "source": "Knight Frank HK", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "HKD 33,000/mo gross; tenant in 2nd year of 2-year term" },
+    { "id": "DOC-004", "name": "JLL Valuation — HKD 21.2M (Q1 2026)",                    "category": "Valuation",  "date": "2026-02-28", "source": "Jones Lang Wootton HK", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "TST luxury market; comparable sales and income approach" },
+    { "id": "DOC-005", "name": "Knight Frank Property Management Agreement",               "category": "Operations", "date": "2024-11-01", "source": "Knight Frank HK Residential", "relatedSection": "Operations", "type": "PDF", "notes": "2-year agreement; 2.5% management fee; full-service residential management" },
+    { "id": "DOC-006", "name": "AXA Landlord Insurance Policy 2026",                     "category": "Insurance",  "date": "2026-06-15", "source": "AXA Hong Kong", "relatedSection": "Operations", "type": "PDF", "notes": "Contents HKD 800K; third-party liability HKD 5M" },
+    { "id": "DOC-007", "name": "HK R&V Dept. Property Assessment 2026",                 "category": "Finance",    "date": "2025-12-01", "source": "Rating & Valuation Department HK", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "Rateable value HKD 396,000/yr; government rates HKD 19,800/yr" }
+  ]
+}

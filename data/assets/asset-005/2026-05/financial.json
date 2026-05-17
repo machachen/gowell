@@ -1,0 +1,53 @@
+{
+  "incomeStatement": {
+    "rows": [
+      { "label": "REVENUE",                             "indent": 0, "type": "subtotal", "actual": 0,      "budget": 0,      "priorYear": 0 },
+      { "label": "Short-term Let Income (~6 mo/yr)",  "indent": 1, "type": "income",   "actual": 16974,  "budget": 17280,  "priorYear": 16770 },
+      { "label": "TOTAL REVENUE",                      "indent": 0, "type": "subtotal", "actual": 16974,  "budget": 17280,  "priorYear": 16770 },
+      { "label": "OPERATING EXPENSES",                 "indent": 0, "type": "subtotal", "actual": 0,      "budget": 0,      "priorYear": 0 },
+      { "label": "Property Management Fee (CBRE 5%)", "indent": 1, "type": "expense",  "actual": -849,   "budget": -864,   "priorYear": -839 },
+      { "label": "Building Management Fees",          "indent": 1, "type": "expense",  "actual": -4210,  "budget": -4200,  "priorYear": -4100 },
+      { "label": "Government Rates & Rent",           "indent": 1, "type": "expense",  "actual": -2180,  "budget": -2200,  "priorYear": -2100 },
+      { "label": "Insurance",                         "indent": 1, "type": "expense",  "actual": -750,   "budget": -750,   "priorYear": -720 },
+      { "label": "BVI Company Annual Fees",           "indent": 1, "type": "expense",  "actual": -3600,  "budget": -3600,  "priorYear": -3600 },
+      { "label": "Utilities (family use periods)",    "indent": 1, "type": "expense",  "actual": -2850,  "budget": -3000,  "priorYear": -2700 },
+      { "label": "TOTAL OPERATING EXPENSES",          "indent": 0, "type": "subtotal", "actual": -14439, "budget": -14614, "priorYear": -14059 },
+      { "label": "NET OPERATING INCOME (NOI)",        "indent": 0, "type": "noi",      "actual": 2535,   "budget": 2666,   "priorYear": 2711 },
+      { "label": "Property Tax Provision (HK)",       "indent": 1, "type": "deduction","actual": -1273,  "budget": -1296,  "priorYear": -1258 },
+      { "label": "PRE-TAX NET CASH FLOW",             "indent": 0, "type": "total",    "actual": 1262,   "budget": 1370,   "priorYear": 1453 }
+    ]
+  },
+  "valuation": {
+    "purchasePrice": 2510000,
+    "purchaseDate": "2019-04-12",
+    "lastAppraisalValue": 2350000,
+    "lastAppraisalDate": "2023-10-15",
+    "currentEstimatedValue": 2287300,
+    "impliedCapRate": "0.74%",
+    "valueChange": -222700,
+    "valueChangePct": -8.9,
+    "valuePM2": 21538,
+    "netEquity": 2287300,
+    "history": [
+      { "date": "2019-04-30", "value": 2510000 },
+      { "date": "2020-12-31", "value": 2670000 },
+      { "date": "2021-12-31", "value": 2910000 },
+      { "date": "2022-12-31", "value": 2660000 },
+      { "date": "2023-12-31", "value": 2350000 },
+      { "date": "2024-12-31", "value": 2350000 },
+      { "date": "2026-05-31", "value": 2287300 }
+    ]
+  },
+  "projections": {
+    "years": ["2026","2027","2028","2029","2030"],
+    "value": {
+      "Downside": [2100000, 2000000, 1950000, 1900000, 1950000],
+      "Base":     [2287300, 2310000, 2350000, 2400000, 2450000],
+      "Upside":   [2287300, 2400000, 2550000, 2700000, 2850000]
+    }
+  },
+  "capex": [
+    { "project": "Kitchen & Master Bathroom Renovation",  "year": 2021, "budgeted": 42000, "actual": 42000, "status": "Complete",  "notes": "Completed Aug 2021 prior to partial-let commencement" },
+    { "project": "Full Interior Refresh",                 "year": 2028, "budgeted": 50000, "actual": 0,     "status": "Proposed",  "notes": "Planned 10-year cycle; dependent on usage strategy decision" }
+  ]
+}

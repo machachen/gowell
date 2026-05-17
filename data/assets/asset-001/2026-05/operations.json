@@ -1,0 +1,34 @@
+{
+  "priorityMatrix": {
+    "items": [
+      { "title": "IPO Ring-fencing — HQ valuation & SGX disclosure package", "quadrant": "Do First", "owner": "CFO", "deadline": "2026-07-31", "status": "In Progress" },
+      { "title": "Server room UPS replacement — IT infrastructure", "quadrant": "Do First", "owner": "IT Manager", "deadline": "2026-09-30", "status": "Open" },
+      { "title": "JTC change-of-control consent — legal opinion", "quadrant": "Schedule", "owner": "Corporate Secretary", "deadline": "2026-08-31", "status": "Open" },
+      { "title": "Fire safety inspection — annual SCDF FSC renewal 2027", "quadrant": "Schedule", "owner": "Building Manager", "deadline": "2027-03-01", "status": "Open" },
+      { "title": "JTC lease renewal planning (horizon: 2035 start)", "quadrant": "Delegate", "owner": "Property Manager", "deadline": "2027-06-30", "status": "Open" },
+      { "title": "Meeting room refresh for IPO road-show readiness", "quadrant": "Delegate", "owner": "Admin Manager", "deadline": "2027-01-31", "status": "Proposed" }
+    ]
+  },
+  "capexProjects": [
+    { "project": "Server Room UPS Replacement (APC)", "budgeted": 22000, "spent": 0, "pctComplete": 0, "contractor": "APC / IT vendor", "estCompletion": "2026-09-30", "status": "Not Started", "expectedROI": "Risk mitigation — IT uptime" },
+    { "project": "Meeting Room A/V Upgrade", "budgeted": 45000, "spent": 0, "pctComplete": 0, "contractor": "Crestron / AV integrator", "estCompletion": "2027-01-31", "status": "Proposed", "expectedROI": "IPO presentation quality" }
+  ],
+  "opexRecurring": [
+    { "category": "Facility Management", "vendor": "JTC Corporation (FM Managed)", "annualCost": 23800, "frequency": "Monthly", "contractExpiry": "2027-12-31", "status": "Active", "notes": "JTC managed building services contract — covers M&E, security, cleaning of common areas" },
+    { "category": "Utilities", "vendor": "SP Group (Singapore Power)", "annualCost": 17400, "frequency": "Monthly", "contractExpiry": "Ongoing", "status": "Active", "notes": "Electricity — industrial tariff; solar not applicable on strata floor" },
+    { "category": "Security", "vendor": "Cisco Systems / Building Manager", "annualCost": 2100, "frequency": "Monthly", "contractExpiry": "2027-06-30", "status": "Active", "notes": "Access control card system maintenance; CCTV monitoring" },
+    { "category": "Insurance", "vendor": "MSIG Singapore", "annualCost": 4200, "frequency": "Annual", "contractExpiry": "2027-01-15", "status": "Active", "notes": "Industrial strata building and contents insurance" },
+    { "category": "Property Tax", "vendor": "IRAS", "annualCost": 14200, "frequency": "Quarterly", "contractExpiry": "Ongoing", "status": "Active", "notes": "IRAS annual value-based property tax; industrial rate 10% of AV" }
+  ],
+  "suppliers": [
+    { "name": "JTC Corporation (FM)", "category": "Facility Management", "contact": "JTC Service Centre 1800-568-7000", "contractPeriod": "2025-01-01 to 2027-12-31", "warrantyOrSLA": "Response time: 4 hours urgent, 24 hours routine", "status": "Active", "notes": "Sole FM provider for Cleantech Two — comprehensive building services" },
+    { "name": "Otis Elevator Co.", "category": "Lifts & Escalators", "contact": "Otis Singapore service hotline", "contractPeriod": "2024-01-01 to 2026-12-31", "warrantyOrSLA": "Quarterly maintenance + emergency callout 2hr response", "status": "Active", "notes": "Lift maintenance for Cleantech Two building" },
+    { "name": "MSIG Singapore", "category": "Insurance", "contact": "MSIG claims hotline", "contractPeriod": "2026-01-15 to 2027-01-15", "warrantyOrSLA": "Policy coverage confirmed", "status": "Active", "notes": "Annual renewal — competitive quotes obtained Jan 2026" }
+  ],
+  "serviceHistory": [
+    { "date": "2026-03-10", "vendor": "JTC FM / SCDF", "description": "Annual fire safety inspection and FSC renewal", "category": "Compliance", "cost": 8500, "status": "Complete" },
+    { "date": "2025-11-20", "vendor": "SP Group", "description": "Electrical panel inspection and testing", "category": "Maintenance", "cost": 3200, "status": "Complete" },
+    { "date": "2025-06-15", "vendor": "Otis Elevator", "description": "Quarterly lift maintenance service", "category": "Maintenance", "cost": 1800, "status": "Complete" },
+    { "date": "2025-01-08", "vendor": "JTC FM", "description": "M&E annual maintenance check — ACMV, plumbing", "category": "Maintenance", "cost": 4500, "status": "Complete" }
+  ]
+}

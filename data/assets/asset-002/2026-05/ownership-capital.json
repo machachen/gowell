@@ -1,0 +1,58 @@
+{
+  "entity": {
+    "name": "GoWell US Inc.",
+    "type": "Delaware C-Corporation",
+    "registered": "Delaware, USA",
+    "taxElection": "US Federal Corporate Tax — 21% rate",
+    "formed": "2018-05-22"
+  },
+  "owners": [
+    {
+      "name": "GoWell Energy Solutions Pte. Ltd.",
+      "type": "Corporate Shareholder",
+      "role": "Sole Shareholder / Parent",
+      "ownershipPct": 100.0,
+      "equityContributed": 5820000,
+      "currentEquityValue": 6100000,
+      "since": "2018"
+    }
+  ],
+  "capitalContributions": [
+    { "date": "2019-08-01", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Acquisition",       "amount": 5200000, "note": "Dormitory complex acquisition — $5.2M all-equity + $4.1M Regions Bank debt" },
+    { "date": "2020-03-15", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Capital Expenditure","amount": 320000,  "note": "Building A renovation — kitchen, bathrooms, common areas Phase 1" },
+    { "date": "2022-09-01", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Capital Expenditure","amount": 185000,  "note": "HVAC replacement Phase 1 — Building A east wing (24 units)" },
+    { "date": "2024-11-15", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Capital Expenditure","amount": 115000,  "note": "Building B exterior waterproofing + parking reseal" }
+  ],
+  "capitalStack": {
+    "assetValue": 10200000,
+    "seniorDebt": 4100000,
+    "seniorDebtPct": 40.2,
+    "netEquity": 6100000,
+    "equityPct": 59.8,
+    "equityContributed": 5820000,
+    "accumulatedRetainedEarnings": 280000
+  },
+  "debtSummary": [
+    {
+      "lender": "Regions Bank",
+      "type": "Commercial Term Loan",
+      "currentBalance": 4100000,
+      "interestRate": "5.15%",
+      "rateType": "Fixed",
+      "maturityDate": "2026-08-15",
+      "dscr": "0.09x",
+      "ltv": "40.2%",
+      "status": "Renewal Due"
+    }
+  ],
+  "guaranteesObligations": [
+    {
+      "type": "Personal Guarantee",
+      "obligor": "Zhang Xi (via GoWell Energy Solutions Pte. Ltd.)",
+      "beneficiary": "Regions Bank",
+      "amount": 4100000,
+      "expiryDate": "2026-08-15",
+      "description": "Full personal guarantee provided to Regions Bank covering the USD 4.1M term loan secured on the Houston dormitory complex. Guarantee co-terminus with loan maturity. Must be renegotiated as part of refinancing process."
+    }
+  ]
+}

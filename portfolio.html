@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>if (sessionStorage.getItem('gw_auth') !== '1') window.location.replace('login.html');</script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atlas Point by BPM — GoWell Portfolio Overview</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div id="loading-overlay">
+  <div class="loading-spinner"></div>
+  <div class="loading-text">Loading portfolio data…</div>
+</div>
+<div id="error-banner"></div>
+
+<!-- ── Top Navigation ─────────────────────────────────────── -->
+<nav id="top-nav">
+  <div class="page-inner nav-inner">
+  <a class="nav-brand" href="portfolio.html">
+    <div class="nav-brand-icon">AP</div>
+    <div class="nav-brand-text">
+      <span class="nav-brand-name">Atlas Point by BPM</span>
+      <span class="nav-brand-sub">Real Estate Intelligence Platform</span>
+    </div>
+  </a>
+  <div class="nav-search">
+    <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.5 6.5 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+    <input type="text" placeholder="Search assets, documents, reports…" />
+  </div>
+  <div class="nav-right">
+    <span class="nav-updated-label">Reporting Period</span>
+    <span id="nav-period-display" style="font-size:13px;font-weight:600;color:var(--text-primary);">—</span>
+    <div class="nav-updated">
+      <span class="nav-updated-label">Last updated</span>
+      <span id="nav-updated-date">—</span>
+    </div>
+  </div>
+  </div>
+</nav>
+
+<!-- ── Breadcrumb ────────────────────────────────────────── -->
+<div id="breadcrumb">
+  <div class="page-inner bc-inner">
+    <span class="bc-root">Zhang Family Trust</span>
+    <span class="bc-sep">›</span>
+    <span class="bc-current">Real Estate Portfolio</span>
+  </div>
+</div>
+
+<!-- ── Portfolio Header ───────────────────────────────────── -->
+<div id="portfolio-header">
+  <div class="page-inner">
+  <div class="asset-card-wrap">
+  <div class="pf-header-card">
+    <div class="pf-thumb">
+      <svg viewBox="0 0 24 24"><path d="M1 11l11-9 11 9v11H15v-7H9v7H1V11zm2 0v9h4v-7h8v7h4v-9L12 4 3 11z"/></svg>
+      <span class="asset-thumb-label">Portfolio</span>
+    </div>
+    <div class="asset-header-body">
+      <div class="asset-badges">
+        <span class="asset-type-badge">Multi-Jurisdiction Real Estate Portfolio</span>
+        <span class="status-pill active">Active Holdings</span>
+        <span id="pf-period-badge" class="asset-period-badge">—</span>
+      </div>
+      <div class="asset-name">GoWell Energy Solutions — Real Estate Portfolio</div>
+      <div class="asset-sub-meta">
+        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <span>Singapore · Houston · Johor · Hong Kong · Dubai</span>
+        <span class="asset-meta-sep">·</span>
+        <span id="pf-asset-count">9 Assets</span>
+        <span class="asset-meta-sep">·</span>
+        <span>Atlas Point Asset Intelligence Platform</span>
+      </div>
+    </div>
+    <div class="asset-header-metrics">
+      <div class="hdr-metric">
+        <div class="hdr-metric-label">Portfolio AUM</div>
+        <div class="hdr-metric-value" id="pf-hdr-aum">—</div>
+      </div>
+      <div class="hdr-metric">
+        <div class="hdr-metric-label">Family Net Equity</div>
+        <div class="hdr-metric-value" id="pf-hdr-equity">—</div>
+      </div>
+      <div class="hdr-metric">
+        <div class="hdr-metric-label">Blended LTV</div>
+        <div class="hdr-metric-value" id="pf-hdr-ltv">—</div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     MAIN CONTENT
+     ═══════════════════════════════════════════════════════ -->
+<div id="main-content">
+
+  <div id="pf-key-figures" class="kf-strip mb-16" style="grid-template-columns: repeat(6,1fr);"></div>
+
+  <div class="card summary-card mb-16">
+    <div class="card-title">Portfolio Executive Summary</div>
+    <p id="pf-narrative" class="summary-narrative"></p>
+    <div id="pf-keymessage" class="summary-keymessage"></div>
+  </div>
+
+  <div class="section-header mb-16" style="margin-top:8px;">
+    <div class="section-title">Individual Asset Overview</div>
+    <div class="section-note">Click any asset card to view the full report</div>
+  </div>
+  <div id="pf-asset-cards" class="grid-3 mb-24"></div>
+
+  <div class="section-header"><div class="section-title">Portfolio Composition</div></div>
+  <div class="grid-2 mb-24">
+    <div class="card">
+      <div class="card-title">Asset Allocation by Assessed Value</div>
+      <div id="pf-allocation-chart" class="chart-container chart-lg"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">Annual NOI vs. Net Cash Flow by Asset</div>
+      <div class="card-subtitle text-muted text-sm">NOI (left bar) and pre-tax net cash flow (right bar) per asset</div>
+      <div id="pf-income-chart" class="chart-container chart-lg"></div>
+    </div>
+  </div>
+
+  <div class="section-header"><div class="section-title">Financial Comparison — All Assets</div></div>
+  <div class="card mb-24">
+    <div class="card-title">Key Financial Metrics Side-by-Side</div>
+    <div id="pf-comparison-table"></div>
+  </div>
+
+  <div class="section-header"><div class="section-title">Debt & Leverage</div></div>
+  <div class="grid-2 mb-24">
+    <div class="card">
+      <div class="card-title">Debt Maturity Schedule & Details</div>
+      <div id="pf-debt-table"></div>
+    </div>
+    <div class="card">
+      <div class="card-title">LTV Comparison by Asset</div>
+      <div id="pf-ltv-chart" class="chart-container chart-lg"></div>
+    </div>
+  </div>
+
+  <div class="section-header"><div class="section-title">Portfolio Value Growth</div></div>
+  <div class="card mb-24">
+    <div class="card-title">Aggregate Portfolio Value — Historical Trend (2021–2026)</div>
+    <div class="card-subtitle text-muted text-sm">Stacked area chart · Each colour represents an individual asset's assessed value contribution · USD</div>
+    <div id="pf-history-chart" class="chart-container" style="height:360px;"></div>
+  </div>
+
+  <div class="section-header">
+    <div class="section-title">Pending Actions — All Assets</div>
+    <div class="section-note">Sorted by deadline</div>
+  </div>
+  <div class="card mb-24"><div id="pf-actions-table"></div></div>
+
+  <div class="section-header"><div class="section-title">Portfolio Risk Overview</div></div>
+  <div class="grid-3 mb-24">
+    <div class="card pf-risk-stat-card">
+      <div class="pf-risk-number high" id="pf-risk-high">—</div>
+      <div class="pf-risk-label">High Risk Items</div>
+    </div>
+    <div class="card pf-risk-stat-card">
+      <div class="pf-risk-number medium" id="pf-risk-medium">—</div>
+      <div class="pf-risk-label">Medium Risk Items</div>
+    </div>
+    <div class="card pf-risk-stat-card">
+      <div class="pf-risk-number low" id="pf-risk-low">—</div>
+      <div class="pf-risk-label">Low Risk Items</div>
+    </div>
+  </div>
+  <div class="card mb-24">
+    <div class="card-title">Top Risk Alert</div>
+    <div id="pf-risk-concern" class="pf-risk-concern"></div>
+  </div>
+
+</div>
+
+<script src="portfolio.js"></script>
+</body>
+</html>

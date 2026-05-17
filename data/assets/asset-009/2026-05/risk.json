@@ -1,0 +1,24 @@
+{
+  "summary": { "overallRiskLevel": "Low", "lastReviewed": "2026-05-12", "highRisks": 0, "mediumRisks": 1, "lowRisks": 3 },
+  "register": [
+    { "id": "R01", "category": "Finance", "title": "UOB Mortgage Repricing Risk (Mar 2028)", "description": "SORA-linked mortgage reprices on renewal March 2028; sustained elevated rates could increase debt service by SGD 8,000–14,000/yr.", "probability": 2, "impact": 2, "riskScore": 4, "level": "Medium", "owner": "Zhang Xi / Family Banker", "status": "Monitoring" },
+    { "id": "R02", "category": "Market", "title": "Singapore Landed Property Policy Risk", "description": "Government could introduce additional landed cooling measures; ABSD not applicable to Zhang Xi if Singapore PR/citizen, but foreign buyer rules could impact re-sale.", "probability": 1, "impact": 2, "riskScore": 2, "level": "Low", "owner": "Legal / Tax Advisor", "status": "Monitoring" },
+    { "id": "R03", "category": "Operations", "title": "Building Age — Major Maintenance (1998)", "description": "28-year-old structure; roof, drainage, M&E systems approaching major service intervals; capex of SGD 50,000–150,000 possible within 5–10 years.", "probability": 2, "impact": 2, "riskScore": 4, "level": "Low", "owner": "Property Manager", "status": "Monitoring" },
+    { "id": "R04", "category": "Macro", "title": "Singapore Landed Supply Constraint", "description": "Singapore freehold landed supply is constitutionally constrained (no GLS for freehold landed); supports long-term value but may limit liquidity.", "probability": 1, "impact": 1, "riskScore": 1, "level": "Low", "owner": "Asset Manager", "status": "Monitoring" }
+  ],
+  "scenarios": [
+    { "name": "SORA +150bps at Renewal — Higher Debt Service", "baseCashFlow": -93124, "scenarioCashFlow": -107000, "cashFlowDelta": -13876, "verdict": "Manageable — additional SGD 18,700/yr debt service ($13,900 USD). Conservative 26.4% LTV means strong refinancing options remain available." },
+    { "name": "Singapore Landed Market +10% — Wealth Appreciation", "baseValue": 5353200, "scenarioValue": 5888520, "scenarioLTV": 24.0, "verdict": "Strong wealth creation scenario — SGD 7.2M becomes SGD 7.9M. LTV improves to 24%. Primary residence hold remains optimal strategy." }
+  ],
+  "scenarioChart": {
+    "labels": ["2026","2027","2028","2029","2030"],
+    "cashFlow": {
+      "Downside": [-107000, -110000, -108000, -106000, -104000],
+      "Base":     [-93124,  -95000,  -93000,  -91000,  -88000],
+      "Upside":   [-93124,  -90000,  -86000,  -82000,  -78000]
+    }
+  },
+  "mitigationPlan": [
+    { "riskId": "R01", "action": "Begin UOB renewal process September 2027; obtain quotes from DBS, OCBC, StanChart for comparison", "owner": "Zhang Xi", "deadline": "2027-09-01", "status": "Open" }
+  ]
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <script>
+    if (sessionStorage.getItem('gw_auth') !== '1') window.location.replace('login.html');
+    else if (!new URLSearchParams(location.search).get('id')) window.location.replace('portfolio.html');
+  </script>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Atlas Point by BPM — GoWell Asset Detail</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <script src="https://cdn.jsdelivr.net/npm/echarts@5.4.3/dist/echarts.min.js"></script>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<div id="loading-overlay">
+  <div class="loading-spinner"></div>
+  <div class="loading-text">Loading asset data…</div>
+</div>
+
+<div id="error-banner"></div>
+
+<!-- ── Top Navigation ─────────────────────────────────────── -->
+<nav id="top-nav">
+  <div class="page-inner nav-inner">
+  <a class="nav-brand" href="portfolio.html">
+    <div class="nav-brand-icon">AP</div>
+    <div class="nav-brand-text">
+      <span class="nav-brand-name">Atlas Point by BPM</span>
+      <span class="nav-brand-sub">Real Estate Intelligence Platform</span>
+    </div>
+  </a>
+  <div class="nav-search">
+    <svg viewBox="0 0 24 24"><path d="M15.5 14h-.79l-.28-.27A6.5 6.5 0 0 0 16 9.5 6.5 6.5 0 1 0 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z"/></svg>
+    <input type="text" placeholder="Search assets, documents, reports…" />
+  </div>
+  <div class="nav-right">
+    <div class="nav-period-wrap">
+      <span class="nav-period-label">Period</span>
+      <select id="nav-period-select" class="nav-period-select">
+        <option value="2026-05">Q2 2026</option>
+        <option value="2025-12">Q4 2025</option>
+        <option value="2025-06">Q2 2025</option>
+      </select>
+    </div>
+    <div class="nav-updated">
+      <span class="nav-updated-label">Last updated</span>
+      <span id="nav-updated-date">—</span>
+    </div>
+  </div>
+  </div>
+</nav>
+
+<!-- ── Breadcrumb ────────────────────────────────────────── -->
+<div id="breadcrumb">
+  <div class="page-inner bc-inner">
+    <a class="bc-root" href="portfolio.html">Zhang Family Trust</a>
+    <span class="bc-sep">›</span>
+    <span class="bc-asset" id="bc-asset-name">—</span>
+    <span class="bc-sep">›</span>
+    <span class="bc-current" id="bc-current-tab">Overview</span>
+  </div>
+</div>
+
+<!-- ── Asset Header ───────────────────────────────────────── -->
+<div id="asset-header">
+  <div class="page-inner">
+  <div class="asset-card-wrap">
+  <div class="asset-header-card">
+    <div class="asset-thumb">
+      <svg viewBox="0 0 24 24"><path d="M3 21V7l9-4 9 4v14H3zm2-2h14V8.15l-7-3.11L5 8.15V19zm3-3h2v-5H8v5zm4 0h2v-5h-2v5zm4 0h2v-5h-2v5z"/></svg>
+      <span class="asset-thumb-label">Asset</span>
+    </div>
+    <div class="asset-header-body">
+      <div class="asset-badges">
+        <span class="asset-type-badge" id="asset-type-badge">—</span>
+        <span id="asset-status-pill" class="status-pill hold">—</span>
+        <span id="asset-period-badge" class="asset-period-badge">—</span>
+        <span id="asset-jurisdiction-badge" class="jurisdiction-badge">—</span>
+      </div>
+      <div id="asset-name" class="asset-name">—</div>
+      <div class="asset-sub-meta">
+        <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z"/></svg>
+        <span id="asset-location-meta">—</span>
+        <span class="asset-meta-sep">·</span>
+        <span id="asset-ownership-meta">—</span>
+      </div>
+    </div>
+    <div class="asset-header-metrics">
+      <div class="hdr-metric">
+        <div class="hdr-metric-label">Assessed Value</div>
+        <div class="hdr-metric-value" id="hdr-value">—</div>
+      </div>
+      <div class="hdr-metric">
+        <div class="hdr-metric-label">Floor Area</div>
+        <div class="hdr-metric-value" id="hdr-gba">—</div>
+      </div>
+      <div class="hdr-metric">
+        <div class="hdr-metric-label">Reporting Currency</div>
+        <div class="hdr-metric-value" id="hdr-currency">USD</div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Tab Bar -->
+  <div class="tab-bar">
+    <button class="tab-btn active" data-panel="panel-overview">
+      <svg viewBox="0 0 24 24"><path d="M3 13h8V3H3v10zm0 8h8v-6H3v6zm10 0h8V11h-8v10zm0-18v6h8V3h-8z"/></svg>
+      Overview
+    </button>
+    <button class="tab-btn" data-panel="panel-ownership">
+      <svg viewBox="0 0 24 24"><path d="M16 11c1.66 0 2.99-1.34 2.99-3S17.66 5 16 5c-1.66 0-3 1.34-3 3s1.34 3 3 3zm-8 0c1.66 0 2.99-1.34 2.99-3S9.66 5 8 5C6.34 5 5 6.34 5 8s1.34 3 3 3zm0 2c-2.33 0-7 1.17-7 3.5V19h14v-2.5c0-2.33-4.67-3.5-7-3.5zm8 0c-.29 0-.62.02-.97.05 1.16.84 1.97 1.97 1.97 3.45V19h6v-2.5c0-2.33-4.67-3.5-7-3.5z"/></svg>
+      Ownership & Capital
+    </button>
+    <button class="tab-btn" data-panel="panel-financial">
+      <svg viewBox="0 0 24 24"><path d="M11.8 10.9c-2.27-.59-3-1.2-3-2.15 0-1.09 1.01-1.85 2.7-1.85 1.78 0 2.44.85 2.5 2.1h2.21c-.07-1.72-1.12-3.3-3.21-3.81V3h-3v2.16c-1.94.42-3.5 1.68-3.5 3.61 0 2.31 1.91 3.46 4.7 4.13 2.5.6 3 1.48 3 2.41 0 .69-.49 1.79-2.7 1.79-2.06 0-2.87-.92-2.98-2.1h-2.2c.12 2.19 1.76 3.42 3.68 3.83V21h3v-2.15c1.95-.37 3.5-1.5 3.5-3.55 0-2.84-2.43-3.81-4.7-4.4z"/></svg>
+      Financial & Valuation
+    </button>
+    <button class="tab-btn" data-panel="panel-risk">
+      <svg viewBox="0 0 24 24"><path d="M12 2L1 21h22L12 2zm0 3.49L19.53 19H4.47L12 5.49zM11 10v4h2v-4h-2zm0 6v2h2v-2h-2z"/></svg>
+      Risk Analysis
+    </button>
+    <button class="tab-btn" data-panel="panel-operations">
+      <svg viewBox="0 0 24 24"><path d="M19.43 12.98c.04-.32.07-.64.07-.98s-.03-.66-.07-.98l2.11-1.65c.19-.15.24-.42.12-.64l-2-3.46c-.12-.22-.39-.3-.61-.22l-2.49 1c-.52-.4-1.08-.73-1.69-.98l-.38-2.65C14.46 2.18 14.25 2 14 2h-4c-.25 0-.46.18-.49.42l-.38 2.65c-.61.25-1.17.59-1.69.98l-2.49-1c-.23-.09-.49 0-.61.22l-2 3.46c-.13.22-.07.49.12.64l2.11 1.65c-.04.32-.07.65-.07.98s.03.66.07.98l-2.11 1.65c-.19.15-.24.42-.12.64l2 3.46c.12.22.39.3.61.22l2.49-1c.52.4 1.08.73 1.69.98l.38 2.65c.03.24.24.42.49.42h4c.25 0 .46-.18.49-.42l.38-2.65c.61-.25 1.17-.59 1.69-.98l2.49 1c.23.09.49 0 .61-.22l2-3.46c.12-.22.07-.49-.12-.64l-2.11-1.65zM12 15.5c-1.93 0-3.5-1.57-3.5-3.5s1.57-3.5 3.5-3.5 3.5 1.57 3.5 3.5-1.57 3.5-3.5 3.5z"/></svg>
+      Operations
+    </button>
+    <button class="tab-btn" data-panel="panel-documents">
+      <svg viewBox="0 0 24 24"><path d="M20 6h-8l-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V8c0-1.1-.9-2-2-2zm0 12H4V8h16v10z"/></svg>
+      Documents
+    </button>
+    <button class="tab-btn" data-panel="panel-market">
+      <svg viewBox="0 0 24 24"><path d="M3.5 18.49l6-6.01 4 4L22 6.92l-1.41-1.41-7.09 7.97-4-4L2 16.99z"/></svg>
+      Market
+    </button>
+  </div>
+  </div>
+  </div>
+</div>
+
+<!-- ═══════════════════════════════════════════════════════
+     MAIN CONTENT
+     ═══════════════════════════════════════════════════════ -->
+<div id="main-content">
+
+  <!-- OVERVIEW TAB -->
+  <div id="panel-overview" class="tab-panel active">
+    <div class="card summary-card mb-16">
+      <div class="card-title">Executive Summary</div>
+      <p id="ov-summary-narrative" class="summary-narrative"></p>
+      <div id="ov-summary-keymessage" class="summary-keymessage"></div>
+    </div>
+    <div class="grid-2-3 mb-16" style="align-items:start">
+      <div class="card" style="padding:18px 20px;">
+        <div class="card-title">Asset Information</div>
+        <div id="ov-basic-info"></div>
+      </div>
+      <div>
+        <div id="ov-key-figures" class="kf-strip"></div>
+        <div id="ov-kpi-cards" class="grid-4"></div>
+      </div>
+    </div>
+    <div class="card mb-16">
+      <div class="card-title">Pending Decisions & Recommended Actions</div>
+      <div id="ov-actions"></div>
+    </div>
+    <div class="grid-3">
+      <div class="card"><div class="card-title">Key Documents</div><div id="ov-linked-docs"></div></div>
+      <div class="card"><div class="card-title">Top Risks</div><div id="ov-top-risks"></div></div>
+      <div class="card"><div class="card-title">Market Snapshot</div><div id="ov-market-snapshot"></div></div>
+    </div>
+  </div>
+
+  <!-- OWNERSHIP & CAPITAL TAB -->
+  <div id="panel-ownership" class="tab-panel">
+    <div class="grid-3 mb-16">
+      <div class="card"><div class="card-title">Legal Entity</div><div id="ow-entity-info"></div></div>
+      <div class="card" style="grid-column: span 2;"><div class="card-title">Ownership Structure</div><div id="ow-owners-table"></div></div>
+    </div>
+    <div class="grid-2-3 mb-16">
+      <div class="card"><div class="card-title">Ownership Distribution</div><div id="ow-donut-chart" class="chart-container chart-md"></div></div>
+      <div class="card"><div class="card-title">Capital Structure</div><div id="ow-capital-stack"></div><div id="ow-stack-chart" class="chart-container chart-md"></div></div>
+    </div>
+    <div class="mb-16">
+      <div class="section-header"><div class="section-title">Net Equity Position</div></div>
+      <div id="ow-net-equity"></div>
+    </div>
+    <div class="card mb-16"><div class="card-title">Debt Summary</div><div id="ow-debt-table"></div></div>
+    <div class="card mb-16"><div class="card-title">Capital Contributions</div><div id="ow-contributions-table"></div></div>
+    <div id="ow-guarantee"></div>
+  </div>
+
+  <!-- FINANCIAL TAB -->
+  <div id="panel-financial" class="tab-panel">
+    <div id="fin-valuation-cards"></div>
+    <div class="card mb-16">
+      <div class="card-title">Income Statement — Actual vs. Budget vs. Prior Year</div>
+      <div class="card-subtitle text-muted text-sm">Trailing 12 months · All figures in USD</div>
+      <div id="fin-income-statement"></div>
+    </div>
+    <div class="grid-2 mb-16">
+      <div class="card"><div class="card-title">Valuation History</div><div id="fin-valuation-chart" class="chart-container chart-lg"></div></div>
+      <div class="card"><div class="card-title">5-Year Value Projection — Scenario Analysis</div><div id="fin-projection-chart" class="chart-container chart-lg"></div></div>
+    </div>
+    <div class="card mb-16"><div class="card-title">Capital Expenditure Summary</div><div id="fin-capex-table"></div></div>
+  </div>
+
+  <!-- RISK TAB -->
+  <div id="panel-risk" class="tab-panel">
+    <div id="risk-summary-cards" class="mb-16"></div>
+    <div class="grid-1-2 mb-16">
+      <div class="card">
+        <div class="card-title">Probability / Impact Matrix</div>
+        <div id="risk-matrix-chart" class="chart-container chart-xl"></div>
+        <div class="text-xs text-muted" style="margin-top:6px;">X-axis = Impact (1–5) · Y-axis = Likelihood (1–5) · Labels = Risk ID</div>
+      </div>
+      <div class="card"><div class="card-title">Risk Register</div><div id="risk-register-table"></div></div>
+    </div>
+    <div class="card mb-16">
+      <div class="card-title">Scenario Stress Testing</div>
+      <div class="card-subtitle text-muted text-sm">Impact on cash flow or asset value under stress scenarios</div>
+      <div id="risk-scenarios" class="grid-3 mb-16" style="margin-top:12px;"></div>
+      <div class="section-header"><div class="section-title">Three-Scenario Cash Flow Projection</div></div>
+      <div id="risk-scenario-chart" class="chart-container chart-lg"></div>
+    </div>
+    <div class="card"><div class="card-title">Risk Mitigation Action Plan</div><div id="risk-mitigation-table"></div></div>
+  </div>
+
+  <!-- OPERATIONS TAB -->
+  <div id="panel-operations" class="tab-panel">
+    <div class="card mb-16">
+      <div class="card-title">Priority Matrix</div>
+      <div class="pm-axis-labels"><div>← High Urgency</div><div>Low Urgency →</div></div>
+      <div class="pm-quadrant-grid">
+        <div id="pm-q1" class="pm-quadrant pm-q1"></div>
+        <div id="pm-q2" class="pm-quadrant pm-q2"></div>
+        <div id="pm-q3" class="pm-quadrant pm-q3"></div>
+        <div id="pm-q4" class="pm-quadrant pm-q4"></div>
+      </div>
+    </div>
+    <div class="card mb-16"><div class="card-title">Capital Expenditure Projects</div><div id="ops-capex-table"></div></div>
+    <div class="card mb-16"><div class="card-title">Recurring Operating Expenses</div><div id="ops-opex-table"></div></div>
+    <div class="card mb-16"><div class="card-title">Vendors & Suppliers</div><div id="ops-suppliers-table"></div></div>
+    <div class="card"><div class="card-title">Service History</div><div id="ops-service-history"></div></div>
+  </div>
+
+  <!-- DOCUMENTS TAB -->
+  <div id="panel-documents" class="tab-panel">
+    <div class="card mb-16"><div class="card-title">Key Documents</div><div id="docs-important"></div></div>
+    <div class="card">
+      <div class="card-title">Document Library</div>
+      <div id="docs-filter-bar" class="doc-filter-bar"></div>
+      <div id="docs-library-table"></div>
+    </div>
+  </div>
+
+  <!-- MARKET TAB -->
+  <div id="panel-market" class="tab-panel">
+    <div class="card mb-16"><div class="card-title" id="mkt-narrative-title">Local Market Summary</div><div id="mkt-narrative"></div></div>
+    <div class="card mb-16"><div class="card-title">Asset Competitiveness Analysis (SWOT)</div><div id="mkt-competitiveness"></div></div>
+    <div class="grid-3-2 mb-16">
+      <div class="card"><div class="card-title">Comparable Transactions</div><div id="mkt-comp-sales"></div></div>
+      <div class="card"><div class="card-title">Cap Rate Trend — Submarket</div><div id="mkt-caprate-chart" class="chart-container chart-lg"></div></div>
+    </div>
+    <div class="grid-3-2 mb-16">
+      <div class="card"><div class="card-title">Rental Comparables</div><div id="mkt-comp-rents"></div></div>
+      <div class="card"><div class="card-title">Vacancy Rate Trend — Submarket vs. Asset</div><div id="mkt-vacancy-chart" class="chart-container chart-lg"></div></div>
+    </div>
+    <div class="grid-2 mb-16">
+      <div class="card"><div class="card-title">Market Risks</div><div id="mkt-risks"></div></div>
+      <div class="card"><div class="card-title">Market Opportunities</div><div id="mkt-opportunities"></div></div>
+    </div>
+    <div id="mkt-implication"></div>
+  </div>
+
+</div><!-- /main-content -->
+
+<script src="app.js"></script>
+</body>
+</html>

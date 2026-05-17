@@ -1,0 +1,31 @@
+{
+  "priorityMatrix": {
+    "items": [
+      { "title": "Lease expiry decision — engage Savills HK for advisory", "quadrant": "Do First", "owner": "Asset Manager", "deadline": "2026-08-01", "status": "Open" },
+      { "title": "Obtain comparable rental data for renewal negotiation", "quadrant": "Do First", "owner": "Asset Manager / Knight Frank", "deadline": "2026-07-15", "status": "Open" },
+      { "title": "Review property management fee on renewal", "quadrant": "Schedule", "owner": "Asset Manager", "deadline": "2026-10-31", "status": "Open" },
+      { "title": "Air-conditioning unit replacement planning (2027 horizon)", "quadrant": "Schedule", "owner": "Property Manager", "deadline": "2027-06-30", "status": "Proposed" },
+      { "title": "BVI company annual compliance filing", "quadrant": "Delegate", "owner": "BVI Registered Agent", "deadline": "2026-09-30", "status": "Open" }
+    ]
+  },
+  "capexProjects": [
+    { "project": "Full Apartment Redecoration (pre-tenancy Oct 2024)", "budgeted": 28000, "spent": 28000, "pctComplete": 100, "contractor": "Wing Fat Interior Design HK", "estCompletion": "2024-10-28", "status": "Complete", "expectedROI": "Maintained premium rental positioning" },
+    { "project": "Air-conditioning Replacement (wall units)", "budgeted": 8500, "spent": 0, "pctComplete": 0, "contractor": "TBD", "estCompletion": "2027-06-30", "status": "Proposed", "expectedROI": "Energy efficiency + tenant comfort" }
+  ],
+  "opexRecurring": [
+    { "category": "Property Management", "vendor": "Knight Frank HK Residential", "annualCost": 1273, "frequency": "Monthly (2.5% of rent)", "contractExpiry": "2026-10-31", "status": "Active", "notes": "Tenant liaison, maintenance coordination, rent collection" },
+    { "category": "Building Management", "vendor": "The Masterpiece Management Office", "annualCost": 3850, "frequency": "Monthly", "contractExpiry": "Ongoing", "status": "Active", "notes": "MCIF charges for premium services — concierge, security, pool, gym" },
+    { "category": "Government Rates", "vendor": "Rating & Valuation Dept. (HK)", "annualCost": 2580, "frequency": "Quarterly", "contractExpiry": "Ongoing", "status": "Active", "notes": "HK government rates at 5% of rateable value; exempt first HKD 3,000/yr" },
+    { "category": "Insurance", "vendor": "AXA Hong Kong", "annualCost": 820, "frequency": "Annual", "contractExpiry": "2027-06-15", "status": "Active", "notes": "Contents and third-party liability; landlord policy" },
+    { "category": "BVI Company Fees", "vendor": "Portcullis TrustNet (BVI)", "annualCost": 3600, "frequency": "Annual", "contractExpiry": "Ongoing", "status": "Active", "notes": "Annual BVI company secretary, registered agent, compliance" }
+  ],
+  "suppliers": [
+    { "name": "Knight Frank HK Residential", "category": "Property Management", "contact": "Residential Lettings, TST office", "contractPeriod": "Nov 2024 to Oct 2026", "warrantyOrSLA": "Monthly reporting; tenant issues 24hr response", "status": "Active", "notes": "Manages all tenant communications, maintenance requests, rent collection" },
+    { "name": "AXA Hong Kong", "category": "Insurance", "contact": "Commercial Lines HK", "contractPeriod": "2026-06-15 to 2027-06-15", "warrantyOrSLA": "Contents HKD 800K; liability HKD 5M", "status": "Active", "notes": "Annual landlord policy; competitive premium obtained" }
+  ],
+  "serviceHistory": [
+    { "date": "2026-04-15", "vendor": "Knight Frank HK", "description": "Q1 2026 rental management report — rent collection confirmed", "category": "Operations", "cost": 0, "status": "Complete" },
+    { "date": "2025-11-10", "vendor": "Wing Fat Interior Design", "description": "6-month post-redecoration inspection — no issues identified", "category": "Inspection", "cost": 0, "status": "Complete" },
+    { "date": "2024-10-28", "vendor": "Wing Fat Interior Design HK", "description": "Full apartment redecoration — furniture, fixtures, paint, lighting", "category": "Capital Works", "cost": 28000, "status": "Complete" }
+  ]
+}

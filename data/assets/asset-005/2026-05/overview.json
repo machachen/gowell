@@ -1,0 +1,106 @@
+{
+  "summary": {
+    "narrative": "Residence Bel-Air Unit 11C, Tower 7 is a 106.2 sqm (2BR+Study) luxury apartment in one of Hong Kong Island's most prestigious seafront developments at 38 Bel-Air Avenue, Pok Fu Lam. The unit is held primarily for Zhang family use during Hong Kong visits, and is partially let through a short-term agent for approximately 6 months per year when unoccupied by the family. The partially-let arrangement generates approximately HKD 132,000 (USD 17,000) annually in net income after management fees. The asset is unencumbered. A formal independent valuation has not been conducted since October 2023 and is overdue.",
+    "keyMessage": "USD 2.29M unencumbered luxury asset · Partially let ~6 mo/yr · Annual NOI $17,000 · Valuation overdue — last appraisal Oct 2023 · 0.74% cap rate"
+  },
+  "basicInfo": {
+    "assetName": "Residence Bel-Air — Unit 11C, Tower 7",
+    "assetType": "Luxury Residential Apartment",
+    "location": "Unit 11C, Tower 7, Residence Bel-Air, 38 Bel-Air Avenue, Pok Fu Lam, Hong Kong",
+    "submarket": "Pok Fu Lam / Bel-Air — Luxury Residential on HK Island",
+    "yearBuilt": 2006,
+    "yearAcquired": 2019,
+    "totalSQM": 106.2,
+    "currentStatus": "Held — Family Use / Partially Let",
+    "reportingPeriod": "Q2 2026 (May 2026)",
+    "ownershipSummary": "Zhang Family Trust (100%) — direct registered title through BVI holding company",
+    "tenure": "Residential Lease — 50 years from 1998 (expires 2048)"
+  },
+  "keyFigures": [
+    { "label": "Assessed Value",   "value": "$2,287,300",  "subLabel": "HKD 17.8M · Q2 2026",           "trend": "flat", "trendValue": "–2.1% YoY" },
+    { "label": "Annual NOI",       "value": "$17,000",     "subLabel": "6-month let net income",         "trend": "flat", "trendValue": "Stable" },
+    { "label": "Gross Cap Rate",   "value": "0.74%",       "subLabel": "Below-market due to partial let","trend": "flat", "trendValue": "Family-use drag" },
+    { "label": "Occupancy (let)",  "value": "~50%",        "subLabel": "Let ~6 months / year",           "trend": "flat", "trendValue": "By choice" },
+    { "label": "Debt",             "value": "$0",          "subLabel": "Unencumbered",                   "trend": "flat", "trendValue": "—" },
+    { "label": "Valuation Date",   "value": "Oct 2023",    "subLabel": "Overdue — refresh required",     "trend": "flat", "trendValue": "Action needed" }
+  ],
+  "kpiCards": [
+    {
+      "id": "income",
+      "title": "Annual Let Income (HKD)",
+      "value": "HKD 132,000",
+      "period": "TTM May 2026",
+      "trend": "~6 months let/yr",
+      "trendDir": "flat",
+      "chartType": "bar",
+      "chartData": {
+        "labels": ["2021","2022","2023","2024","2025","2026e"],
+        "values": [120000, 125000, 128000, 130000, 131000, 132000]
+      }
+    },
+    {
+      "id": "value",
+      "title": "Asset Value (HKD M)",
+      "value": "HKD 17.8M",
+      "period": "Q2 2026",
+      "trend": "–2.1% vs. 2023 appraisal",
+      "trendDir": "neg",
+      "chartType": "line",
+      "chartData": {
+        "labels": ["2019","2020","2021","2022","2023","2024","2025","2026"],
+        "values": [21800000, 20500000, 22300000, 20400000, 18200000, 18000000, 18100000, 17800000]
+      }
+    },
+    {
+      "id": "monthlyrent",
+      "title": "Monthly Let Rate (HKD)",
+      "value": "HKD 22,000",
+      "period": "When let",
+      "trend": "Market-rate for submarket",
+      "trendDir": "flat",
+      "chartType": "bar",
+      "chartData": {
+        "labels": ["2022","2023","2024","2025","2026"],
+        "values": [24000, 23500, 22500, 22000, 22000]
+      }
+    }
+  ],
+  "actions": [
+    {
+      "title": "Commission Formal Independent Valuation",
+      "priority": "Medium",
+      "status": "Open",
+      "recommendation": "Last independent valuation (Knight Frank HK) was October 2023. A current valuation is required for portfolio reporting accuracy and for the GoWell IPO preparation disclosure package. Engage C H Williams, Colliers, or Savills for a desktop/drive-by valuation — estimated cost HKD 12,000–15,000.",
+      "decisionNeeded": "Approve valuation mandate",
+      "owner": "Asset Manager / Zhang Family Trust",
+      "deadline": "2026-09-30"
+    },
+    {
+      "title": "Review Partial-Let Strategy vs. Full-Let",
+      "priority": "Low",
+      "status": "Open",
+      "recommendation": "Current 50% occupancy lets income significantly below full potential. If family usage can be consolidated with Unit 15B Palm Jumeirah or SG West Coast home, the Bel-Air unit could generate HKD 22,000/mo if fully let — improving NOI from $17K to ~$32K USD annually. Recommend family discussion on usage preferences.",
+      "decisionNeeded": "Family decision on usage frequency — no financial urgency",
+      "owner": "Zhang Family / Asset Manager",
+      "deadline": "2026-12-31"
+    }
+  ],
+  "linkedDocuments": [
+    { "name": "Property Title — Unit 11C Tower 7 Residence Bel-Air",      "category": "Legal",      "date": "2019-04-12", "type": "PDF" },
+    { "name": "Knight Frank Valuation Report — HKD 18.2M (Oct 2023)",    "category": "Valuation",  "date": "2023-10-15", "type": "PDF" },
+    { "name": "Short-term Letting Agreement — CBRE HK Residential Mgmt", "category": "Operations", "date": "2023-11-01", "type": "PDF" }
+  ],
+  "topRisks": [
+    { "level": "Medium", "title": "HK Residential Market Decline",  "impact": "Pok Fu Lam luxury sector has seen 9–14% value decline since 2021 peak due to emigration and reduced mainland Chinese buyer activity." },
+    { "level": "Medium", "title": "Stale Valuation",                "impact": "Current portfolio value for this asset may be overstated vs. Oct 2023 appraisal — estimated market decline of 2–5% since last formal valuation." },
+    { "level": "Low",    "title": "Leasehold Expiry (2048)",        "impact": "22-year residual lease is adequate for medium-term hold, but will reduce financing options and require reassessment near the 2040s." }
+  ],
+  "marketSnapshot": {
+    "submarket": "Pok Fu Lam / Bel-Air — Luxury Residential (HK Island)",
+    "medianRentPM2": "HKD 190–230 / sqm / month (Bel-Air / Cyberport, Q1 2026)",
+    "vacancyRate": "7.4% (HK luxury mid-levels, Q1 2026)",
+    "yoyRentGrowth": "–3.5% (Pok Fu Lam luxury, 2025–2026)",
+    "assetVsMarket": "Subject: HKD 207/sqm/mo (when let) — slightly below market due to dated fit-out vs. newer comparables",
+    "capRateBenchmark": "1.4%–2.0% (HK Island luxury residential, 2025–2026)"
+  }
+}

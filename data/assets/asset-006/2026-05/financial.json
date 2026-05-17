@@ -1,0 +1,49 @@
+{
+  "incomeStatement": {
+    "rows": [
+      { "label": "REVENUE",                           "indent": 0, "type": "subtotal", "actual": 0,      "budget": 0,      "priorYear": 0 },
+      { "label": "Annual Rent (AED 138K = $37.6K)",  "indent": 1, "type": "income",   "actual": 37581,  "budget": 36740,  "priorYear": 36812 },
+      { "label": "TOTAL REVENUE",                     "indent": 0, "type": "subtotal", "actual": 37581,  "budget": 36740,  "priorYear": 36812 },
+      { "label": "OPERATING EXPENSES",                "indent": 0, "type": "subtotal", "actual": 0,      "budget": 0,      "priorYear": 0 },
+      { "label": "Service Charges (RERA)",            "indent": 1, "type": "expense",  "actual": -5611,  "budget": -5600,  "priorYear": -5311 },
+      { "label": "Property Management Fee (6%)",     "indent": 1, "type": "expense",  "actual": -2255,  "budget": -2204,  "priorYear": -2209 },
+      { "label": "Insurance",                        "indent": 1, "type": "expense",  "actual": -612,   "budget": -600,   "priorYear": -580 },
+      { "label": "BVI / Trust Maintenance Fees",     "indent": 1, "type": "expense",  "actual": -2800,  "budget": -2800,  "priorYear": -2800 },
+      { "label": "TOTAL OPERATING EXPENSES",         "indent": 0, "type": "subtotal", "actual": -11278, "budget": -11204, "priorYear": -10900 },
+      { "label": "NET OPERATING INCOME (NOI)",       "indent": 0, "type": "noi",      "actual": 26303,  "budget": 25536,  "priorYear": 25912 },
+      { "label": "Depreciation / IFRS Adjustments", "indent": 1, "type": "deduction","actual": 0,      "budget": 0,      "priorYear": 0 },
+      { "label": "PRE-TAX NET CASH FLOW",            "indent": 0, "type": "total",    "actual": 26303,  "budget": 25536,  "priorYear": 25912 }
+    ]
+  },
+  "valuation": {
+    "purchasePrice": 620900,
+    "purchaseDate": "2022-09-15",
+    "lastAppraisalValue": 678000,
+    "lastAppraisalDate": "2025-11-30",
+    "currentEstimatedValue": 713226,
+    "impliedCapRate": "5.27%",
+    "valueChange": 92326,
+    "valueChangePct": 14.9,
+    "valuePM2": 6704,
+    "netEquity": 713226,
+    "history": [
+      { "date": "2022-09-30", "value": 620900 },
+      { "date": "2023-06-30", "value": 657000 },
+      { "date": "2024-06-30", "value": 681000 },
+      { "date": "2025-06-30", "value": 678000 },
+      { "date": "2026-05-31", "value": 713226 }
+    ]
+  },
+  "projections": {
+    "years": ["2026","2027","2028","2029","2030"],
+    "value": {
+      "Downside": [660000, 640000, 620000, 630000, 650000],
+      "Base":     [713226, 745000, 778000, 810000, 845000],
+      "Upside":   [713226, 780000, 850000, 920000, 990000]
+    }
+  },
+  "capex": [
+    { "project": "Furniture Package & White Goods",  "year": 2022, "budgeted": 12800, "actual": 12800, "status": "Complete", "notes": "Installed at acquisition for tenant readiness" },
+    { "project": "Minor Refresh & Touch-up",         "year": 2027, "budgeted": 8000,  "actual": 0,     "status": "Proposed", "notes": "Planned for tenant turnover period" }
+  ]
+}

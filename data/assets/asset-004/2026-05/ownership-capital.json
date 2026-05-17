@@ -1,0 +1,35 @@
+{
+  "entity": {
+    "name": "Masterpiece TST Holdings Ltd.",
+    "type": "BVI Business Company",
+    "registered": "British Virgin Islands",
+    "taxElection": "BVI — no corporate income tax; Hong Kong stamp duty paid on transfer",
+    "formed": "2017-04-10"
+  },
+  "owners": [
+    {
+      "name": "Zhang Family Trust (BVI)",
+      "type": "Trust",
+      "role": "Beneficial Owner (100%)",
+      "ownershipPct": 100.0,
+      "equityContributed": 2180000,
+      "currentEquityValue": 2724200,
+      "since": "2017"
+    }
+  ],
+  "capitalContributions": [
+    { "date": "2017-06-15", "contributor": "Zhang Family Trust", "type": "Acquisition",       "amount": 2180000,  "note": "Purchase price HKD 16.95M; USD 2.18M at acquisition exchange rate; all-equity, no mortgage" },
+    { "date": "2024-10-31", "contributor": "Zhang Family Trust", "type": "Capital Expenditure","amount": 28000,    "note": "Full apartment redecoration prior to new tenancy — furniture, fixtures refresh" }
+  ],
+  "capitalStack": {
+    "assetValue": 2724200,
+    "seniorDebt": 0,
+    "seniorDebtPct": 0.0,
+    "netEquity": 2724200,
+    "equityPct": 100.0,
+    "equityContributed": 2208000,
+    "accumulatedRetainedEarnings": 516200
+  },
+  "debtSummary": [],
+  "guaranteesObligations": []
+}

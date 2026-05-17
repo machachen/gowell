@@ -1,0 +1,65 @@
+{
+  "summary": {
+    "title": "Dubai Marina Residential Market — Q2 2026",
+    "narrative": "Dubai Marina remains one of Dubai's most liquid and active residential investment submarkets, driven by strong expat demand from the financial, tech, and professional services sectors. Rents have grown +7.2% year-on-year in the Marina, supported by limited new supply and continued population growth. Marina Gate I by Select Group is positioned at the premium end of the Marina submarket — offering full hotel-style amenities and direct marina frontage. The subject unit has demonstrated 15% appreciation since 2022 and yields a strong 5.27% net cap rate.",
+    "keyThemes": [
+      "Dubai Marina vacancy at 4.8% — near record low; rental growth +7.2% YoY",
+      "Marina Gate I maintains premium positioning due to Select Group amenities package",
+      "AED/USD peg at 3.6725 — no currency risk for USD trust reporting",
+      "Dubai luxury residential global demand continues from Russian, European, and Asian HNW buyers",
+      "New supply pipeline of ~8,000 units in Marina over 2025–2027 will moderate but not reverse growth"
+    ]
+  },
+  "assetCompetitiveness": {
+    "strengths": [
+      "Marina Gate I is a premium Select Group development — full hotel amenities, direct marina access",
+      "Floor 23 — good views, above lower-floor noise; attractive to corporate tenants",
+      "2019-built — relatively modern vs. Marina Gate comparables from 2000s",
+      "AED 138K/yr rent at 5.27% cap rate — well-positioned on yield basis"
+    ],
+    "weaknesses": [
+      "2BR (106 sqm) — increasingly competitive segment as supply grows",
+      "Service charge AED 20,600/yr reduces net yield vs. comparable buildings",
+      "BVI holding structure adds USD 2,800/yr maintenance cost"
+    ],
+    "opportunities": [
+      "Rental upside on renewal to AED 143K–148K (+4–7%) given current Dubai Marina comps",
+      "Marina Gate I resale market active — exit optionality at AED 2.7–2.9M achievable"
+    ],
+    "threats": [
+      "New 2BR supply in Dubai Marina over 2025–2027 could moderate rent growth",
+      "UAE corporate tax changes could affect BVI holding structure attractiveness"
+    ]
+  },
+  "comparables": [
+    { "address": "Marina Gate II Unit 1805 (2BR, 104 sqm)", "type": "Residential Apartment", "units": null, "yearBuilt": 2021, "soldDate": "2025-11-20", "salePrice": 730000, "pricePerUnit": null, "pricePM2": 7019, "capRate": "5.5%", "occupancy": "Leased", "notes": "Adjacent tower; newer (2021 build); slightly higher per sqm" },
+    { "address": "Marina Torch Unit 2204 (2BR, 108 sqm)", "type": "Residential Apartment", "units": null, "yearBuilt": 2011, "soldDate": "2025-08-10", "salePrice": 640000, "pricePerUnit": null, "pricePM2": 5926, "capRate": "5.9%", "occupancy": "Leased", "notes": "Older building; lower specification; higher cap rate compensates" },
+    { "address": "Damac Heights Unit 3102 (2BR, 112 sqm)", "type": "Residential Apartment", "units": null, "yearBuilt": 2017, "soldDate": "2026-01-15", "salePrice": 760000, "pricePerUnit": null, "pricePM2": 6786, "capRate": "5.2%", "occupancy": "Leased", "notes": "Premium location; slight premium to subject; strong recent appreciation" }
+  ],
+  "rentComparables": [
+    { "address": "Unit 2304 Marina Gate I (Subject)", "unitType": "2BR Premium", "areaM2": 106.4, "askingRent": "AED 11,500", "rentPM2": "AED 108/sqm", "occupancy": "100%", "amenities": "Marina frontage, infinity pool, private beach, gym", "isSubject": true },
+    { "address": "Marina Gate II 2BR (Floor 18)", "unitType": "2BR Premium", "areaM2": 104.0, "askingRent": "AED 12,000", "rentPM2": "AED 115/sqm", "occupancy": "Leased", "amenities": "Similar Select Group amenities; newer build", "isSubject": false },
+    { "address": "Marina Torch 2BR", "unitType": "2BR Standard", "areaM2": 108.0, "askingRent": "AED 10,500", "rentPM2": "AED 97/sqm", "occupancy": "Leased", "amenities": "Pool, gym — older building", "isSubject": false }
+  ],
+  "capRateTrend": {
+    "labels": ["Q1'22","Q3'22","Q1'23","Q3'23","Q1'24","Q3'24","Q1'25","Q3'25","Q1'26"],
+    "values": [5.8, 5.7, 5.5, 5.4, 5.3, 5.2, 5.2, 5.25, 5.27]
+  },
+  "vacancyTrend": {
+    "labels": ["Q1'24","Q2'24","Q3'24","Q4'24","Q1'25","Q2'25","Q3'25","Q4'25","Q1'26"],
+    "submarket": [5.4, 5.2, 5.0, 4.9, 4.9, 4.8, 4.7, 4.8, 4.8],
+    "asset": [0, 0, 0, 0, 0, 0, 0, 0, 0]
+  },
+  "marketRisks": [
+    { "level": "Low", "title": "New Supply Moderation (2025–2027)", "description": "~8,000 Marina units in pipeline over next 2 years; well-managed absorption expected; Marina Gate I premium insulates." },
+    { "level": "Low", "title": "Global Capital Cycle Risk", "description": "Any global risk-off event could reduce Dubai ultra-luxury investor demand; Marina 2BR segment broader-based and more resilient." }
+  ],
+  "marketOpportunities": [
+    { "title": "Rental Uplift on Renewal (+7%)", "description": "Dubai Marina rental growth of 7.2% YoY supports AED 143K–148K target on April 2027 renewal — $3,700–$5,400 additional annual income." },
+    { "title": "Capital Appreciation Trend Continues", "description": "Marina Gate I comparable transactions suggesting AED 2.75–2.90M range — upside of AED 130K–280K from current AED 2.62M assessed value." }
+  ],
+  "marketImplication": {
+    "title": "Strong Performer — Hold and Optimise Rental on Renewal",
+    "body": "Marina Gate I Unit 2304 is the portfolio's strongest-yielding asset at 5.27% net cap rate, and with 15% appreciation since 2022, demonstrates both income and capital return. The recommended strategy is hold-and-let: renew the tenancy in April 2027 at AED 143K–148K (+4–7%), maintaining the existing quality corporate tenant base. The Dubai Marina market remains undersupplied relative to demand, and Marina Gate I's premium amenities provide durable competitive advantage. No disposal recommendation — this is the portfolio's benchmark income asset."
+  }
+}

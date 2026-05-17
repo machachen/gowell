@@ -1,0 +1,19 @@
+{
+  "importantDocuments": [
+    { "name": "Freehold Land Title — HS(M) 9843, Lot PTD 24681",                  "category": "Legal",      "date": "2023-03-15", "type": "PDF", "notes": "Hakmilik Tanah Kekal; registered in name of GoWell Industrial Sdn. Bhd." },
+    { "name": "EIA Report — DoE Approval No. JPAS/EIA/2025/001",                   "category": "Compliance", "date": "2025-11-20", "type": "PDF", "notes": "Key development milestone; conditions include groundwater monitoring" },
+    { "name": "Maybank Development Facility Agreement — MYR 6.63M",               "category": "Finance",    "date": "2023-06-01", "type": "PDF", "notes": "Fully drawn; matures June 2028; annual review covenant" },
+    { "name": "JV Shareholders Agreement — GoWell / PIPC (70/30)",                "category": "Legal",      "date": "2022-09-10", "type": "PDF", "notes": "70/30 split; Zhang as managing partner; PIPC development contribution agreed" }
+  ],
+  "library": [
+    { "id": "DOC-001", "name": "Freehold Land Title HS(M) 9843 — Lot PTD 24681",     "category": "Legal",      "date": "2023-03-15", "source": "Pejabat Tanah & Galian Johor", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Final title to 15.3 ha freehold industrial land; GoWell Industrial Sdn. Bhd." },
+    { "id": "DOC-002", "name": "S&P Agreement — Land Acquisition Phase 1 (7.2 ha)",  "category": "Legal",      "date": "2022-09-15", "source": "Vendor / Solicitors", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Phase 1 acquisition; MYR 21.6M land value at time of purchase" },
+    { "id": "DOC-003", "name": "S&P Agreement — Land Acquisition Phase 2 (8.1 ha)",  "category": "Legal",      "date": "2023-03-20", "source": "Vendor / Solicitors", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Phase 2 acquisition; combined 15.3 ha completed" },
+    { "id": "DOC-004", "name": "JV Shareholders Agreement — 70/30 (GoWell/PIPC)",    "category": "Legal",      "date": "2022-09-10", "source": "Christopher & Lee Ong", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Key governance document; defines capital contributions, voting, exit rights" },
+    { "id": "DOC-005", "name": "Maybank Development Facility Agreement — MYR 6.63M", "category": "Finance",    "date": "2023-06-01", "source": "Maybank BHD", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Land-secured facility; matures June 2028; GoWell Energy Solutions PG" },
+    { "id": "DOC-006", "name": "EIA Approval — DoE No. JPAS/EIA/2025/001",           "category": "Compliance", "date": "2025-11-20", "source": "Department of Environment Malaysia", "relatedSection": "Risk Analysis", "type": "PDF", "notes": "Conditional approval; groundwater and air quality monitoring required" },
+    { "id": "DOC-007", "name": "MPKT Planning Application — April 2026",             "category": "Compliance", "date": "2026-04-08", "source": "MPKT / Project Director", "relatedSection": "Overview", "type": "PDF", "notes": "Detailed development plan; decision expected Q3 2026" },
+    { "id": "DOC-008", "name": "C H Williams Land Valuation — MYR 15.1M (Q4 2025)", "category": "Valuation",  "date": "2025-10-31", "source": "C H Williams Malaysia", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "Comparative land analysis; basis for Maybank compliance" },
+    { "id": "DOC-009", "name": "GoWell Industrial Sdn. Bhd. — SSM Company Search",  "category": "Corporate",  "date": "2026-04-01", "source": "SSM Malaysia", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Current business registration; directors and shareholders listed" }
+  ]
+}

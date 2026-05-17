@@ -1,0 +1,35 @@
+{
+  "entity": {
+    "name": "Oceana Palm Holdings Ltd.",
+    "type": "BVI Business Company",
+    "registered": "British Virgin Islands",
+    "taxElection": "BVI — no corporate tax; UAE Freehold ownership via nominee / BVI structure",
+    "formed": "2022-09-01"
+  },
+  "owners": [
+    {
+      "name": "Zhang Xi & Spouse (Joint)",
+      "type": "Individuals / Trust Nominees",
+      "role": "Registered Owners — Trust Beneficial",
+      "ownershipPct": 100.0,
+      "equityContributed": 1413000,
+      "currentEquityValue": 2123940,
+      "since": "2022"
+    }
+  ],
+  "capitalContributions": [
+    { "date": "2022-10-20", "contributor": "Zhang Xi & Spouse", "type": "Acquisition",       "amount": 1413000, "note": "Purchase price AED 5.19M; USD 1,413,000 at acquisition; all-cash; significant post-COVID value acquisition" },
+    { "date": "2023-01-15", "contributor": "Zhang Xi & Spouse", "type": "Capital Expenditure","amount": 85000,   "note": "Full luxury interior fit-out and FF&E — branded furniture, custom cabinetry, AV system" }
+  ],
+  "capitalStack": {
+    "assetValue": 2123940,
+    "seniorDebt": 0,
+    "seniorDebtPct": 0.0,
+    "netEquity": 2123940,
+    "equityPct": 100.0,
+    "equityContributed": 1498000,
+    "accumulatedRetainedEarnings": 625940
+  },
+  "debtSummary": [],
+  "guaranteesObligations": []
+}
