@@ -1,55 +1,56 @@
 {
   "summary": {
-    "narrative": "GoWell Singapore HQ occupies a 700 sqm industrial strata floor (Units #04-51/54) at Bulim Lane 2 within JTC's Cleantech Two development in Jurong Innovation District. The space functions as GoWell Energy Solutions' corporate headquarters, housing executive management, engineering, finance, and ESG functions. The asset is fully owner-occupied with no rental income; its operational cost to the business is absorbed through corporate overheads. With GoWell's SGX Mainboard IPO targeted for H1 2027, this asset is undergoing ring-fencing analysis to determine whether it will sit within the listed entity or be retained at the trust level.",
-    "keyMessage": "HQ property fully operational · SGD 4.68M assessed value (USD 3.48M) · IPO ring-fencing review ongoing — disclosure obligations to SIAS by Q3 2026"
+    "narrative": "Zhang Bulim Industrial Pte. Ltd. — a Zhang Xi / Zhang Family Trust-controlled PropCo — owns the JTC leasehold strata interest at Bulim Lane 2, #04-51/54, Singapore 648110 (700 sqm, Units #04-51/54, Cleantech Two, Jurong Innovation District). GoWell Energy Solutions Pte. Ltd. occupies the space as its corporate headquarters under an arm's-length related-party lease at SGD 4.00/sqft/month (SGD 361,680/yr; USD 268,858/yr). The PropCo structure separates the real estate economics from GoWell's operating business: Zhang owns the asset and earns rental income; GoWell pays market-rate rent and occupies the HQ. The DBS Bank mortgage (SGD 2.35M, SORA+1.35%, maturity 2028-09-30) provides leverage against the stable lease income. The related-party lease must be disclosed as a material related-party transaction in GoWell's U.S. listing prospectus (S-1/F-1), with rent benchmarked to JTC market rates via independent valuation.",
+    "keyMessage": "PropCo leaseback operational · NOI USD 234K (6.73% cap rate) · DBS mortgage matures Sep 2028 · Related-party lease requires SEC/auditor disclosure and third-party rent benchmark for U.S. listing"
   },
   "basicInfo": {
-    "assetName": "GoWell Singapore HQ",
-    "assetType": "Industrial / Commercial Strata Office",
+    "assetName": "Bulim Lane Innovation HQ — Zhang PropCo Leaseback",
+    "assetType": "Industrial / Commercial Strata — JTC Leasehold (PropCo Leaseback)",
     "location": "Bulim Lane 2, #04-51/54, Singapore 648110",
     "submarket": "Jurong Innovation District (JID) — Cleantech Two, JTC",
     "yearBuilt": 2008,
     "yearAcquired": 2016,
     "totalSQM": 700,
-    "currentStatus": "Owner-Occupied — Corporate HQ",
+    "currentStatus": "Related-Party Lease — Mission-Critical Corporate HQ",
     "reportingPeriod": "Q2 2026 (May 2026)",
-    "ownershipSummary": "GoWell Energy Solutions Pte. Ltd. (100%); Zhang Family Trust 71.3% beneficial interest",
+    "ownershipSummary": "Zhang Bulim Industrial Pte. Ltd. (Zhang Xi 70% / Zhang Family Trust 30%); GoWell Energy Solutions Pte. Ltd. as arm's-length operating tenant (related-party lease)",
     "tenure": "Leasehold — JTC 30-year (expires 2038)",
-    "landArea": "Strata title — no separate land parcel"
+    "landArea": "Strata title — no separate land parcel",
+    "leaseTerms": "5-year lease + 3-year option; SGD 4.00/sqft/month (7,535 sqft); annual CPI escalation; GoWell responsible for utilities, security, IT infrastructure"
   },
   "keyFigures": [
     { "label": "Assessed Value",      "value": "$3,479,580",  "subLabel": "SGD 4.68M · Q2 2026",  "trend": "up",   "trendValue": "+1.7% YoY" },
-    { "label": "Annual Opex",         "value": "$63,200",     "subLabel": "Property-level costs",  "trend": "flat", "trendValue": "In budget" },
-    { "label": "Value / sqm",         "value": "$4,971",      "subLabel": "USD per sqm NLA",       "trend": "up",   "trendValue": "+1.7% YoY" },
-    { "label": "Occupancy",           "value": "100%",        "subLabel": "Owner-occupied",        "trend": "flat", "trendValue": "Stable" },
-    { "label": "Debt",                "value": "$0",          "subLabel": "Unencumbered",          "trend": "flat", "trendValue": "—" },
+    { "label": "NOI (PropCo)",        "value": "$234,173",    "subLabel": "After PropCo opex",     "trend": "up",   "trendValue": "+$20.7K YoY" },
+    { "label": "Cap Rate",            "value": "6.73%",       "subLabel": "NOI / Assessed Value",  "trend": "flat", "trendValue": "Stable" },
+    { "label": "Annual Rent (GoWell)","value": "SGD 361,680", "subLabel": "USD 268,858 / yr",      "trend": "up",   "trendValue": "+8.3% vs prior" },
+    { "label": "DBS Mortgage",        "value": "$1.75M",      "subLabel": "SGD 2.35M @ 3.78%",    "trend": "flat", "trendValue": "Matures Sep 2028" },
     { "label": "JTC Lease Remaining", "value": "12 yrs",      "subLabel": "Expires Dec 2038",      "trend": "flat", "trendValue": "Watch" }
   ],
   "kpiCards": [
     {
-      "id": "opex",
-      "title": "Annual Property OpEx",
-      "value": "$63,200",
+      "id": "noi",
+      "title": "PropCo NOI (Annual)",
+      "value": "$234,173",
       "period": "TTM May 2026",
-      "trend": "+2.1% YoY",
-      "trendDir": "neg",
+      "trend": "+10.7% YoY",
+      "trendDir": "pos",
       "chartType": "bar",
       "chartData": {
         "labels": ["Q2'25","Q3'25","Q4'25","Q1'26","Q2'26"],
-        "values": [15200, 15800, 16100, 15900, 16200]
+        "values": [55800, 57600, 58200, 58400, 60000]
       }
     },
     {
-      "id": "sqm",
-      "title": "Assessed Value / sqm",
-      "value": "$4,971",
+      "id": "rent",
+      "title": "Related-Party Rent (GoWell)",
+      "value": "SGD 361,680/yr",
       "period": "Q2 2026",
-      "trend": "+1.7% YoY",
+      "trend": "SGD 4.00/sqft/month",
       "trendDir": "pos",
-      "chartType": "line",
+      "chartType": "bar",
       "chartData": {
-        "labels": ["2021","2022","2023","2024","2025","2026"],
-        "values": [4214, 4429, 4643, 4829, 4886, 4971]
+        "labels": ["2022","2023","2024","2025","2026"],
+        "values": [198000, 221400, 237200, 248200, 268858]
       }
     },
     {
@@ -68,11 +69,11 @@
   ],
   "actions": [
     {
-      "title": "IPO Preparation — Corporate Asset Ring-Fencing & SGX Disclosure",
+      "title": "U.S. Listing Preparation — Corporate Asset Ring-Fencing & U.S. capital markets Disclosure",
       "priority": "High",
       "status": "In Progress",
-      "recommendation": "Engage KPMG / Deloitte to prepare independent valuation report for SGX Mainboard listing prospectus. Determine whether HQ strata unit is included within GoWell's listed entity perimeter or retained at family trust level. Disclosure obligations under MAS CG Code must be resolved before prospectus lodgement.",
-      "decisionNeeded": "Include HQ within IPO entity or carve out to trust — decision required by CFO and legal counsel",
+      "recommendation": "Engage KPMG / Deloitte to prepare independent valuation report for U.S. capital markets listing prospectus. Determine whether HQ strata unit is included within GoWell's listed entity perimeter or retained at family trust level. Disclosure obligations under MAS CG Code must be resolved before prospectus lodgement.",
+      "decisionNeeded": "Include HQ within U.S. listing entity or carve out to trust — decision required by CFO and legal counsel",
       "owner": "CFO / Corporate Legal",
       "deadline": "2026-07-31"
     },
@@ -80,7 +81,7 @@
       "title": "JTC Lease Renewal Planning — 12-Year Residual",
       "priority": "Medium",
       "status": "Open",
-      "recommendation": "Begin pre-renewal discussions with JTC Corporation approximately 3 years before expiry (Dec 2035). Given IPO proceedings, confirm whether JTC sub-lease consent is required for change in beneficial ownership following share listing.",
+      "recommendation": "Begin pre-renewal discussions with JTC Corporation approximately 3 years before expiry (Dec 2035). Given U.S. public listing proceedings, confirm whether JTC sub-lease consent is required for change in beneficial ownership following share listing.",
       "decisionNeeded": "Confirm JTC change-of-control consent requirements with corporate secretary",
       "owner": "Property Manager / Corporate Secretary",
       "deadline": "2027-06-30"
@@ -102,7 +103,7 @@
     { "name": "Building Services Contract — JTC FM",                "category": "Operations", "date": "2025-01-01", "type": "PDF" }
   ],
   "topRisks": [
-    { "level": "High",   "title": "IPO Disclosure Risk",         "impact": "Non-disclosure or incorrect valuation of HQ in IPO prospectus could trigger SGX regulatory action and delay listing timeline." },
+    { "level": "High",   "title": "U.S. public listing Disclosure Risk",         "impact": "Non-disclosure or incorrect valuation of HQ in U.S. listing prospectus (S-1/F-1) could trigger U.S. capital markets regulatory action and delay listing timeline." },
     { "level": "Medium", "title": "JTC Lease Residual (12 yrs)", "impact": "Declining lease term reduces financing options and may create refinancing or exit complexity post-2032." },
     { "level": "Low",    "title": "Market Value Softening",      "impact": "Jurong industrial strata values have underperformed central CBD; limited liquidity in secondary market." }
   ],
@@ -111,7 +112,7 @@
     "medianRentPM2": "SGD 3.80–4.20 / sqm / month",
     "vacancyRate": "8.2% (JTC industrial strata, Q1 2026)",
     "yoyRentGrowth": "+1.8%",
-    "assetVsMarket": "Owner-occupied; market rent benchmark ~SGD 4.00/sqm/mo ≈ $2.97/sqm/mo USD",
+    "assetVsMarket": "Related-party lease at SGD 4.00/sqft/month (SGD 43.07/sqm/month); JID industrial strata market: SGD 3.80–4.20/sqft/month — subject lease at mid-market; independent broker certificate required for U.S. listing transfer-pricing documentation",
     "capRateBenchmark": "4.5%–5.5% (JTC industrial strata, 2025–2026)"
   }
 }

@@ -1,21 +1,22 @@
 {
   "summary": {
-    "narrative": "The Pengerang Industrial Land (Lot PTD 24681, Mukim Pengerang, Kota Tinggi, Johor) is a 15.3-hectare freehold industrial site held by GoWell Industrial Sdn. Bhd. (70% Zhang Family Trust, 30% PIPC Petroleum Infrastructure Partners Consortium). The land was acquired in stages through 2022–2023 as a long-horizon site for GoWell's planned OCTG (Oil Country Tubular Goods) logistics and pipe-coating hub, positioned to serve Malaysia's upstream O&G supply chain in the Pengerang Integrated Complex (PIC) zone. The Environmental Impact Assessment has been approved. The detailed development plan and planning permission application was submitted to Majlis Perbandaran Kota Tinggi in April 2026 with a decision expected Q3 2026. An EPC contractor pre-tender process is planned for Q1 2027 with target groundbreak Q4 2026.",
-    "keyMessage": "EIA approved · Planning approval decision expected Q3 2026 · Target groundbreak Q4 2026 · Maybank development facility MYR 6.63M ($1.5M USD) drawn · 70/30 JV with PIPC"
+    "narrative": "Pengerang OCTG Logistics Park is a 15.3-hectare freehold industrial site (Lot PTD 24681, Mukim Pengerang, Kota Tinggi, Johor) owned by Zhang Pengerang Industrial Sdn. Bhd. — a Zhang Xi / Zhang Family Trust-controlled PropCo (70%) in JV with PIPC Petroleum Infrastructure Partners Consortium (30%). GoWell Energy Solutions Pte. Ltd. is the intended future anchor tenant, not the owner of the land. Zhang controls the real estate and the development economics; GoWell will enter into a 12–15 year anchor build-to-suit pre-lease upon planning approval, which is a prerequisite for Maybank to activate the MYR 18M undrawn construction facility. The DoE EIA was approved November 2025. MPKT (Majlis Perbandaran Kota Tinggi) planning decision is expected Q3 2026. GoWell's corporate guarantee for the Maybank land facility ($1.5M drawn) must be disclosed to Maybank and in the U.S. listing prospectus as a contingent liability of the operating company.",
+    "keyMessage": "EIA approved · Planning decision Q3 2026 · GoWell is future anchor tenant (not owner) · Maybank MYR 18M construction facility undrawn — GoWell pre-lease required to activate · GoWell corporate guarantee on Maybank facility = U.S. listing disclosure obligation"
   },
   "basicInfo": {
-    "assetName": "Pengerang Industrial Land — GoWell OCTG Logistics Hub",
-    "assetType": "Freehold Industrial Land — Pre-Development",
+    "assetName": "Pengerang OCTG Logistics Park — Zhang / PIPC JV",
+    "assetType": "Freehold Industrial Land — Pre-Development (PropCo / Anchor Tenant Structure)",
     "location": "Lot PTD 24681, Mukim Pengerang, Kota Tinggi, Johor, Malaysia",
     "submarket": "Pengerang Integrated Complex (PIC) Zone, South Johor",
     "yearBuilt": null,
     "yearAcquired": 2023,
     "totalSQM": 153000,
-    "currentStatus": "Pre-Development — EIA Approved, Planning Approval Pending",
+    "currentStatus": "Pre-Development — EIA Approved, MPKT Planning Approval Pending",
     "reportingPeriod": "Q2 2026 (May 2026)",
-    "ownershipSummary": "GoWell Industrial Sdn. Bhd.: Zhang Family Trust 70% / PIPC Petroleum Infrastructure Partners Consortium 30%",
+    "ownershipSummary": "Zhang Pengerang Industrial Sdn. Bhd. (Zhang Xi / Trust 70%, PIPC 30%); GoWell Energy Solutions Pte. Ltd. as future anchor tenant / pre-lease counterparty — not an owner",
     "tenure": "Freehold (Hakmilik Tanah Kekal)",
-    "landArea": "15.3 hectares (153,000 sqm)"
+    "landArea": "15.3 hectares (153,000 sqm)",
+    "anchorLeaseStructure": "GoWell Malaysia 12–15 year build-to-suit anchor pre-lease required before Maybank MYR 18M construction facility drawdown; pre-lease signing targeted Q4 2026 concurrent with planning approval"
   },
   "keyFigures": [
     { "label": "Land Value (USD)",    "value": "$3,415,620",  "subLabel": "MYR 15.1M · Q2 2026",          "trend": "up",   "trendValue": "+1.9% YoY" },

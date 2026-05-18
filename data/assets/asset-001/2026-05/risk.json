@@ -7,8 +7,8 @@
     "lowRisks": 3
   },
   "register": [
-    { "id": "R01", "category": "IPO / Regulatory", "title": "SGX Disclosure Non-Compliance", "description": "Failure to correctly ring-fence or disclose HQ property in IPO prospectus could trigger MAS/SGX action.", "probability": 3, "impact": 5, "riskScore": 15, "level": "High", "owner": "CFO / Legal Counsel", "status": "Open" },
-    { "id": "R02", "category": "Leasehold", "title": "JTC Lease Residual — Change of Control", "description": "SGX listing constitutes a change in beneficial ownership; JTC consent may be required under lease terms.", "probability": 3, "impact": 3, "riskScore": 9, "level": "Medium", "owner": "Corporate Secretary", "status": "Open" },
+    { "id": "R01", "category": "Listing / Regulatory", "title": "U.S. Listing Disclosure Non-Compliance", "description": "Failure to correctly ring-fence or disclose the PropCo/OpCo related-party lease in the S-1/F-1 prospectus could trigger SEC comment letters or require prospectus amendments.", "probability": 3, "impact": 5, "riskScore": 15, "level": "High", "owner": "CFO / Legal Counsel", "status": "Open" },
+    { "id": "R02", "category": "Leasehold", "title": "JTC Lease Residual — Change of Control", "description": "U.S. listing constitutes a change in beneficial ownership; JTC consent may be required under lease terms.", "probability": 3, "impact": 3, "riskScore": 9, "level": "Medium", "owner": "Corporate Secretary", "status": "Open" },
     { "id": "R03", "category": "Market", "title": "JID Industrial Strata Value Softening", "description": "Jurong industrial strata remains illiquid; any forced sale or refinancing would face limited buyer pool.", "probability": 2, "impact": 3, "riskScore": 6, "level": "Medium", "owner": "Asset Manager", "status": "Monitoring" },
     { "id": "R04", "category": "Operations", "title": "Utility / SCDF Compliance Failure", "description": "Annual fire safety certificate renewal; failure to maintain could trigger SCDF closure order.", "probability": 1, "impact": 3, "riskScore": 3, "level": "Low", "owner": "Building Manager", "status": "Monitoring" },
     { "id": "R05", "category": "Operations", "title": "IT Infrastructure Failure", "description": "Aging UPS and server room infrastructure — failure could cause GoWell corporate data loss or downtime.", "probability": 2, "impact": 2, "riskScore": 4, "level": "Low", "owner": "IT Manager", "status": "Open" },
@@ -16,11 +16,11 @@
   ],
   "scenarios": [
     {
-      "name": "IPO Disclosure Error — SGX Action",
+      "name": "U.S. Listing Disclosure Error — SEC Regulatory Action",
       "baseValue": 3479580,
       "scenarioValue": 3479580,
       "scenarioLTV": 0.0,
-      "verdict": "Non-financial risk — reputational and regulatory impact; no direct asset value impact but could delay IPO by 6–12 months, costing significant advisory fees and management bandwidth."
+      "verdict": "Non-financial risk — reputational and regulatory impact; no direct asset value impact but could delay U.S. public listing by 6–12 months, costing significant advisory fees and management bandwidth."
     },
     {
       "name": "JTC Refuses Lease Extension (2038)",
@@ -33,13 +33,13 @@
   "scenarioChart": {
     "labels": ["2026","2027","2028","2029","2030"],
     "cashFlow": {
-      "Downside": [-85000, -88000, -91000, -94000, -97000],
-      "Base":     [-63200, -65000, -67000, -69000, -71000],
-      "Upside":   [-63200, -62000, -60000, -58000, -56000]
+      "Downside": [18000,  82000,  88000,  91000,  94000],
+      "Base":     [98239,  101000, 104000, 107000, 110000],
+      "Upside":   [98239,  112000, 122000, 133000, 145000]
     }
   },
   "mitigationPlan": [
-    { "riskId": "R01", "action": "Engage KPMG for independent HQ valuation; seek SGX pre-clearance on asset disclosure approach", "owner": "CFO / Legal", "deadline": "2026-07-31", "status": "In Progress" },
+    { "riskId": "R01", "action": "Engage KPMG for independent HQ valuation; seek U.S. capital markets pre-clearance on asset disclosure approach", "owner": "CFO / Legal", "deadline": "2026-07-31", "status": "In Progress" },
     { "riskId": "R02", "action": "Obtain formal legal opinion from Rajah & Tann on JTC change-of-control consent requirement", "owner": "Corporate Secretary", "deadline": "2026-08-31", "status": "Open" },
     { "riskId": "R05", "action": "Procure replacement APC UPS units; schedule server room infrastructure upgrade Q3 2026", "owner": "IT Manager", "deadline": "2026-09-30", "status": "Open" }
   ]

@@ -1,21 +1,22 @@
 {
   "incomeStatement": {
+    "notes": "PropCo income statement reflects Zhang Bulim Industrial Pte. Ltd. as landlord. GoWell Singapore OpCo pays arm's-length related-party rent of SGD 4.00/sqft/month × 7,535 sqft = SGD 361,680/yr (USD 268,858 at 0.7435). Utilities and security are tenant-responsibility under the lease — excluded from PropCo opex. PropCo bears property tax, insurance, JTC service charges, and structural maintenance.",
     "rows": [
-      { "label": "REVENUE",                       "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
-      { "label": "Rental Income",                 "indent": 1, "type": "income",   "actual": 0,       "budget": 0,       "priorYear": 0 },
-      { "label": "Other Operating Income",        "indent": 1, "type": "income",   "actual": 0,       "budget": 0,       "priorYear": 0 },
-      { "label": "TOTAL REVENUE",                 "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
-      { "label": "OPERATING EXPENSES",            "indent": 0, "type": "subtotal", "actual": 0,       "budget": 0,       "priorYear": 0 },
-      { "label": "Property Tax (IRAS AV-based)",  "indent": 1, "type": "expense",  "actual": -14200,  "budget": -14000,  "priorYear": -13800 },
-      { "label": "JTC Service & Maintenance",     "indent": 1, "type": "expense",  "actual": -23800,  "budget": -24000,  "priorYear": -22500 },
-      { "label": "Utilities (Electricity)",       "indent": 1, "type": "expense",  "actual": -17400,  "budget": -18000,  "priorYear": -16900 },
-      { "label": "Building Insurance",            "indent": 1, "type": "expense",  "actual": -4200,   "budget": -4200,   "priorYear": -4100 },
-      { "label": "Security & Access Control",     "indent": 1, "type": "expense",  "actual": -2100,   "budget": -2200,   "priorYear": -2000 },
-      { "label": "Minor Repairs & Maintenance",   "indent": 1, "type": "expense",  "actual": -1500,   "budget": -2000,   "priorYear": -3200 },
-      { "label": "TOTAL OPERATING EXPENSES",      "indent": 0, "type": "subtotal", "actual": -63200,  "budget": -64400,  "priorYear": -62500 },
-      { "label": "NET OPERATING INCOME (NOI)",    "indent": 0, "type": "noi",      "actual": -63200,  "budget": -64400,  "priorYear": -62500 },
-      { "label": "Debt Service",                  "indent": 1, "type": "deduction","actual": 0,       "budget": 0,       "priorYear": 0 },
-      { "label": "PRE-TAX NET CASH FLOW",         "indent": 0, "type": "total",    "actual": -63200,  "budget": -64400,  "priorYear": -62500 }
+      { "label": "REVENUE",                             "indent": 0, "type": "subtotal",  "actual": 268858,  "budget": 268858,  "priorYear": 248200 },
+      { "label": "Related-Party Lease — GoWell Singapore OpCo (SGD 361,680/yr @ 0.7435)", "indent": 1, "type": "income", "actual": 268858, "budget": 268858, "priorYear": 248200 },
+      { "label": "Other Operating Income",              "indent": 1, "type": "income",    "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "TOTAL REVENUE",                       "indent": 0, "type": "subtotal",  "actual": 268858,  "budget": 268858,  "priorYear": 248200 },
+      { "label": "OPERATING EXPENSES (PropCo)",         "indent": 0, "type": "subtotal",  "actual": 0,       "budget": 0,       "priorYear": 0 },
+      { "label": "Property Tax (IRAS AV-based)",        "indent": 1, "type": "expense",   "actual": -14200,  "budget": -14000,  "priorYear": -13800 },
+      { "label": "JTC Service & Maintenance Charges",   "indent": 1, "type": "expense",   "actual": -11152,  "budget": -11500,  "priorYear": -10900 },
+      { "label": "Building Insurance",                  "indent": 1, "type": "expense",   "actual": -2900,   "budget": -3000,   "priorYear": -2800 },
+      { "label": "Property Management Fee",             "indent": 1, "type": "expense",   "actual": -4450,   "budget": -4500,   "priorYear": -4200 },
+      { "label": "Structural Repairs & Minor Works",    "indent": 1, "type": "expense",   "actual": -1983,   "budget": -2500,   "priorYear": -3100 },
+      { "label": "TOTAL OPERATING EXPENSES",            "indent": 0, "type": "subtotal",  "actual": -34685,  "budget": -35500,  "priorYear": -34800 },
+      { "label": "NET OPERATING INCOME (NOI)",          "indent": 0, "type": "noi",       "actual": 234173,  "budget": 233358,  "priorYear": 213400 },
+      { "label": "DBS Mortgage Interest (SGD 1.747M @ 3.78%)", "indent": 1, "type": "deduction", "actual": -66046, "budget": -66046, "priorYear": -70200 },
+      { "label": "DBS Mortgage Principal Repayment",    "indent": 1, "type": "deduction", "actual": -69888,  "budget": -69888,  "priorYear": -65400 },
+      { "label": "PRE-TAX NET CASH FLOW",               "indent": 0, "type": "total",     "actual": 98239,   "budget": 97424,   "priorYear": 77800 }
     ]
   },
   "valuation": {
@@ -24,11 +25,11 @@
     "lastAppraisalValue": 3420000,
     "lastAppraisalDate": "2025-06-30",
     "currentEstimatedValue": 3479580,
-    "impliedCapRate": "N/A (owner-occupied)",
+    "impliedCapRate": "6.73%",
     "valueChange": 899580,
     "valueChangePct": 34.9,
     "valuePM2": 4971,
-    "netEquity": 3479580,
+    "netEquity": 1732310,
     "history": [
       { "date": "2016-12-31", "value": 2580000 },
       { "date": "2018-12-31", "value": 2780000 },
@@ -49,8 +50,8 @@
     }
   },
   "capex": [
-    { "project": "Fire Suppression System Annual Check",    "year": 2026, "budgeted": 8500,   "actual": 8500,   "status": "Complete",     "notes": "Annual SCDF FSC renewal — completed March 2026" },
-    { "project": "Server Room UPS Replacement",            "year": 2026, "budgeted": 22000,  "actual": 0,      "status": "Not Started",  "notes": "APC UPS units end of life — Q3 2026 target" },
-    { "project": "Office Fit-out Refresh — Meeting Rooms", "year": 2027, "budgeted": 45000,  "actual": 0,      "status": "Proposed",     "notes": "Partial refresh for IPO road-show presentation quality" }
+    { "project": "Fire Suppression System Annual Check",    "year": 2026, "budgeted": 8500,  "actual": 8500, "status": "Complete", "notes": "Annual SCDF FSC renewal — completed March 2026" },
+    { "project": "Server Room UPS Replacement",            "year": 2026, "budgeted": 22000, "actual": 0,    "status": "Not Started", "notes": "APC UPS units end of life — Q3 2026 target; PropCo capex recoverable via rent review at next lease option" },
+    { "project": "Office Fit-out Refresh — Meeting Rooms", "year": 2027, "budgeted": 45000, "actual": 0,    "status": "Proposed",    "notes": "Partial refresh for GoWell U.S. listing road-show quality; timing aligned with lease option exercise 2028" }
   ]
 }

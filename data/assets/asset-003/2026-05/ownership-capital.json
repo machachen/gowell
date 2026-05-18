@@ -1,38 +1,75 @@
 {
   "entity": {
-    "name": "GoWell Industrial Sdn. Bhd.",
-    "type": "Malaysian Private Limited Company (Sendirian Berhad)",
+    "name": "Zhang Pengerang Industrial Sdn. Bhd.",
+    "type": "Malaysian Private Limited Company — PropCo / JV Vehicle",
     "registered": "Johor Bahru, Malaysia (SSM)",
-    "taxElection": "Malaysian Corporate Tax — 24% standard rate; pioneer status application pending",
+    "taxElection": "Malaysian Corporate Tax — 24% standard rate; pioneer status application pending under MIDA (Promotion of Investments Act 1986) for industrial park development; Real Property Gains Tax (RPGT) exposure on disposal; GoWell Malaysia is future anchor tenant, not an owner",
     "formed": "2022-07-08"
   },
   "owners": [
     {
-      "name": "Zhang Family Trust (BVI)",
-      "type": "Trust / Corporate Shareholder",
-      "role": "Controlling Shareholder",
-      "ownershipPct": 70.0,
-      "equityContributed": 1680000,
-      "currentEquityValue": 1340934,
-      "since": "2022"
+      "name": "Zhang Xi / Zhang Family Trust (BVI)",
+      "ownershipPct": 70,
+      "role": "Controlling JV partner — Zhang-controlled PropCo",
+      "notes": "Ultimate economic interest via Zhang Family Trust BVI vehicle; Zhang controls development decisions and holds first call on anchor-tenant lease economics"
     },
     {
       "name": "PIPC Petroleum Infrastructure Partners Consortium",
       "type": "Malaysian JV Partner",
-      "role": "Development Partner",
-      "ownershipPct": 30.0,
-      "equityContributed": 720000,
-      "currentEquityValue": 574686,
-      "since": "2022"
+      "role": "Local development partner — 30% JV equity",
+      "ownershipPct": 30,
+      "notes": "Malaysian entity with MPKT (Majlis Perbandaran Kota Tinggi) planning relationships and local contractor network; strategic for EIA compliance, Bomba approval, and MIDA engagement"
     }
   ],
   "capitalContributions": [
-    { "date": "2022-09-15", "contributor": "Zhang Family Trust",     "type": "Acquisition",       "amount": 1120000, "note": "Land acquisition tranche 1 — Phase 1 plots (7.2 ha)" },
-    { "date": "2022-09-15", "contributor": "PIPC Consortium",        "type": "Acquisition",       "amount": 480000,  "note": "Land acquisition tranche 1 — Phase 1 plots (7.2 ha)" },
-    { "date": "2023-03-20", "contributor": "Zhang Family Trust",     "type": "Acquisition",       "amount": 560000,  "note": "Land acquisition tranche 2 — Phase 2 plots (8.1 ha)" },
-    { "date": "2023-03-20", "contributor": "PIPC Consortium",        "type": "Acquisition",       "amount": 240000,  "note": "Land acquisition tranche 2 — Phase 2 plots (8.1 ha)" },
-    { "date": "2024-06-01", "contributor": "Maybank BHD (Facility)", "type": "Debt Drawdown",     "amount": 1500000, "note": "Maybank development facility fully drawn — MYR 6.63M equivalent at time of drawdown" },
-    { "date": "2025-08-15", "contributor": "GoWell Industrial",      "type": "Capital Expenditure","amount": 120000,  "note": "EIA study (DoE-approved Nov 2025) + topographic survey" }
+    {
+      "date": "2022-09-15",
+      "contributor": "Zhang Family Trust (BVI)",
+      "amount": 1120000,
+      "currency": "USD",
+      "type": "Acquisition — Tranche 1",
+      "notes": "Land acquisition Phase 1 plots (7.2 ha); Zhang 70% equity contribution; freehold title registered to Zhang Pengerang Industrial Sdn. Bhd."
+    },
+    {
+      "date": "2022-09-15",
+      "contributor": "PIPC Petroleum Infrastructure Partners Consortium",
+      "amount": 480000,
+      "currency": "USD",
+      "type": "Acquisition — Tranche 1",
+      "notes": "Land acquisition Phase 1 plots (7.2 ha); PIPC 30% equity contribution"
+    },
+    {
+      "date": "2023-03-20",
+      "contributor": "Zhang Family Trust (BVI)",
+      "amount": 560000,
+      "currency": "USD",
+      "type": "Acquisition — Tranche 2",
+      "notes": "Land acquisition Phase 2 plots (8.1 ha); Zhang 70% equity contribution"
+    },
+    {
+      "date": "2023-03-20",
+      "contributor": "PIPC Petroleum Infrastructure Partners Consortium",
+      "amount": 240000,
+      "currency": "USD",
+      "type": "Acquisition — Tranche 2",
+      "notes": "Land acquisition Phase 2 plots (8.1 ha); PIPC 30% equity contribution"
+    },
+    {
+      "date": "2024-06-01",
+      "contributor": "Maybank BHD (Facility Drawdown)",
+      "amount": 1500000,
+      "currency": "USD",
+      "type": "Debt Drawdown",
+      "notes": "Maybank development land facility fully drawn — MYR 6.63M equivalent; borrower: Zhang Pengerang Industrial Sdn. Bhd.; GoWell Malaysia corporate guarantee provided as additional security"
+    },
+    {
+      "date": "2025-08-15",
+      "contributor": "Zhang Pengerang Industrial Sdn. Bhd.",
+      "amount": 120000,
+      "currency": "USD",
+      "type": "Capital Expenditure — Pre-development",
+      "notes": "EIA study (DoE-approved Nov 2025) + topographic survey + MPKT planning application fees; expensed as pre-development cost"
+    }
   ],
   "capitalStack": {
     "assetValue": 3415620,
@@ -45,25 +82,46 @@
   },
   "debtSummary": [
     {
-      "lender": "Maybank BHD",
-      "type": "Development Land Facility",
-      "currentBalance": 1500000,
-      "interestRate": "4.85%",
-      "rateType": "Variable (BLR+0.50%)",
+      "lender": "Maybank BHD (Johor Commercial Banking)",
+      "loanType": "Development Land Facility — Industrial Freehold",
+      "currency": "MYR",
+      "originalBalance": 1499466,
+      "outstandingBalance": 1499466,
+      "interestRate": "4.85% (BLR + 0.50% variable; BLR currently 4.35%)",
       "maturityDate": "2028-06-30",
-      "dscr": "N/A",
-      "ltv": "43.9%",
-      "status": "Current"
+      "amortisation": "Interest-only during pre-development phase; bullet repayment at maturity or refinance into construction facility upon planning approval",
+      "annualDebtService": 72704,
+      "annualInterest": 72704,
+      "annualPrincipal": 0,
+      "covenants": "Land valuation floor at MYR 15M; MPKT planning approval milestone (Dec 2026 target); minimum equity injection by Zhang/PIPC before construction drawdown; GoWell Malaysia anchor pre-lease required before construction facility activation",
+      "security": "First fixed charge over freehold land title (Lot PTD 24681 and contiguous lots); corporate guarantee from GoWell Energy Solutions Pte. Ltd. (Singapore parent); personal guarantee from Zhang Xi (limited, burn-off on planning approval)",
+      "notes": "Maybank facility converts to construction loan upon MPKT planning approval and signed GoWell anchor pre-lease; undrawn construction tranche MYR 18M committed but not drawn — subject to planning milestone"
     }
   ],
   "guaranteesObligations": [
     {
-      "type": "Corporate Guarantee",
-      "obligor": "GoWell Energy Solutions Pte. Ltd.",
+      "type": "Corporate guarantee — Maybank facility",
+      "guarantor": "GoWell Energy Solutions Pte. Ltd. (Singapore)",
       "beneficiary": "Maybank BHD",
-      "amount": 1500000,
-      "expiryDate": "2028-06-30",
-      "description": "Maybank requires a corporate guarantee from GoWell Energy Solutions Pte. Ltd. (Singapore parent) as additional security for the MYR 6.63M development facility. Guarantee requires Maybank consent for material change in GoWell's ownership structure — IPO must be disclosed to Maybank before SGX listing."
+      "amount": 1499466,
+      "currency": "USD",
+      "notes": "GoWell Singapore OpCo corporate guarantee for Maybank land facility; Maybank requires disclosure and prior consent if GoWell undergoes material change in ownership structure (U.S. listing is a triggering event); this guarantee must be disclosed in U.S. listing prospectus as a contingent liability of the operating company"
+    },
+    {
+      "type": "Personal guarantee — Zhang Xi (burn-off)",
+      "guarantor": "Zhang Xi",
+      "beneficiary": "Maybank BHD",
+      "amount": 1499466,
+      "currency": "USD",
+      "notes": "Limited personal guarantee from Zhang Xi; burn-off trigger: MPKT planning approval and execution of GoWell Malaysia anchor pre-lease; expected burn-off Q2 2027"
+    },
+    {
+      "type": "Undrawn construction facility — conditional commitment",
+      "guarantor": "Zhang Pengerang Industrial Sdn. Bhd. / PIPC JV",
+      "beneficiary": "Maybank BHD",
+      "amount": 4066080,
+      "currency": "USD",
+      "notes": "MYR 18M undrawn construction facility committed by Maybank, subject to: (1) MPKT planning approval, (2) signed GoWell Malaysia anchor pre-lease (12–15 year term), (3) minimum equity injection confirmation by Zhang and PIPC. Drawing this facility without GoWell pre-lease in place would breach Maybank covenants."
     }
   ]
 }

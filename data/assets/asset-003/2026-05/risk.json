@@ -12,7 +12,7 @@
     { "id": "R03", "category": "Finance", "title": "Maybank Facility Covenant Breach", "description": "Land value decline below 2.0× facility drawn could trigger Maybank covenant review; currently 2.28× — adequate buffer but limited.", "probability": 2, "impact": 4, "riskScore": 8, "level": "Medium", "owner": "CFO", "status": "Monitoring" },
     { "id": "R04", "category": "JV / Partner", "title": "PIPC Non-Performance / Withdrawal", "description": "PIPC Consortium (30% partner) has not committed additional development capital; disagreement could delay decision-making and groundbreak.", "probability": 3, "impact": 3, "riskScore": 9, "level": "Medium", "owner": "BD / Legal", "status": "Monitoring" },
     { "id": "R05", "category": "Environmental", "title": "Additional DoE Conditions Post-EIA", "description": "DoE may impose additional environmental mitigation conditions during detailed planning review, increasing development cost by MYR 500K–1M.", "probability": 2, "impact": 3, "riskScore": 6, "level": "Medium", "owner": "Project Director", "status": "Monitoring" },
-    { "id": "R06", "category": "Finance", "title": "Maybank IPO Disclosure Requirement", "description": "Corporate guarantee from GoWell Energy Solutions requires Maybank consent for material change in GoWell's ownership (IPO).", "probability": 2, "impact": 2, "riskScore": 4, "level": "Low", "owner": "CFO / Legal", "status": "Open" },
+    { "id": "R06", "category": "Finance", "title": "Maybank U.S. Listing Disclosure Requirement", "description": "Corporate guarantee from GoWell Energy Solutions on Maybank land facility requires Maybank consent for material change in GoWell's ownership structure upon U.S. public listing; must also be disclosed as contingent liability in SEC prospectus (S-1/F-1).", "probability": 2, "impact": 2, "riskScore": 4, "level": "Low", "owner": "CFO / Legal", "status": "Open" },
     { "id": "R07", "category": "Macro", "title": "MYR Currency Depreciation", "description": "USD-reporting portfolio — MYR depreciation against USD reduces USD-equivalent land value; 10% MYR depreciation = -$341K USD impact.", "probability": 2, "impact": 2, "riskScore": 4, "level": "Low", "owner": "CFO", "status": "Monitoring" }
   ],
   "scenarios": [
@@ -42,6 +42,6 @@
   "mitigationPlan": [
     { "riskId": "R01", "action": "Monthly status calls with MPKT liaison; engage InvestJohor for expedited processing support if delayed beyond Q3 2026", "owner": "Project Director", "deadline": "2026-07-31", "status": "In Progress" },
     { "riskId": "R03", "action": "Commission updated land valuation (C H Williams) before Maybank annual review; maintain 2.0× LTV buffer", "owner": "CFO", "deadline": "2026-06-15", "status": "Open" },
-    { "riskId": "R06", "action": "Notify Maybank of planned IPO and seek advance written consent for change-of-control", "owner": "CFO / Legal", "deadline": "2026-09-30", "status": "Open" }
+    { "riskId": "R06", "action": "Notify Maybank of planned U.S. public listing and seek advance written consent for change-of-control; include GoWell corporate guarantee as contingent liability in SEC prospectus disclosure", "owner": "CFO / Legal", "deadline": "2026-09-30", "status": "Open" }
   ]
 }

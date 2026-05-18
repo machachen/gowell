@@ -3,7 +3,7 @@
     "items": [
       { "title": "Maybank annual review — updated land valuation required", "quadrant": "Do First", "owner": "CFO", "deadline": "2026-06-15", "status": "Open" },
       { "title": "MPKT planning decision follow-up — monthly liaison", "quadrant": "Do First", "owner": "Project Director", "deadline": "2026-07-31", "status": "In Progress" },
-      { "title": "Maybank IPO change-of-control consent notice", "quadrant": "Schedule", "owner": "CFO / Legal", "deadline": "2026-09-30", "status": "Open" },
+      { "title": "Maybank U.S. listing change-of-control consent notice", "quadrant": "Schedule", "owner": "CFO / Legal", "deadline": "2026-09-30", "status": "Open" },
       { "title": "EPC pre-qualification RFQ preparation", "quadrant": "Schedule", "owner": "Project Director", "deadline": "2027-03-31", "status": "Not Started" },
       { "title": "PIPC JV partner capital commitment discussion", "quadrant": "Schedule", "owner": "BD / Legal", "deadline": "2026-12-31", "status": "Open" },
       { "title": "Site perimeter security review", "quadrant": "Delegate", "owner": "Site Manager", "deadline": "2026-07-31", "status": "Open" }

@@ -1,12 +1,12 @@
 {
   "assetId": "asset-002",
-  "assetName": "GoWell US Division & Employee Housing",
-  "assetType": "Corporate Office Lease + Employee Dormitory Complex",
-  "location": "5050 Westway Park Blvd, Houston TX 77041 / 1720 Eldridge Pkwy, Houston TX",
+  "assetName": "West Houston Corporate Housing Platform",
+  "assetType": "Employee Housing Complex — PropCo / OpCo Corporate Master Lease",
+  "location": "1720 Eldridge Pkwy, Houston TX 77077 (Zhang-owned) | 5050 Westway Park Blvd, Suite 100, Houston TX 77041 (GoWell-leased office)",
   "jurisdiction": "United States",
-  "status": "Operational",
-  "statusColor": "green",
-  "ownershipMeta": "GoWell US Inc. (100%) · Zhang Family Trust 71.3% beneficial",
+  "status": "Master Lease",
+  "statusColor": "amber",
+  "ownershipMeta": "Zhang West Houston Housing LLC (Zhang Xi / Trust 100%) · GoWell Americas LLC master lessee · Regions Bank $3.65M CRITICAL Aug 2026",
   "reportingCurrency": "USD",
   "currentPeriod": "2026-05"
 }

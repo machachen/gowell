@@ -20,6 +20,6 @@
     }
   },
   "mitigationPlan": [
-    { "riskId": "R02", "action": "Commission Colliers / Savills desktop valuation — budget HKD 12,000–15,000; required for IPO disclosure package", "owner": "Asset Manager", "deadline": "2026-09-30", "status": "Open" }
+    { "riskId": "R02", "action": "Commission Colliers / Savills desktop valuation — budget HKD 12,000–15,000; required for U.S. listing disclosure package", "owner": "Asset Manager", "deadline": "2026-09-30", "status": "Open" }
   ]
 }

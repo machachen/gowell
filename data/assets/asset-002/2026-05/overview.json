@@ -1,21 +1,22 @@
 {
   "summary": {
-    "narrative": "GoWell US Division & Employee Housing comprises two distinct components: (i) a leased 5,200 sqft corporate office suite at 5050 Westway Park Blvd, Suite 100, Houston TX 77041, housing the GoWell Americas business unit (approximately 65 personnel), and (ii) an owned 80-unit employee dormitory complex at 1720 Eldridge Pkwy, Houston TX, acquired in 2019 to address employee housing demand in a high-cost energy corridor. The dormitory currently houses 65 of 80 available units, with subsidised rents of USD 450/month per unit partially offsetting operating costs. The most time-critical issue facing this asset is the Regions Bank facility maturity: the USD 4.1M term loan secured on the dormitory complex matures 15 August 2026, and lender engagement must begin immediately.",
-    "keyMessage": "CRITICAL: Regions Bank $4.1M term loan matures 15 Aug 2026 — lender outreach must begin by June 2026 · 65/80 dorm units occupied · Houston energy corridor office lease renewed to Oct 2027"
+    "narrative": "West Houston Corporate Housing Platform comprises two components: (i) the GoWell Americas LLC corporate office at 5050 Westway Park Blvd, Suite 100, Houston TX 77041 — a third-party office lease held by the operating company (not Zhang-owned); and (ii) an 80-unit employee housing complex at 1720 Eldridge Pkwy, Houston TX, owned by Zhang West Houston Housing LLC (Zhang Xi / Zhang Family Trust 100%) and master-leased to GoWell Americas LLC under an arm's-length corporate housing agreement. Zhang-controlled PropCo owns the real estate; GoWell OpCo pays a corporate housing master lease and provides the accommodation to rotating field engineers and technical staff. The most time-critical issue is the Regions Bank senior loan ($3.65M, 5.15% fixed) maturing 15 August 2026 — lender engagement must begin by June 2026. A seller note ($450K, 8.25%) matures February 2027, creating a compacted maturity wall.",
+    "keyMessage": "CRITICAL: Regions Bank $3.65M matures 15 Aug 2026 + Seller Note $450K matures Feb 2027 — refinancing package must launch June 2026 · 65/80 units occupied · GoWell master lease below-market ($450 vs $850–950 market) — DSCR risk on refinancing"
   },
   "basicInfo": {
-    "assetName": "GoWell US Division & Employee Housing",
-    "assetType": "Corporate Office Lease + Employee Dormitory Complex",
-    "location": "5050 Westway Park Blvd, Suite 100, Houston TX 77041 (office, leased) | 1720 Eldridge Pkwy, Houston TX 77077 (dormitory, owned)",
+    "assetName": "West Houston Corporate Housing Platform",
+    "assetType": "Employee Housing Complex — PropCo / OpCo Corporate Master Lease",
+    "location": "1720 Eldridge Pkwy, Houston TX 77077 (housing complex, Zhang-owned) | 5050 Westway Park Blvd, Suite 100, Houston TX 77041 (operating office, GoWell-leased)",
     "submarket": "Energy Corridor, West Houston",
     "yearBuilt": 1997,
     "yearAcquired": 2019,
     "totalSQM": 7432,
     "totalUnits": 80,
-    "currentStatus": "Operational — 65/80 dorm units occupied, office fully staffed",
+    "currentStatus": "Master Lease — 65/80 units occupied, GoWell Americas LLC as master lessee",
     "reportingPeriod": "Q2 2026 (May 2026)",
-    "ownershipSummary": "GoWell US Inc. (100% owned); Zhang Family Trust 71.3% beneficial interest through GoWell Energy Solutions Pte. Ltd.",
-    "tenure": "Office: Leased (expire Oct 2027) | Dormitory: Freehold"
+    "ownershipSummary": "Zhang West Houston Housing LLC (Zhang Xi / Zhang Family Trust 100%); GoWell Americas LLC as corporate housing master lessee — related-party lease requiring SEC/auditor disclosure",
+    "tenure": "Housing complex: Freehold (Zhang-owned LLC) | Office 5050 Westway: Operating lease (GoWell OpCo)",
+    "masterLeaseTerms": "GoWell Americas LLC master lease: $29,250/month ($350/unit × 65 occupied + $350/unit × 15 vacant — minimum occupancy guarantee); employees sub-pay $450/month through payroll deduction; GoWell absorbs $-100 subsidy per occupied unit; lease renews annually with 90-day notice"
   },
   "keyFigures": [
     { "label": "Asset Value",         "value": "$10,200,000", "subLabel": "Dormitory complex · Q2 2026",   "trend": "up",   "trendValue": "+2.0% YoY" },
@@ -89,7 +90,7 @@
       "title": "Office Lease Renewal — 5050 Westway Park Blvd (expires Oct 2027)",
       "priority": "Medium",
       "status": "Open",
-      "recommendation": "Begin landlord discussions 12–18 months before lease expiry. The Energy Corridor market has softened (~15% vacancy); GoWell should leverage to negotiate a renewal at 5–8% below current rent or seek concessions (rent-free period, fit-out allowance). Review space requirements given potential headcount growth to 80+ post-IPO.",
+      "recommendation": "Begin landlord discussions 12–18 months before lease expiry. The Energy Corridor market has softened (~15% vacancy); GoWell should leverage to negotiate a renewal at 5–8% below current rent or seek concessions (rent-free period, fit-out allowance). Review space requirements given potential headcount growth to 80+ post-listing.",
       "decisionNeeded": "Confirm whether to renew, downsize, or relocate — headcount forecast required",
       "owner": "Head of Americas / Real Estate",
       "deadline": "2026-10-31"
@@ -102,7 +103,7 @@
     { "name": "CBRE Appraisal Report — USD 10.2M (Q1 2026)",        "category": "Valuation",  "date": "2026-01-31", "type": "PDF" }
   ],
   "topRisks": [
-    { "level": "High",   "title": "Loan Maturity Default Risk (Aug 2026)",  "impact": "Failure to refinance USD 4.1M by 15 Aug 2026 triggers default; potential cross-default on GoWell corporate facilities and SGX IPO disruption." },
+    { "level": "High",   "title": "Loan Maturity Default Risk (Aug 2026)",  "impact": "Failure to refinance USD 4.1M by 15 Aug 2026 triggers default; potential cross-default on GoWell corporate facilities and U.S. U.S. listing disruption." },
     { "level": "High",   "title": "Houston Commercial RE Market Softness",  "impact": "Energy Corridor vacancy at ~18%; subsidised dorm use limits appraised income — lenders may require lower LTV in refinancing, forcing equity injection." },
     { "level": "Medium", "title": "HVAC Capital Expenditure Exposure",      "impact": "Deferred Phase 2 HVAC replacement increases risk of unit non-habitability and tenant safety complaints during summer months." }
   ],

@@ -1,7 +1,7 @@
 {
   "importantDocuments": [
     { "name": "JTC Strata Title Deed — Units #04-51/54",             "category": "Legal",      "date": "2016-11-22", "type": "PDF", "notes": "Original strata title; GoWell Energy Solutions Pte. Ltd. registered owner" },
-    { "name": "Independent Valuation — SGD 4.68M (Jones Lang LaSalle)", "category": "Valuation", "date": "2026-02-28", "type": "PDF", "notes": "Q1 2026 desktop valuation; required for IPO prospectus" },
+    { "name": "Independent Valuation — SGD 4.68M (Jones Lang LaSalle)", "category": "Valuation", "date": "2026-02-28", "type": "PDF", "notes": "Q1 2026 desktop valuation; required for U.S. listing prospectus (S-1/F-1)" },
     { "name": "SCDF Fire Safety Certificate 2026",                    "category": "Compliance", "date": "2026-03-10", "type": "PDF", "notes": "Valid until March 2027; FSC number FSC-2026-B2-041" },
     { "name": "JTC Building Services Contract",                       "category": "Operations", "date": "2025-01-01", "type": "PDF", "notes": "2-year FM agreement; expires Dec 2027" }
   ],
@@ -9,7 +9,7 @@
     { "id": "DOC-001", "name": "JTC Strata Title Deed — Units #04-51/54",               "category": "Legal",      "date": "2016-11-22", "source": "JTC Corporation / SLA", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Original strata title; GoWell Energy Solutions Pte. Ltd." },
     { "id": "DOC-002", "name": "JTC Strata Lease Agreement — 30yr from 2008",           "category": "Legal",      "date": "2008-06-01", "source": "JTC Corporation", "relatedSection": "Overview", "type": "PDF", "notes": "30-year leasehold from JTC; expires Dec 2038" },
     { "id": "DOC-003", "name": "Sale & Purchase Agreement — 2016 Acquisition",          "category": "Legal",      "date": "2016-09-05", "source": "Legal Counsel / Seller", "relatedSection": "Ownership & Capital", "type": "PDF", "notes": "Original S&P at SGD 3.47M; completed Nov 2016" },
-    { "id": "DOC-004", "name": "JLL Independent Valuation — SGD 4.68M (Q1 2026)",       "category": "Valuation",  "date": "2026-02-28", "source": "Jones Lang LaSalle Singapore", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "Desktop valuation for portfolio reporting + IPO prep" },
+    { "id": "DOC-004", "name": "JLL Independent Valuation — SGD 4.68M (Q1 2026)",       "category": "Valuation",  "date": "2026-02-28", "source": "Jones Lang LaSalle Singapore", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "Desktop valuation for portfolio reporting + U.S. listing prep" },
     { "id": "DOC-005", "name": "JLL Valuation — SGD 4.60M (2025)",                      "category": "Valuation",  "date": "2025-03-31", "source": "Jones Lang LaSalle Singapore", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "Prior year valuation for comparison" },
     { "id": "DOC-006", "name": "SCDF Fire Safety Certificate 2026",                     "category": "Compliance", "date": "2026-03-10", "source": "SCDF", "relatedSection": "Operations", "type": "PDF", "notes": "Annual FSC; valid March 2026 – March 2027" },
     { "id": "DOC-007", "name": "IRAS Property Tax Assessment 2026",                     "category": "Finance",    "date": "2025-12-01", "source": "IRAS", "relatedSection": "Financial & Valuation", "type": "PDF", "notes": "AV SGD 141,600; tax SGD 14,160; industrial rate 10%" },

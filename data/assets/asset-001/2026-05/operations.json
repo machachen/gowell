@@ -1,17 +1,17 @@
 {
   "priorityMatrix": {
     "items": [
-      { "title": "IPO Ring-fencing — HQ valuation & SGX disclosure package", "quadrant": "Do First", "owner": "CFO", "deadline": "2026-07-31", "status": "In Progress" },
+      { "title": "U.S. Listing ring-fencing — HQ valuation & SEC-facing disclosure package", "quadrant": "Do First", "owner": "CFO", "deadline": "2026-07-31", "status": "In Progress" },
       { "title": "Server room UPS replacement — IT infrastructure", "quadrant": "Do First", "owner": "IT Manager", "deadline": "2026-09-30", "status": "Open" },
       { "title": "JTC change-of-control consent — legal opinion", "quadrant": "Schedule", "owner": "Corporate Secretary", "deadline": "2026-08-31", "status": "Open" },
       { "title": "Fire safety inspection — annual SCDF FSC renewal 2027", "quadrant": "Schedule", "owner": "Building Manager", "deadline": "2027-03-01", "status": "Open" },
       { "title": "JTC lease renewal planning (horizon: 2035 start)", "quadrant": "Delegate", "owner": "Property Manager", "deadline": "2027-06-30", "status": "Open" },
-      { "title": "Meeting room refresh for IPO road-show readiness", "quadrant": "Delegate", "owner": "Admin Manager", "deadline": "2027-01-31", "status": "Proposed" }
+      { "title": "Meeting room refresh for U.S. listing roadshow readiness", "quadrant": "Delegate", "owner": "Admin Manager", "deadline": "2027-01-31", "status": "Proposed" }
     ]
   },
   "capexProjects": [
     { "project": "Server Room UPS Replacement (APC)", "budgeted": 22000, "spent": 0, "pctComplete": 0, "contractor": "APC / IT vendor", "estCompletion": "2026-09-30", "status": "Not Started", "expectedROI": "Risk mitigation — IT uptime" },
-    { "project": "Meeting Room A/V Upgrade", "budgeted": 45000, "spent": 0, "pctComplete": 0, "contractor": "Crestron / AV integrator", "estCompletion": "2027-01-31", "status": "Proposed", "expectedROI": "IPO presentation quality" }
+    { "project": "Meeting Room A/V Upgrade", "budgeted": 45000, "spent": 0, "pctComplete": 0, "contractor": "Crestron / AV integrator", "estCompletion": "2027-01-31", "status": "Proposed", "expectedROI": "U.S. listing / roadshow presentation quality" }
   ],
   "opexRecurring": [
     { "category": "Facility Management", "vendor": "JTC Corporation (FM Managed)", "annualCost": 23800, "frequency": "Monthly", "contractExpiry": "2027-12-31", "status": "Active", "notes": "JTC managed building services contract — covers M&E, security, cleaning of common areas" },

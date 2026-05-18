@@ -1,27 +1,52 @@
 {
   "entity": {
-    "name": "GoWell US Inc.",
-    "type": "Delaware C-Corporation",
-    "registered": "Delaware, USA",
-    "taxElection": "US Federal Corporate Tax — 21% rate",
-    "formed": "2018-05-22"
+    "name": "Zhang West Houston Housing LLC",
+    "type": "Texas Limited Liability Company (PropCo)",
+    "registered": "Texas, USA",
+    "taxElection": "Disregarded entity / pass-through taxation; U.S. Federal income on net rental income; Texas — no state income tax; related-party master lease to GoWell Americas LLC subject to Section 267/482 IRC related-party rules; transfer-pricing study required for SEC/auditor review in connection with U.S. public listing",
+    "formed": "2019-05-10"
   },
   "owners": [
     {
-      "name": "GoWell Energy Solutions Pte. Ltd.",
-      "type": "Corporate Shareholder",
-      "role": "Sole Shareholder / Parent",
-      "ownershipPct": 100.0,
-      "equityContributed": 5820000,
-      "currentEquityValue": 6100000,
-      "since": "2018"
+      "name": "Zhang Xi",
+      "ownershipPct": 100,
+      "role": "Sole member — ultimate beneficial owner via Zhang Family Trust",
+      "notes": "Holding through Zhang Family Trust BVI vehicle; GoWell Americas LLC is master lessee, not an owner"
     }
   ],
   "capitalContributions": [
-    { "date": "2019-08-01", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Acquisition",       "amount": 5200000, "note": "Dormitory complex acquisition — $5.2M all-equity + $4.1M Regions Bank debt" },
-    { "date": "2020-03-15", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Capital Expenditure","amount": 320000,  "note": "Building A renovation — kitchen, bathrooms, common areas Phase 1" },
-    { "date": "2022-09-01", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Capital Expenditure","amount": 185000,  "note": "HVAC replacement Phase 1 — Building A east wing (24 units)" },
-    { "date": "2024-11-15", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Capital Expenditure","amount": 115000,  "note": "Building B exterior waterproofing + parking reseal" }
+    {
+      "date": "2019-08-01",
+      "contributor": "Zhang Xi / Zhang Family Trust",
+      "amount": 5200000,
+      "currency": "USD",
+      "type": "Equity — Acquisition",
+      "notes": "Housing complex acquisition — $9.3M total consideration; $5.2M equity, $3.65M Regions Bank senior loan, $0.45M seller note; Zhang-controlled LLC as buyer, not GoWell OpCo"
+    },
+    {
+      "date": "2020-03-15",
+      "contributor": "Zhang West Houston Housing LLC",
+      "amount": 320000,
+      "currency": "USD",
+      "type": "Capital Expenditure",
+      "notes": "Building A renovation — kitchen, bathrooms, common areas Phase 1; recouped via GoWell master lease rent review"
+    },
+    {
+      "date": "2022-09-01",
+      "contributor": "Zhang West Houston Housing LLC",
+      "amount": 185000,
+      "currency": "USD",
+      "type": "Capital Expenditure",
+      "notes": "HVAC replacement Phase 1 — Building A east wing (24 units); funded from LLC reserves"
+    },
+    {
+      "date": "2024-11-15",
+      "contributor": "Zhang West Houston Housing LLC",
+      "amount": 115000,
+      "currency": "USD",
+      "type": "Capital Expenditure",
+      "notes": "Building B exterior waterproofing + parking reseal; pre-refinancing capex to maintain property condition"
+    }
   ],
   "capitalStack": {
     "assetValue": 10200000,
@@ -34,25 +59,70 @@
   },
   "debtSummary": [
     {
-      "lender": "Regions Bank",
-      "type": "Commercial Term Loan",
-      "currentBalance": 4100000,
-      "interestRate": "5.15%",
-      "rateType": "Fixed",
+      "lender": "Regions Bank (Houston Commercial Real Estate)",
+      "loanType": "Commercial Term Loan — Multi-Family / Workforce Housing",
+      "currency": "USD",
+      "originalBalance": 3650000,
+      "outstandingBalance": 3650000,
+      "interestRate": "5.15% fixed",
       "maturityDate": "2026-08-15",
-      "dscr": "0.09x",
-      "ltv": "40.2%",
-      "status": "Renewal Due"
+      "amortisation": "25-year amortisation; balloon payment at maturity 2026-08-15",
+      "annualDebtService": 239500,
+      "annualInterest": 187975,
+      "annualPrincipal": 51525,
+      "covenants": "DSCR ≥ 1.25x (stressed to market rents); LTV ≤ 65%; occupancy floor 75%; no change of control without lender consent; GoWell master lease must remain in force; Zhang Xi limited personal guarantee (burn-off after DSCR > 1.25x for 2 consecutive quarters)",
+      "security": "First deed of trust on 1720 Eldridge Pkwy housing complex; assignment of master lease income (GoWell Americas LLC); UCC-1 financing statement; Zhang Xi limited personal guarantee",
+      "notes": "CRITICAL: maturity 2026-08-15 — lender outreach must commence June 2026 at latest. Refinancing options: (A) Regions Bank renewal/extension, (B) new lender — Frost Bank / Texas Capital, (C) CMBS execution if occupancy improves to 80%+. Refinancing strategy must address below-market master lease rent vs. market to pass DSCR underwriting"
+    },
+    {
+      "lender": "Seller / Original Vendor (Structured Note)",
+      "loanType": "Subordinated Seller Note",
+      "currency": "USD",
+      "originalBalance": 450000,
+      "outstandingBalance": 450000,
+      "interestRate": "8.25% fixed",
+      "maturityDate": "2027-02-15",
+      "amortisation": "Interest-only; bullet repayment at maturity",
+      "annualDebtService": 37125,
+      "annualInterest": 37125,
+      "annualPrincipal": 0,
+      "covenants": "Subordinated to Regions Bank first lien; no prepayment without Regions Bank consent; intercreditor agreement in place",
+      "security": "Second lien deed of trust (subordinated); intercreditor agreement with Regions Bank",
+      "notes": "Seller note maturing Feb 2027 — secondary maturity event following Regions Bank Aug 2026. Repayment may be funded from refinancing proceeds or asset-level cash reserves. High rate (8.25%) creates incentive for early payoff at refinancing."
+    },
+    {
+      "lender": "Regions Bank (Committed Capex Line — Undrawn)",
+      "loanType": "Capex / Renovation Revolving Line",
+      "currency": "USD",
+      "originalBalance": 300000,
+      "outstandingBalance": 0,
+      "interestRate": "SOFR + 2.75% (floating)",
+      "maturityDate": "2026-08-15",
+      "amortisation": "Revolving — no amortisation; drawn amounts converted to term on maturity",
+      "annualDebtService": 0,
+      "annualInterest": 0,
+      "annualPrincipal": 0,
+      "covenants": "Draws subject to approved scope; co-terminus with Regions Bank term loan; undrawn commitment expires at maturity",
+      "security": "Cross-collateralised with Regions Bank first lien",
+      "notes": "HVAC / life-safety capex line; undrawn as at May 2026; Phase 2 HVAC scope ($180K–$220K) ready for execution pending refinancing confirmation; drawing this line complicates maturity wall — coordinate with Regions Bank refinancing timeline"
     }
   ],
   "guaranteesObligations": [
     {
-      "type": "Personal Guarantee",
-      "obligor": "Zhang Xi (via GoWell Energy Solutions Pte. Ltd.)",
+      "type": "Limited personal guarantee — burn-off",
+      "guarantor": "Zhang Xi",
       "beneficiary": "Regions Bank",
-      "amount": 4100000,
-      "expiryDate": "2026-08-15",
-      "description": "Full personal guarantee provided to Regions Bank covering the USD 4.1M term loan secured on the Houston dormitory complex. Guarantee co-terminus with loan maturity. Must be renegotiated as part of refinancing process."
+      "amount": 3650000,
+      "currency": "USD",
+      "notes": "Zhang Xi limited personal guarantee on Regions Bank term loan; burn-off trigger: DSCR > 1.25x for 2 consecutive tested quarters (currently failing — DSCR 0.09x on subsidised rents vs. market); must be disclosed as contingent liability in U.S. listing prospectus"
+    },
+    {
+      "type": "Related-party master lease — U.S. listing disclosure obligation",
+      "guarantor": "N/A",
+      "beneficiary": "SEC / U.S. listing auditors",
+      "amount": null,
+      "currency": "N/A",
+      "notes": "GoWell Americas LLC corporate housing master lease from Zhang West Houston Housing LLC is a material related-party transaction; must be disclosed in S-1/F-1 prospectus; below-market subsidy ($450/mo vs. $850–$950 market) requires transfer-pricing justification; IRC Section 482 arm's-length standard applies; legal opinion on related-party lease structure recommended pre-filing"
     }
   ]
 }

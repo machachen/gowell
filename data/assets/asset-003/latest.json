@@ -1,12 +1,12 @@
 {
   "assetId": "asset-003",
-  "assetName": "Pengerang Industrial Land",
-  "assetType": "Freehold Industrial Land — Pre-Development",
+  "assetName": "Pengerang OCTG Logistics Park — Zhang / PIPC JV",
+  "assetType": "Freehold Industrial Land — Pre-Development (PropCo / Anchor Tenant Structure)",
   "location": "Lot PTD 24681, Mukim Pengerang, Kota Tinggi, Johor, Malaysia",
   "jurisdiction": "Malaysia",
   "status": "Pre-Development",
   "statusColor": "blue",
-  "ownershipMeta": "GoWell Industrial Sdn. Bhd. (Zhang 70% / PIPC 30%)",
+  "ownershipMeta": "Zhang Pengerang Industrial Sdn. Bhd. (Zhang 70% / PIPC 30%) · GoWell = future anchor tenant, not owner",
   "reportingCurrency": "USD (MYR local)",
   "currentPeriod": "2026-05"
 }

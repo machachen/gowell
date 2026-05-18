@@ -1,46 +1,94 @@
 {
   "entity": {
-    "name": "GoWell Energy Solutions Pte. Ltd.",
-    "type": "Singapore Private Limited Company",
+    "name": "Zhang Bulim Industrial Pte. Ltd.",
+    "type": "Singapore Private Limited Company (PropCo)",
     "registered": "Singapore (ACRA)",
-    "taxElection": "Singapore Corporate Tax — 17% standard rate",
-    "formed": "2011-03-14"
+    "taxElection": "Singapore income tax; rental income from GoWell Singapore OpCo lease subject to IRAS; related-party lease reviewed annually under IRAS transfer-pricing guidelines (Section 34D ITA); market-rent benchmarking via third-party JTC industrial valuation required for SEC/auditor review in connection with U.S. public listing",
+    "formed": "2015-06-10"
   },
   "owners": [
     {
-      "name": "Zhang Family Trust (BVI)",
-      "type": "Trust / Corporate Shareholder",
-      "role": "Controlling Shareholder",
-      "ownershipPct": 71.3,
-      "equityContributed": 1820000,
-      "currentEquityValue": 2480841,
-      "since": "2011"
+      "name": "Zhang Xi",
+      "ownershipPct": 70,
+      "role": "Controlling shareholder — direct holding",
+      "notes": "Ultimate beneficial owner; voting and economic control through Zhang Bulim Industrial Pte. Ltd."
     },
     {
-      "name": "Institutional Co-investors",
-      "type": "Minority Shareholders",
-      "role": "Passive Investors",
-      "ownershipPct": 28.7,
-      "equityContributed": 730000,
-      "currentEquityValue": 998739,
-      "since": "2014"
+      "name": "Zhang Family Trust (BVI)",
+      "ownershipPct": 30,
+      "role": "Trust beneficiary vehicle — non-voting economic interest",
+      "notes": "BVI trust vehicle; Maples Trust as registered trustee; beneficial interest passes to Zhang family beneficiaries"
     }
   ],
   "capitalContributions": [
-    { "date": "2016-11-15", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Acquisition",      "amount": 2580000, "note": "JTC strata purchase — SGD 3.47M (Nov 2016)" },
-    { "date": "2019-04-20", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Capital Expenditure","amount": 185000,  "note": "Office fit-out — engineering labs + executive offices" },
-    { "date": "2022-06-01", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Capital Expenditure","amount": 92000,   "note": "IT infrastructure upgrade — server room expansion" },
-    { "date": "2025-01-15", "contributor": "GoWell Energy Solutions Pte. Ltd.", "type": "Capital Expenditure","amount": 38000,   "note": "M&E maintenance + LED lighting retrofit" }
+    {
+      "date": "2016-11-15",
+      "contributor": "Zhang Xi / Zhang Family Trust",
+      "amount": 1920000,
+      "currency": "USD",
+      "type": "Equity — Acquisition",
+      "notes": "Acquisition equity at SGD 3.46M purchase price + BSD + legal costs; funded through Zhang Family Trust distribution; GoWell Singapore OpCo not a contributor"
+    },
+    {
+      "date": "2024-06-30",
+      "contributor": "Zhang Family Trust",
+      "amount": 250000,
+      "currency": "USD",
+      "type": "Equity top-up — Capital works",
+      "notes": "M&E upgrade and fit-out refresh to support GoWell HQ lease renewal 2025; expensed against PropCo retained earnings; recouped via rent adjustment"
+    }
   ],
   "capitalStack": {
     "assetValue": 3479580,
-    "seniorDebt": 0,
-    "seniorDebtPct": 0.0,
-    "netEquity": 3479580,
-    "equityPct": 100.0,
-    "equityContributed": 2895000,
-    "accumulatedRetainedEarnings": 584580
+    "seniorDebt": 1747270,
+    "seniorDebtPct": 50.2,
+    "netEquity": 1732310,
+    "equityPct": 49.8,
+    "equityContributed": 2170000,
+    "accumulatedRetainedEarnings": -437690
   },
-  "debtSummary": [],
-  "guaranteesObligations": []
+  "debtSummary": [
+    {
+      "lender": "DBS Bank Ltd. (Singapore)",
+      "loanType": "Commercial Property Mortgage — JTC Leasehold Strata Industrial",
+      "currency": "SGD",
+      "originalBalance": 2350000,
+      "outstandingBalance": 1747270,
+      "interestRate": "3M Compounded SORA + 1.35% (effective ~3.78% p.a. as at May 2026)",
+      "maturityDate": "2028-09-30",
+      "amortisation": "25-year amortisation schedule; quarterly principal + interest; no prepayment penalty after Year 3",
+      "annualDebtService": 135934,
+      "annualInterest": 66046,
+      "annualPrincipal": 69888,
+      "covenants": "DSCR ≥ 1.20x (tested semi-annually on trailing 12M GoWell lease income); LTV ≤ 60%; JTC Corporation prior written consent for any change of control or sub-tenancy; rental assignment in favour of DBS; no additional encumbrances without DBS consent",
+      "security": "First legal mortgage over JTC leasehold strata title (Units #04-51/54, Bulim Lane 2); Deed of Assignment of Rental Income (GoWell Singapore OpCo lease); corporate guarantee from Zhang Bulim Industrial Pte. Ltd.",
+      "notes": "Refinancing event required at DBS maturity 2028 and JTC leasehold expiry 2038; DSCR currently 1.72x based on GoWell OpCo rent SGD 361,680/yr; U.S. listing audit requires disclosure of related-party lease as material contract — PCAOB-standard documentation required"
+    }
+  ],
+  "guaranteesObligations": [
+    {
+      "type": "Corporate guarantee",
+      "guarantor": "Zhang Bulim Industrial Pte. Ltd.",
+      "beneficiary": "DBS Bank Ltd.",
+      "amount": 1747270,
+      "currency": "USD",
+      "notes": "Full recourse corporate guarantee for DBS mortgage; no personal guarantee from Zhang Xi required given LTV profile and stable PropCo rental income covenant"
+    },
+    {
+      "type": "JTC consent obligation",
+      "guarantor": "N/A",
+      "beneficiary": "JTC Corporation",
+      "amount": null,
+      "currency": "N/A",
+      "notes": "JTC leasehold strata: any change of use, sub-tenancy, or PropCo change of control requires JTC prior written consent; embedded in DBS mortgage covenant; must be secured before any PropCo share transfer, refinancing, or U.S. listing-related restructuring"
+    },
+    {
+      "type": "Related-party lease — U.S. listing disclosure obligation",
+      "guarantor": "N/A",
+      "beneficiary": "SEC / U.S. listing auditors / Underwriters",
+      "amount": null,
+      "currency": "N/A",
+      "notes": "GoWell Singapore OpCo lease from Zhang Bulim Industrial PropCo is a material related-party transaction; must be disclosed in S-1/F-1 prospectus; rent level must be benchmarked to JTC industrial market rates via independent third-party valuation or JTC broker certificate; transfer-pricing policy document required under IRAS rules; PCAOB-standard lease documentation and board approval minutes required"
+    }
+  ]
 }

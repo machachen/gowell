@@ -1,12 +1,12 @@
 {
   "assetId": "asset-001",
-  "assetName": "GoWell Singapore HQ",
-  "assetType": "Industrial / Commercial Strata Office",
+  "assetName": "Bulim Lane Innovation HQ — Zhang PropCo Leaseback",
+  "assetType": "Industrial / Commercial Strata — JTC Leasehold (PropCo Leaseback)",
   "location": "Bulim Lane 2, #04-51/54, Singapore 648110",
   "jurisdiction": "Singapore",
-  "status": "Owner-Occupied",
+  "status": "Related-Party Lease",
   "statusColor": "green",
-  "ownershipMeta": "GoWell Energy Solutions Pte. Ltd. (100%)",
+  "ownershipMeta": "Zhang Bulim Industrial Pte. Ltd. (Zhang Xi 70% / Trust 30%) · GoWell OpCo as tenant",
   "reportingCurrency": "USD (SGD local)",
   "currentPeriod": "2026-05"
 }
